@@ -1,0 +1,38 @@
+import React from 'react';
+import Link from 'next/link';
+
+const Footer = () => {
+  return (
+    <footer className="bg-[#012682] text-white mt-12 py-8">
+      <div className="container mx-auto px-4 text-center">
+        <div className="space-y-8">
+          <div>
+            <h3 className="font-semibold text-xl mb-3">Calcot Cricket Club</h3>
+            <p className="text-gray-200">
+              King's Academy Prospect<br />
+              Cockney Hill, Tilehurst<br />
+              Reading RG30 4EX
+            </p>
+          </div>
+          
+          <div className="mt-6">
+            <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
+            <ul className="flex flex-wrap justify-center gap-x-8 gap-y-3">
+              <li><Link href="/about" className="text-gray-200 hover:text-white hover:underline">About Us</Link></li>
+              <li><Link href="/teams" className="text-gray-200 hover:text-white hover:underline">Teams</Link></li>
+              <li><Link href="/fixtures" className="text-gray-200 hover:text-white hover:underline">Fixtures & Results</Link></li>
+              <li><Link href="/media" className="text-gray-200 hover:text-white hover:underline">Media</Link></li>
+              <li><Link href="/contact" className="text-gray-200 hover:text-white hover:underline">Contact Us</Link></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div className="mt-8 pt-6 border-t border-gray-600 text-center text-gray-300 text-sm">
+          <p>© {new Date().getFullYear()} Calcot Cricket Club. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
