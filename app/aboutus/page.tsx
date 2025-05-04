@@ -27,7 +27,7 @@ export default function AboutUs() {
           </p>
           <p>
             The club was founded by a group of passionate cricketers who saw the need for a new cricket club that would prioritize 
-            both competitive play and community engagement. Starting with just one team, we've rapidly expanded to operate four teams 
+            both competitive play and community engagement. Starting with just one team, we&apos;ve rapidly expanded to operate four teams 
             across different formats and competitions.
           </p>
           <p>
@@ -164,8 +164,8 @@ export default function AboutUs() {
       <section className="bg-[#012682] text-white rounded-lg p-6 text-center">
         <h2 className="text-2xl font-bold mb-3">Join Our Cricket Family</h2>
         <p className="mb-4">
-          Whether you're looking to play competitive cricket, improve your skills, or just enjoy the social aspect of club life, 
-          we'd love to welcome you to Calcot Cricket Club.
+          Whether you&apos;re looking to play competitive cricket, improve your skills, or just enjoy the social aspect of club life, 
+          we&apos;d love to welcome you to Calcot Cricket Club.
         </p>
         <button className="bg-white text-[#012682] px-6 py-2 rounded font-medium hover:bg-gray-100 transition-colors">
           Contact Us

@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="font-semibold text-xl mb-3">Calcot Cricket Club</h3>
             <p className="text-gray-200">
-              King's Academy Prospect<br />
+              King&apos;s Academy Prospect<br />
               Cockney Hill, Tilehurst<br />
               Reading RG30 4EX
             </p>

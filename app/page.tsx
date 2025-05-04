@@ -29,14 +29,6 @@ export default function Home() {
     return () => clearInterval(interval);
   }, [images.length]);
 
-  const goToPrevious = () => {
-    setCurrentIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
-  };
-
-  const goToNext = () => {
-    setCurrentIndex((prev) => (prev === images.length - 1 ? 0 : prev + 1));
-  };
-
   const [recentResults, setRecentResults] = useState<Result[]>([]);
   const [resultsLoading, setResultsLoading] = useState(true);
 
@@ -87,7 +79,8 @@ export default function Home() {
         <div className="md:w-1/2">
           <h2 className="text-3xl font-semibold mb-5">About Us</h2>
           <p className="mb-4 text-lg">
-            Calcot Cricket Club is a community club, established in 2022. The Club ethos is reflected in our tagline, 'Inspiring Communities'. Calcot CC is a friendly and social club. We welcome all new members across all abilities to come and enjoy the game of cricket.
+            Calcot Cricket Club is a community club, established in 2022. The Club ethos is reflected in our tagline, &apos;Inspiring Communities&apos;. 
+            Calcot CC is a friendly and social club. We welcome all new members across all abilities to come and enjoy the game of cricket.
           </p>
           <p className="mb-4 text-lg">
             As a socially responsible club, we actively engage with the local Holybrook Parish and West Berkshire Council in community events.

@@ -39,7 +39,7 @@ export default function TeamsPage() {
       
       <p className="text-lg">
         Calcot Cricket Club fields three competitive teams across different leagues and formats. 
-        Whether you're looking for serious league cricket or more relaxed evening games, 
+        Whether you&apos;re looking for serious league cricket or more relaxed evening games, 
         we have opportunities for players of all abilities.
       </p>
       
@@ -78,7 +78,7 @@ export default function TeamsPage() {
       <div className="mt-8 p-5 bg-gray-50 rounded-lg">
         <h2 className="text-xl font-semibold mb-3">Join Our Teams</h2>
         <p>
-          We're always looking for new players to join our teams, whether you're an experienced cricketer or new to the game. 
+          We&apos;re always looking for new players to join our teams, whether you&apos;re an experienced cricketer or new to the game. 
           Training sessions are held weekly, and we welcome players of all abilities.
         </p>
         <Link 
