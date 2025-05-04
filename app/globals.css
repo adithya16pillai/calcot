@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Classic theme (white background, blue accents, red highlights) */
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  /* Example of larger headings */
+  font-weight: 700;
+}
+
+.dark-theme {
+  @apply bg-blue-900 text-white;
+}
+.dark-theme a:hover {
+  @apply text-red-600;
+}
+
