@@ -4,10 +4,9 @@ import Image from 'next/image';
 export default function AboutUs() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 space-y-12">
-      {/* Hero section */}
       <div className="relative h-64 md:h-80 w-full overflow-hidden rounded-lg">
         <Image
-          src="/about/clubhouse.jpg"
+          src="/slides/slide3.jpg"
           alt="Calcot Cricket Club"
           fill
           className="object-cover"
@@ -17,7 +16,6 @@ export default function AboutUs() {
         </div>
       </div>
 
-      {/* Club History */}
       <section>
         <h2 className="text-2xl font-semibold text-[#012682] mb-4">Our History</h2>
         <div className="space-y-4">
@@ -37,139 +35,195 @@ export default function AboutUs() {
         </div>
       </section>
 
-      {/* Vision and Values */}
-      <section>
-        <h2 className="text-2xl font-semibold text-[#012682] mb-4">Our Vision & Values</h2>
-        <div className="grid md:grid-cols-3 gap-6">
-          <div className="bg-white p-6 rounded-lg shadow">
-            <h3 className="font-bold text-lg mb-2">Community</h3>
-            <p>We are committed to being an active part of the local Holybrook Parish community, welcoming players of all backgrounds and abilities.</p>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow">
-            <h3 className="font-bold text-lg mb-2">Development</h3>
-            <p>We focus on developing players at all levels, from beginners to experienced cricketers, with quality coaching and support.</p>
-          </div>
-          <div className="bg-white p-6 rounded-lg shadow">
-            <h3 className="font-bold text-lg mb-2">Sportsmanship</h3>
-            <p>We believe in playing competitive cricket while upholding the spirit of the game and showing respect to opponents and officials.</p>
-          </div>
-        </div>
-      </section>
-
-      {/* Key Stakeholders */}
-      <section>
-        <h2 className="text-2xl font-semibold text-[#012682] mb-4">Key Stakeholders</h2>
-        <div className="space-y-6">
-          {/* Committee Members */}
+      <section className="bg-white rounded-xl shadow-lg p-8">
+        <h2 className="text-3xl font-bold text-[#012682] mb-8">Key Stakeholders</h2>
+        <div className="space-y-12">
           <div>
-            <h3 className="text-xl font-medium mb-3">Club Committee</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="flex items-center space-x-4">
-                <div className="w-16 h-16 relative rounded-full overflow-hidden bg-gray-100">
+            <h3 className="text-2xl font-semibold mb-6 text-gray-800">Club Officials</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              <div className="flex items-center space-x-6 p-6 rounded-lg hover:bg-gray-50 transition-colors">
+                <div className="w-24 h-24 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
                   <Image 
-                    src="/about/chairman.jpg" 
+                    src="/about/chairman.png" 
                     alt="Club Chairman" 
                     fill
                     className="object-cover"
+                    priority
                   />
                 </div>
                 <div>
-                  <h4 className="font-bold">John Smith</h4>
-                  <p className="text-gray-700">Club Chairman</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-1">Mudit Sharma</h4>
+                  <p className="text-lg text-[#012682] font-medium">Chairman</p>
                 </div>
               </div>
-              <div className="flex items-center space-x-4">
-                <div className="w-16 h-16 relative rounded-full overflow-hidden bg-gray-100">
+              <div className="flex items-center space-x-6 p-6 rounded-lg hover:bg-gray-50 transition-colors">
+                <div className="w-24 h-24 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
                   <Image 
                     src="/about/secretary.jpg" 
                     alt="Club Secretary" 
                     fill
                     className="object-cover"
+                    priority
                   />
                 </div>
                 <div>
-                  <h4 className="font-bold">Sarah Johnson</h4>
-                  <p className="text-gray-700">Club Secretary</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-1">Vinayak Kamath</h4>
+                  <p className="text-lg text-[#012682] font-medium">Secretary</p>
                 </div>
               </div>
-              <div className="flex items-center space-x-4">
-                <div className="w-16 h-16 relative rounded-full overflow-hidden bg-gray-100">
+              <div className="flex items-center space-x-6 p-6 rounded-lg hover:bg-gray-50 transition-colors">
+                <div className="w-24 h-24 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
                   <Image 
-                    src="/about/treasurer.jpg" 
+                    src="/about/treasurer.png" 
                     alt="Club Treasurer" 
                     fill
                     className="object-cover"
+                    priority
                   />
                 </div>
                 <div>
-                  <h4 className="font-bold">David Williams</h4>
-                  <p className="text-gray-700">Club Treasurer</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-4">
-                <div className="w-16 h-16 relative rounded-full overflow-hidden bg-gray-100">
-                  <Image 
-                    src="/about/captain.jpg" 
-                    alt="Club Captain" 
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div>
-                  <h4 className="font-bold">Michael Brown</h4>
-                  <p className="text-gray-700">Club Captain</p>
+                  <h4 className="text-xl font-bold text-gray-900 mb-1">Rahul Aul</h4>
+                  <p className="text-lg text-[#012682] font-medium">Treasurer</p>
                 </div>
               </div>
             </div>
           </div>
 
-          {/* Coaches */}
           <div>
-            <h3 className="text-xl font-medium mb-3">Coaching Staff</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="flex items-center space-x-4">
-                <div className="w-16 h-16 relative rounded-full overflow-hidden bg-gray-100">
-                  <Image 
-                    src="/about/coach1.jpg" 
-                    alt="Head Coach" 
-                    fill
-                    className="object-cover"
-                  />
-                </div>
-                <div>
-                  <h4 className="font-bold">James Wilson</h4>
-                  <p className="text-gray-700">Head Coach (ECB Level 3)</p>
+            <h3 className="text-2xl font-semibold mb-6 text-gray-800">Club Captains</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
+                    <Image 
+                      src="/about/captain1.png" 
+                      alt="First XI Captain" 
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h4 className="text-xl font-bold text-gray-900">Sunil Varrikkara</h4>
+                    <p className="text-lg text-[#012682] font-medium">First XI Captain</p>
+                    <a 
+                      href="https://calcotcc.play-cricket.com/player_stats/batting/5832164?sub_tab=batting_summary&tab=batting" 
+                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Profile
+                    </a>
+                  </div>
                 </div>
               </div>
-              <div className="flex items-center space-x-4">
-                <div className="w-16 h-16 relative rounded-full overflow-hidden bg-gray-100">
-                  <Image 
-                    src="/about/coach2.jpg" 
-                    alt="Assistant Coach" 
-                    fill
-                    className="object-cover"
-                  />
+
+              <div className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
+                    <Image 
+                      src="/about/captain2.png" 
+                      alt="Second XI Captain" 
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h4 className="text-xl font-bold text-gray-900">Rahul Singhal</h4>
+                    <p className="text-lg text-[#012682] font-medium">Second XI Captain</p>
+                    <a 
+                      href="https://calcotcc.play-cricket.com/player_stats/batting/5089066" 
+                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Profile
+                    </a>
+                  </div>
                 </div>
-                <div>
-                  <h4 className="font-bold">Emma Lewis</h4>
-                  <p className="text-gray-700">Assistant Coach (ECB Level 2)</p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
+                    <Image 
+                      src="/about/captain3.jpg" 
+                      alt="T20 Captain" 
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h4 className="text-xl font-bold text-gray-900">Pramuldeep Pai</h4>
+                    <p className="text-lg text-[#012682] font-medium">First Midweek XI Captain</p>
+                    <a 
+                      href="https://calcotcc.play-cricket.com/player_stats/batting/4863628" 
+                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Profile
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
+                    <Image 
+                      src="/about/captain4.png" 
+                      alt="Sunday XI Captain" 
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h4 className="text-xl font-bold text-gray-900">Piyush Bedi</h4>
+                    <p className="text-lg text-[#012682] font-medium">Second Midweek XI Captain</p>
+                    <a 
+                      href="hhttps://calcotcc.play-cricket.com/player_stats/batting/5595332" 
+                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Profile
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
+                    <Image 
+                      src="/about/captain5.png" 
+                      alt="Development XI Captain" 
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h4 className="text-xl font-bold text-gray-900">Veerendra Kolhar</h4>
+                    <p className="text-lg text-[#012682] font-medium">Friendly Team XI Captain</p>
+                    <a 
+                      href="https://calcotcc.play-cricket.com/player_stats/batting/5617199" 
+                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Profile
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </section>
-
-      {/* Join Us CTA */}
-      <section className="bg-[#012682] text-white rounded-lg p-6 text-center">
-        <h2 className="text-2xl font-bold mb-3">Join Our Cricket Family</h2>
-        <p className="mb-4">
-          Whether you&apos;re looking to play competitive cricket, improve your skills, or just enjoy the social aspect of club life, 
-          we&apos;d love to welcome you to Calcot Cricket Club.
-        </p>
-        <button className="bg-white text-[#012682] px-6 py-2 rounded font-medium hover:bg-gray-100 transition-colors">
-          Contact Us
-        </button>
       </section>
     </div>
   );

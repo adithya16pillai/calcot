@@ -26,51 +26,38 @@ export default function FixturesAndResults() {
     const mockFixtures: Match[] = [
       {
         id: '6736399',
-        date: 'Sunday, May 4, 2025',
-        homeTeam: 'Calcot CC',
-        awayTeam: 'Reading CC',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Berkshire Cricket League',
-        time: '13:00'
+        date: 'Saturday, May 10, 2025',
+        homeTeam: 'Purley on Thames CC - 2nd XI',
+        awayTeam: 'Calcot CC - 1st XI',
+        venue: 'Goosecroft',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30'
       },
       {
-        id: '6736400',
-        date: 'Sunday, May 11, 2025',
-        homeTeam: 'Bracknell CC',
-        awayTeam: 'Calcot CC',
-        venue: 'Bracknell Sports Centre',
-        competition: 'Berkshire Cup',
+        id: '6737344',
+        date: 'Saturday, May 10, 2025',
+        homeTeam: 'Calcot CC - 2nd XI',
+        awayTeam: 'Woodley CC, Berks - 2nd XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 6B',
         time: '12:30'
       }
     ];
     
     const mockResults: Match[] = [
       {
-        id: '6736398',
-        date: 'Sunday, April 27, 2025',
-        homeTeam: 'Calcot CC',
-        awayTeam: 'Wokingham CC',
-        venue: 'Calcot Recreation Ground',
+        id: '7119866',
+        date: 'Saturday, May 3, 2025',
+        homeTeam: 'Earley CC - 1st XI',
+        awayTeam: 'Calcot CC - 2nd XI',
+        venue: 'Bulmershe School',
         competition: 'Friendly Match',
         time: '13:00',
         isCompleted: true,
-        result: 'Calcot CC won by 5 wickets',
-        homeTeamScore: '156/5',
-        awayTeamScore: '155/9'
+        result: 'Earley CC won by 27 runs',
+        homeTeamScore: '149/9',
+        awayTeamScore: '122/8'
       },
-      {
-        id: '6736397',
-        date: 'Sunday, April 20, 2025',
-        homeTeam: 'Maidenhead CC',
-        awayTeam: 'Calcot CC',
-        venue: 'Maidenhead Cricket Club',
-        competition: 'Friendly Match',
-        time: '13:00',
-        isCompleted: true,
-        result: 'Calcot CC lost by 32 runs',
-        homeTeamScore: '210/8',
-        awayTeamScore: '178/10'
-      }
     ];
     
     try {
@@ -239,7 +226,7 @@ export default function FixturesAndResults() {
                       
                       <div className="flex justify-center pt-3">
                         <a 
-                          href={`https://calcotcc.play-cricket.com/match_details?id=${match.id}`}
+                          href={`https://calcotcc.play-cricket.com/website/results/7119866`}
                           target="_blank"
                           rel="noopener noreferrer"
                           className="inline-flex items-center gap-2 bg-[#012682] text-white px-4 py-2 rounded-full hover:bg-blue-700 transition-all duration-200 text-sm font-bold shadow-sm"

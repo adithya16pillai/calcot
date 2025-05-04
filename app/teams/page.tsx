@@ -9,6 +9,7 @@ export default function TeamsPage() {
       division: 'Berkshire Cricket League Division 1',
       imageUrl: '/teams/team-a.jpg',
       description: 'Our first team competes in the Berkshire Cricket League Division 1, playing competitive cricket every Saturday throughout the season.',
+      playCricketUrl: 'https://calcotcc.play-cricket.com/Teams/325656',
     },
     {
       id: 'saturday-b',
@@ -16,6 +17,7 @@ export default function TeamsPage() {
       division: 'Berkshire Cricket League Division 3',
       imageUrl: '/teams/team-b.jpg',
       description: 'Our second team competes in the Berkshire Cricket League Division 3, providing competitive cricket and development opportunities for players.',
+      playCricketUrl: 'https://calcotcc.play-cricket.com/Teams/325657',
     },
     {
       id: 'midweek',
@@ -23,6 +25,7 @@ export default function TeamsPage() {
       division: 'Reading Midweek Cricket League',
       imageUrl: '/teams/midweek.jpg',
       description: 'Our midweek team plays evening T20 matches, offering a more relaxed environment while still maintaining a competitive spirit.',
+      playCricketUrl: 'https://calcotcc.play-cricket.com/Teams/330556',
     },
     {
       id: 'midweek-2nd',
@@ -30,6 +33,15 @@ export default function TeamsPage() {
       division: 'Reading Midweek Cricket League Division 2',
       imageUrl: '/teams/midweek-2.jpg',
       description: 'Our second midweek team provides additional opportunities for players to enjoy evening cricket in a friendly and developmental setting.',
+      playCricketUrl: 'https://calcotcc.play-cricket.com/Teams/358546',
+    },
+    {
+      id: 'friendly-xi',
+      name: 'Friendly XI',
+      division: 'Sunday Friendlies',
+      imageUrl: '/teams/friendly-xi.jpg',
+      description: 'Our Friendly XI plays casual Sunday matches against local clubs, providing a relaxed environment perfect for newcomers and experienced players alike.',
+      playCricketUrl: 'https://calcotcc.play-cricket.com/Teams/325558',
     },
   ];
 
@@ -46,9 +58,11 @@ export default function TeamsPage() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
         {teams.map((team) => (
           <Link 
-            href={`/teams/${team.id}`} 
+            href={team.playCricketUrl} 
             key={team.id}
             className="border rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow"
+            target="_blank"
+            rel="noopener noreferrer"
           >
             <div className="h-48 relative">
               <Image 
@@ -73,20 +87,6 @@ export default function TeamsPage() {
             </div>
           </Link>
         ))}
-      </div>
-      
-      <div className="mt-8 p-5 bg-gray-50 rounded-lg">
-        <h2 className="text-xl font-semibold mb-3">Join Our Teams</h2>
-        <p>
-          We&apos;re always looking for new players to join our teams, whether you&apos;re an experienced cricketer or new to the game. 
-          Training sessions are held weekly, and we welcome players of all abilities.
-        </p>
-        <Link 
-          href="/contact" 
-          className="inline-block mt-4 bg-[#012682] text-white py-2 px-4 rounded hover:bg-blue-900 transition-colors"
-        >
-          Contact Us to Join
-        </Link>
       </div>
     </div>
   );
