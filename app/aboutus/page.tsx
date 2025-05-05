@@ -40,50 +40,82 @@ export default function AboutUs() {
         <div className="space-y-12">
           <div>
             <h3 className="text-2xl font-semibold mb-6 text-gray-800">Club Officials</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              <div className="flex items-center space-x-6 p-6 rounded-lg hover:bg-gray-50 transition-colors">
-                <div className="w-24 h-24 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
-                  <Image 
-                    src="/about/chairman.png" 
-                    alt="Club Chairman" 
-                    fill
-                    className="object-cover"
-                    priority
-                  />
-                </div>
-                <div>
-                  <h4 className="text-xl font-bold text-gray-900 mb-1">Mudit Sharma</h4>
-                  <p className="text-lg text-[#012682] font-medium">Chairman</p>
-                </div>
-              </div>
-              <div className="flex items-center space-x-6 p-6 rounded-lg hover:bg-gray-50 transition-colors">
-                <div className="w-24 h-24 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
-                  <Image 
-                    src="/about/secretary.jpg" 
-                    alt="Club Secretary" 
-                    fill
-                    className="object-cover"
-                    priority
-                  />
-                </div>
-                <div>
-                  <h4 className="text-xl font-bold text-gray-900 mb-1">Vinayak Kamath</h4>
-                  <p className="text-lg text-[#012682] font-medium">Secretary</p>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
+                    <Image 
+                      src="/about/chairman.png" 
+                      alt="Club Chairman" 
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h4 className="text-xl font-bold text-gray-900">Mudit Sharma</h4>
+                    <p className="text-lg text-[#012682] font-medium">Chairman</p>
+                    <a 
+                      href="https://calcotcc.play-cricket.com" 
+                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Profile
+                    </a>
+                  </div>
                 </div>
               </div>
-              <div className="flex items-center space-x-6 p-6 rounded-lg hover:bg-gray-50 transition-colors">
-                <div className="w-24 h-24 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
-                  <Image 
-                    src="/about/treasurer.png" 
-                    alt="Club Treasurer" 
-                    fill
-                    className="object-cover"
-                    priority
-                  />
+
+              <div className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
+                    <Image 
+                      src="/about/secretary.jpg" 
+                      alt="Club Secretary" 
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h4 className="text-xl font-bold text-gray-900">Vinayak Kamath</h4>
+                    <p className="text-lg text-[#012682] font-medium">Secretary</p>
+                    <a 
+                      href="https://calcotcc.play-cricket.com" 
+                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Profile
+                    </a>
+                  </div>
                 </div>
-                <div>
-                  <h4 className="text-xl font-bold text-gray-900 mb-1">Rahul Aul</h4>
-                  <p className="text-lg text-[#012682] font-medium">Treasurer</p>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
+                    <Image 
+                      src="/about/treasurer.png" 
+                      alt="Club Treasurer" 
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h4 className="text-xl font-bold text-gray-900">Rahul Aul</h4>
+                    <p className="text-lg text-[#012682] font-medium">Treasurer</p>
+                    <a 
+                      href="https://calcotcc.play-cricket.com" 
+                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Profile
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>

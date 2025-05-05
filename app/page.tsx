@@ -94,7 +94,7 @@ export default function Home() {
             The club aims to provide its members, the opportunity to play the highest level of cricket, played in upholding the spirit of the game. We play in the Berkshire Cricket League (BCL).
           </p>
           <p className="text-lg">
-            We have 4 adult teams playing on Saturday (2 teams), Mid-week (1 team), and Sunday (1 team). We play in Division 1 & Division 3 of BCL.
+            We have 5 adult teams playing, which includes 2 Saturday Teams, 2 Mid-week Teams 2, and Friendly Sunday Team. We play in Division 6B and 9B of the Thames Valley Cricket League (TVCL) and Division 1 and 3 of the Reading Midweek Cricket League (RMCL).
           </p>
         </div>
       </div>
