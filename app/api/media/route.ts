@@ -5,7 +5,7 @@ import path from 'path';
 export async function GET() {
   try {
     // Path to slides folder (adjust based on your actual folder structure)
-    const slidesDirectory = path.join(process.cwd(), 'public', 'slides');
+    const slidesDirectory = path.join(process.cwd(), 'public', 'media');
     
     // Check if directory exists
     if (!fs.existsSync(slidesDirectory)) {

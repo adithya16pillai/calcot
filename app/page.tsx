@@ -3,13 +3,13 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-type Result = {
+type Fixture = {
   id: number;
   date: string;
   competition: string;
   teams: string;
-  result: string;
-  scorecardUrl?: string;
+  venue: string;
+  time?: string;
 };
 
 export default function Home() {
@@ -29,27 +29,32 @@ export default function Home() {
     return () => clearInterval(interval);
   }, [images.length]);
 
-  const [recentResults, setRecentResults] = useState<Result[]>([]);
-  const [resultsLoading, setResultsLoading] = useState(true);
-
-  useEffect(() => {
-    async function fetchResults() {
-      try {
-        const response = await fetch('/api/cricket-data');
-        const data = await response.json();
-        
-        if (data.success) {
-          setRecentResults(data.recentResults.slice(0, 3));
-        }
-      } catch (err) {
-        console.error('Failed to fetch results:', err);
-      } finally {
-        setResultsLoading(false);
-      }
+  const upcomingFixtures: Fixture[] = [
+    {
+      id: 1,
+      date: "15 May 2025",
+      competition: "Berkshire Cricket League Div 1",
+      teams: "Calcot CC vs Reading CC",
+      venue: "Calcot Recreation Ground",
+      time: "13:30"
+    },
+    {
+      id: 2,
+      date: "22 May 2025",
+      competition: "Berkshire Cricket League Div 3",
+      teams: "Newbury CC vs Calcot CC",
+      venue: "Newbury Cricket Ground",
+      time: "14:00"
+    },
+    {
+      id: 3,
+      date: "29 May 2025",
+      competition: "Sunday Friendly",
+      teams: "Calcot CC vs Theale CC",
+      venue: "Calcot Recreation Ground",
+      time: "13:00"
     }
-    
-    fetchResults();
-  }, []);
+  ];
 
   return (
     <div className="space-y-12">
@@ -95,72 +100,48 @@ export default function Home() {
       </div>
 
       <section>
-        <h2 className="text-3xl font-semibold mb-5">Recent Match Results</h2>
+        <h2 className="text-3xl font-semibold mb-5">Upcoming Matches</h2>
         
-        {resultsLoading ? (
-          <div className="text-center py-8">
-            <div className="animate-spin rounded-full h-8 w-8 border-t-2 border-b-2 border-[#012682] mx-auto"></div>
-            <p className="mt-2 text-gray-600">Loading latest results...</p>
-          </div>
-        ) : recentResults.length === 0 ? (
-          <p className="text-center py-8 text-gray-600">No recent results available.</p>
-        ) : (
-          <>
-            <div className="overflow-hidden border border-gray-200 rounded-lg">
-              {recentResults.map((result, index) => (
-                <div 
-                  key={result.id} 
-                  className={`${
-                    index % 2 === 0 ? 'bg-white' : 'bg-gray-50'
-                  } p-4 border-b last:border-b-0`}
-                >
-                  <div className="flex flex-col md:flex-row justify-between mb-2">
-                    <div className="text-sm text-gray-600 font-medium">{result.date}</div>
-                    <div className="text-sm text-[#012682] font-medium">{result.competition}</div>
+        <>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            {upcomingFixtures.map((fixture) => (
+              <div 
+                key={fixture.id} 
+                className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow"
+              >
+                <div className="bg-[#012682] text-white p-3">
+                  <div className="text-sm font-medium">
+                    {fixture.date} {fixture.time && `• ${fixture.time}`}
                   </div>
+                  <div className="text-xs mt-1">{fixture.competition}</div>
+                </div>
+                
+                <div className="p-4">
+                  <h3 className="font-bold text-lg mb-3">{fixture.teams}</h3>
                   
-                  <h3 className="font-bold text-lg mb-1">{result.teams}</h3>
-                  
-                  <div className="flex flex-col md:flex-row md:items-center gap-2 md:gap-4 mt-2">
-                    <div className="px-3 py-1 bg-[#012682] text-white inline-block rounded text-sm font-medium">
-                      {result.result}
-                    </div>
-                    
-                    {result.scorecardUrl && (
-                      <a 
-                        href={`https://calcotcc.play-cricket.com${result.scorecardUrl}`}
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="text-[#012682] underline hover:text-blue-800"
-                      >
-                        View Scorecard
-                      </a>
-                    )}
+                  <div className="flex items-center gap-2 text-gray-600">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" className="flex-shrink-0">
+                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                    </svg>
+                    <span className="text-sm">{fixture.venue}</span>
                   </div>
                 </div>
-              ))}
-            </div>
-            
-            <div className="mt-6 flex justify-between items-center">
-              <Link
-                href="/fixtures"
-                className="inline-flex items-center gap-2 bg-red-600 text-white py-2 px-5 rounded font-medium hover:bg-red-700 transition-colors"
-              >
-                <span>View All Results</span>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                  <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-              </Link>
-              
-              <Link
-                href="/fixtures"
-                className="text-[#012682] font-medium hover:underline"
-              >
-                Upcoming Fixtures
-              </Link>
-            </div>
-          </>
-        )}
+              </div>
+            ))}
+          </div>
+          
+          <div className="mt-8 flex flex-col md:flex-row justify-center gap-4">
+            <Link
+              href="/fixtures"
+              className="inline-flex items-center justify-center gap-2 bg-red-600 text-white py-3 px-6 rounded-md font-medium hover:bg-red-700 transition-colors"
+            >
+              <span>View All Fixtures</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+              </svg>
+            </Link>
+          </div>
+        </>
       </section>
 
       <section>
@@ -186,60 +167,6 @@ export default function Home() {
             <Image 
               src="/affiliations/aff3.png" 
               alt="Affiliation 3" 
-              fill
-              className="object-contain"
-            />
-          </div>
-          <div className="w-32 h-32 relative">
-            <Image 
-              src="/affiliations/aff4.png" 
-              alt="Affiliation 4" 
-              fill
-              className="object-contain"
-            />
-          </div>
-          <div className="w-32 h-32 relative">
-            <Image 
-              src="/affiliations/aff5.png" 
-              alt="Affiliation 5" 
-              fill
-              className="object-contain"
-            />
-          </div>
-        </div>
-      </section>
-
-      <section>
-        <h2 className="text-3xl font-semibold mb-5">Our Sponsors</h2>
-        <div className="flex flex-wrap gap-10 justify-center items-center">
-          <div className="w-36 h-36 relative">
-            <Image 
-              src="/sponsors/sponsor1.png" 
-              alt="Sponsor 1" 
-              fill
-              className="object-contain"
-            />
-          </div>
-          <div className="w-36 h-36 relative">
-            <Image 
-              src="/sponsors/sponsor2.png" 
-              alt="Sponsor 2" 
-              fill
-              className="object-contain"
-            />
-          </div>
-          <div className="w-36 h-36 relative">
-            <Image 
-              src="/sponsors/sponsor3.png" 
-              alt="Sponsor 3" 
-              fill
-              className="object-contain"
-            />
-          </div>
-          <div className="w-36 h-36 relative">
-            <Image 
-              src="/sponsors/sponsor4.png" 
-              alt="Sponsor 4" 
               fill
               className="object-contain"
             />

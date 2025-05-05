@@ -148,7 +148,7 @@ export default function AboutUs() {
                 <div className="flex flex-col items-center text-center space-y-4">
                   <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
                     <Image 
-                      src="/about/captain3.jpg" 
+                      src="/about/captain3.png" 
                       alt="T20 Captain" 
                       fill
                       className="object-cover"
@@ -212,6 +212,167 @@ export default function AboutUs() {
                     <p className="text-lg text-[#012682] font-medium">Friendly Team XI Captain</p>
                     <a 
                       href="https://calcotcc.play-cricket.com/player_stats/batting/5617199" 
+                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Profile
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-semibold mb-6 text-gray-800">Management Committee</h3>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+              <div className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
+                    <Image 
+                      src="/about/committee1.jpg" 
+                      alt="Committee Member" 
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h4 className="text-xl font-bold text-gray-900">Blank</h4>
+                    <p className="text-lg text-[#012682] font-medium">Blank</p>
+                    <a 
+                      href="https://calcotcc.play-cricket.com" 
+                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Profile
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
+                    <Image 
+                      src="/about/committee2.jpg" 
+                      alt="Committee Member" 
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h4 className="text-xl font-bold text-gray-900">Blank</h4>
+                    <p className="text-lg text-[#012682] font-medium">Blank</p>
+                    <a 
+                      href="https://calcotcc.play-cricket.com" 
+                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Profile
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
+                    <Image 
+                      src="/about/committee3.jpg" 
+                      alt="Committee Member" 
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h4 className="text-xl font-bold text-gray-900">Blank</h4>
+                    <p className="text-lg text-[#012682] font-medium">Blank</p>
+                    <a 
+                      href="https://calcotcc.play-cricket.com" 
+                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Profile
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
+                    <Image 
+                      src="/about/committee4.jpg" 
+                      alt="Committee Member" 
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h4 className="text-xl font-bold text-gray-900">Blank</h4>
+                    <p className="text-lg text-[#012682] font-medium">Blank</p>
+                    <a 
+                      href="https://calcotcc.play-cricket.com" 
+                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Profile
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
+                    <Image 
+                      src="/about/committee5.jpg" 
+                      alt="Committee Member" 
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h4 className="text-xl font-bold text-gray-900">Blank</h4>
+                    <p className="text-lg text-[#012682] font-medium">Blank</p>
+                    <a 
+                      href="https://calcotcc.play-cricket.com" 
+                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      View Profile
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
+                    <Image 
+                      src="/about/committee6.jpg" 
+                      alt="Committee Member" 
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h4 className="text-xl font-bold text-gray-900">Blank</h4>
+                    <p className="text-lg text-[#012682] font-medium">Blank</p>
+                    <a 
+                      href="https://calcotcc.play-cricket.com" 
                       className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
                       target="_blank"
                       rel="noopener noreferrer"
