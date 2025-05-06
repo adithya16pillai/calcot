@@ -4,18 +4,18 @@ import Image from 'next/image';
 export default function AboutUs() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8 space-y-12">
-      <div className="relative h-64 md:h-80 w-full overflow-hidden rounded-lg">
+      <div className="relative h-80 md:h-96 w-full overflow-hidden rounded-lg">
         <Image
-          src="/slides/slide3.jpg"
+          src="/about/slide4.jpg"
           alt="Calcot Cricket Club"
           fill
-          className="object-cover"
+          className="object-cover object-center"
+          priority
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent flex items-end">
           <h1 className="text-3xl md:text-4xl font-bold text-white p-6">About Calcot Cricket Club</h1>
         </div>
       </div>
-
       <section>
         <h2 className="text-2xl font-semibold text-[#012682] mb-4">Our History</h2>
         <div className="space-y-4">
