@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import { Dialog } from '@headlessui/react';
 import { XMarkIcon } from '@heroicons/react/24/outline';
-import styles from './media.module.css';
 
 export default function MediaPage() {
   const [images, setImages] = useState<string[]>([]);
