@@ -100,27 +100,27 @@ export default function Home() {
           {upcomingFixtures.map((fixture) => (
             <div 
               key={fixture.id} 
-              className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all border border-gray-100"
+              className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all border border-gray-100 relative"
             >
               <div className="p-6">
-                {/* Header row with league and date */}
-                <div className="flex flex-wrap justify-between items-center mb-4">
-                  <div className="bg-red-600 text-white py-2 px-4 rounded-md font-bold text-base font-montserrat">
+                {/* Header row with league */}
+                <div className="mb-4">
+                  <div className="bg-red-600 text-white py-2 px-4 rounded-md font-bold text-base font-montserrat inline-block">
                     {fixture.competition}
                   </div>
-                  <div className="font-bold text-gray-800 text-lg font-gibson">
-                    {fixture.date}
-                  </div>
                 </div>
                 
-                {/* Teams */}
-                <div className="text-center py-5 border-y border-gray-100">
-                  <h3 className="font-black text-2xl md:text-3xl text-gray-800 uppercase tracking-wide font-gibson">
-                    {fixture.teams}
-                  </h3>
+                {/* Teams - Split into home and away */}
+                <div className="text-center py-5">
+                  {fixture.teams.split("vs").map((team, index) => (
+                    <h3 key={index} className="font-black text-2xl md:text-3xl text-gray-800 uppercase tracking-wide font-gibson my-1">
+                      {team.trim()}
+                      {index === 0 && <span className="font-normal text-gray-500 mx-2">vs</span>}
+                    </h3>
+                  ))}
                 </div>
                 
-                {/* Footer row with venue and time */}
+                {/* Footer row with venue, date and time */}
                 <div className="flex flex-wrap justify-between items-center mt-4 gap-4">
                   <div className="flex items-center gap-2">
                     <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" className="flex-shrink-0 text-red-600">
@@ -128,17 +128,35 @@ export default function Home() {
                     </svg>
                     <span className="font-bold text-gray-700 text-lg font-roboto">{fixture.venue}</span>
                   </div>
-                  {fixture.time && (
-                    <div className="flex items-center gap-2">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" className="flex-shrink-0 text-red-600">
-                        <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-                        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-                      </svg>
-                      <span className="font-bold text-gray-700 text-lg font-roboto">{fixture.time}</span>
+                  
+                  <div className="flex items-center gap-4">
+                    <div className="font-bold text-gray-800 text-lg font-gibson">
+                      {fixture.date}
                     </div>
-                  )}
+                    {fixture.time && (
+                      <div className="flex items-center gap-2">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" className="flex-shrink-0 text-red-600">
+                          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
+                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
+                        </svg>
+                        <span className="font-bold text-gray-700 text-lg font-roboto">{fixture.time}</span>
+                      </div>
+                    )}
+                  </div>
                 </div>
               </div>
+              
+              {/* Arrow link to play-cricket */}
+              <Link 
+                href="https://play-cricket.com" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center bg-gray-100 hover:bg-gray-200 rounded-full transition-colors"
+              >
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#666" viewBox="0 0 16 16">
+                  <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+              </Link>
             </div>
           ))}
         </div>
@@ -159,30 +177,30 @@ export default function Home() {
       <section>
         <h2 className="text-3xl font-semibold mb-5">Affiliations</h2>
         <div className="flex flex-wrap gap-8 justify-center items-center">
-          <div className="w-32 h-32 relative">
+          <Link href="https://thamesvalleycl.play-cricket.com/home" target="_blank" rel="noopener noreferrer" className="w-32 h-32 relative">
             <Image 
               src="/affiliations/aff1.png" 
-              alt="Affiliation 1" 
+              alt="Thames Valley Cricket League" 
               fill
               className="object-contain"
             />
-          </div>
-          <div className="w-32 h-32 relative">
+          </Link>
+          <Link href="https://www.ecb.co.uk/" target="_blank" rel="noopener noreferrer" className="w-32 h-32 relative">
             <Image 
               src="/affiliations/aff2.png" 
-              alt="Affiliation 2" 
+              alt="ECB" 
               fill
               className="object-contain"
             />
-          </div>
-          <div className="w-32 h-32 relative">
+          </Link>
+          <Link href="https://www.play-cricket.com/" target="_blank" rel="noopener noreferrer" className="w-32 h-32 relative">
             <Image 
               src="/affiliations/aff3.png" 
-              alt="Affiliation 3" 
+              alt="Play Cricket" 
               fill
               className="object-contain"
             />
-          </div>
+          </Link>
         </div>
       </section>
     </div>

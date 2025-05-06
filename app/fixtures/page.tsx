@@ -24,7 +24,6 @@ export default function FixturesAndResults() {
   const resultsScrollerRef = useRef<HTMLDivElement>(null);
   
   useEffect(() => {
-    // Mock data for fixtures and results
     const mockFixtures: Match[] = [
       { //1
         id: '6736399',
@@ -41,43 +40,43 @@ export default function FixturesAndResults() {
         homeTeam: 'Calcot CC - 2nd XI',
         awayTeam: 'Woodley CC, Berks - 2nd XI',
         venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 6B',
+        competition: 'Thames Valley Cricket League - Division 9B',
         time: '12:30'
       },
       {
-        id: '6737345',
-        date: 'Saturday, May 17, 2025',
-        homeTeam: 'Calcot CC - 1st XI',
-        awayTeam: 'Kidmore End CC - 1st XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
+        id: '6957577',
+        date: 'Wednesday, May 14, 2025',
+        homeTeam: 'Emmbrook and Bearwood CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek 2nd XI',
+        venue: 'Emmbrook and Bearwood CC',
+        competition: 'Berkshire Cricket Competitions (RMCL) Division 3',
+        time: '18:30'
       },
       {
-        id: '6737346',
-        date: 'Saturday, May 17, 2025',
-        homeTeam: 'Wokingham CC - 4th XI',
-        awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'Sadlers End',
-        competition: 'Thames Valley Cricket League - Division 8B',
-        time: '12:30'
+        id: '6954500',
+        date: 'Thursday, May 15, 2025',
+        homeTeam: 'Tilehurst CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek XI',
+        venue: 'NA',
+        competition: 'Berkshire Cricket Competitions (RMCL) Division 1',
+        time: '18:30'
       },
       {
         id: '6737347',
-        date: 'Saturday, May 24, 2025',
-        homeTeam: 'Farnham Royal CC - 2nd XI',
-        awayTeam: 'Calcot CC - 1st XI',
-        venue: 'Church Road',
+        date: 'Saturday, May 17, 2025',
+        homeTeam: 'Calcot CC - 1st XI',
+        awayTeam: 'Checkendon CC - 1st XI',
+        venue: 'Kings Academy Prospect',
         competition: 'Thames Valley Cricket League - Division 6B',
         time: '12:30'
       },
       {
         id: '6737348',
-        date: 'Saturday, May 24, 2025',
-        homeTeam: 'Calcot CC - 2nd XI',
-        awayTeam: 'Theale & Tilehurst CC - 3rd XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 8B',
+        date: 'Saturday, May 17, 2025',
+        homeTeam: 'Goring on Thames CC - 2nd XI',
+        awayTeam: 'Calcot CC - 2nd XI',
+        venue: 'Gardiner Recreation Ground',
+        competition: 'Thames Valley Cricket League - Division 9B',
         time: '12:30'
       },
       {
@@ -701,26 +700,29 @@ export default function FixturesAndResults() {
                 {fixtures.map((match) => (
                   <div 
                     key={match.id} 
-                    className="min-w-[420px] w-[420px] flex-shrink-0 rounded-lg border border-gray-200 overflow-hidden shadow-md hover:shadow-lg transition-all snap-start"
+                    className="min-w-[480px] w-[600px] flex-shrink-0 rounded-lg border border-gray-200 overflow-hidden shadow-md hover:shadow-lg transition-all snap-start flex flex-col"
                   >
                     <div className="bg-[#012682] text-white px-6 py-4">
                       <span className="font-bold text-lg">{match.competition}</span>
                     </div>
                     
-                    <div className="p-8 space-y-7">
-                      {/* Teams Section */}
-                      <div className="flex items-center justify-center space-x-6">
-                        <div className="text-right w-5/12">
-                          <h3 className="font-bold text-xl">{match.homeTeam}</h3>
-                        </div>
-                        <div className="flex-shrink-0 bg-gray-100 rounded-full px-5 py-3 text-gray-700 font-bold">vs</div>
-                        <div className="w-5/12">
-                          <h3 className="font-bold text-xl">{match.awayTeam}</h3>
+                    <div className="p-8 flex flex-col h-[380px] justify-between">
+                      {/* Top section with teams */}
+                      <div>
+                        {/* Teams Section - Larger font */}
+                        <div className="flex items-center justify-center space-x-4 mb-7">
+                          <div className="text-right w-5/12 flex flex-col justify-center items-end">
+                            <h3 className="font-bold text-lg" title={match.homeTeam}>{match.homeTeam}</h3>
+                          </div>
+                          <div className="flex-shrink-0 bg-gray-100 rounded-full px-3 py-1 text-gray-700 font-bold">vs</div>
+                          <div className="w-5/12 flex flex-col justify-center">
+                            <h3 className="font-bold text-lg" title={match.awayTeam}>{match.awayTeam}</h3>
+                          </div>
                         </div>
                       </div>
                       
-                      {/* Details Section */}
-                      <div className="grid grid-cols-1 gap-5">
+                      {/* Bottom section with fixed details always close to button */}
+                      <div className="space-y-4">
                         <div className="text-center text-gray-800 flex items-center justify-center gap-3 bg-gray-50 p-4 rounded-lg">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-[#012682] flex-shrink-0">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
@@ -728,37 +730,36 @@ export default function FixturesAndResults() {
                           <span className="font-bold text-lg">{match.date}</span>
                         </div>
                         
-                        <div className="flex flex-col space-y-5">
-                          <div className="text-gray-800 flex items-center gap-3 bg-gray-50 p-4 rounded-lg">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-[#012682] flex-shrink-0">
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                            </svg>
-                            <span className="font-bold">{match.venue}</span>
-                          </div>
-                          
-                          <div className="text-gray-800 flex items-center gap-3 bg-gray-50 p-4 rounded-lg">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-[#012682] flex-shrink-0">
-                              <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                            </svg>
-                            <span className="font-bold">Start Time: {match.time}</span>
-                          </div>
+                        <div className="text-gray-800 flex items-center gap-3 bg-gray-50 p-4 rounded-lg">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-[#012682] flex-shrink-0">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                          </svg>
+                          <span className="font-bold">{match.venue}</span>
+                        </div>
+                        
+                        <div className="text-gray-800 flex items-center gap-3 bg-gray-50 p-4 rounded-lg">
+                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-[#012682] flex-shrink-0">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          <span className="font-bold">Start Time: {match.time}</span>
                         </div>
                       </div>
-                      
-                      <div className="flex justify-center pt-3">
-                        <a 
-                          href={`https://calcotcc.play-cricket.com/match_details?id=${match.id}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 bg-[#012682] text-white px-7 py-4 rounded-full hover:bg-blue-800 transition-all duration-200 text-base font-bold shadow-sm hover:shadow-md w-full justify-center"
-                        >
-                          <span>Live Scorecard</span>
-                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5" />
-                          </svg>
-                        </a>
-                      </div>
+                    </div>
+                    
+                    {/* Fixed position button */}
+                    <div className="p-8 pt-4 mt-auto">
+                      <a 
+                        href={`https://calcotcc.play-cricket.com/match_details?id=${match.id}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 bg-[#012682] text-white px-7 py-4 rounded-full hover:bg-blue-800 transition-all duration-200 text-base font-bold shadow-sm hover:shadow-md w-full justify-center"
+                      >
+                        <span>Live Scorecard</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5" />
+                        </svg>
+                      </a>
                     </div>
                   </div>
                 ))}
@@ -805,33 +806,36 @@ export default function FixturesAndResults() {
                 {results.map((match) => (
                   <div 
                     key={match.id} 
-                    className="min-w-[420px] w-[420px] flex-shrink-0 rounded-lg border border-gray-200 overflow-hidden shadow-md hover:shadow-lg transition-all snap-start"
+                    className="min-w-[480px] w-[600px] flex-shrink-0 rounded-lg border border-gray-200 overflow-hidden shadow-md hover:shadow-lg transition-all snap-start flex flex-col"
                   >
                     <div className="bg-[#012682] text-white px-6 py-4">
                       <span className="font-bold text-lg">{match.competition}</span>
                     </div>
                     
-                    <div className="p-8 space-y-7">
-                      {/* Result Banner */}
-                      <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-3 rounded-lg text-center border border-blue-100">
-                        <span className="font-bold text-xl text-[#012682]">{match.result}</span>
+                    <div className="p-8 flex flex-col h-[400px] justify-between">
+                      {/* Top section with result and teams */}
+                      <div>
+                        {/* Result Banner */}
+                        <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-3 rounded-lg text-center border border-blue-100 mb-6">
+                          <span className="font-bold text-xl text-[#012682]">{match.result}</span>
+                        </div>
+                        
+                        {/* Teams Section with Scores - Larger font */}
+                        <div className="flex items-center justify-center space-x-4 mb-7">
+                          <div className="text-right w-5/12 flex flex-col justify-center items-end">
+                            <h3 className="font-bold text-lg" title={match.homeTeam}>{match.homeTeam}</h3>
+                            <div className="text-lg font-bold mt-2 text-[#012682]">{match.homeTeamScore}</div>
+                          </div>
+                          <div className="flex-shrink-0 bg-gray-100 rounded-full px-3 py-1 text-gray-700 font-bold">vs</div>
+                          <div className="w-5/12 flex flex-col justify-center">
+                            <h3 className="font-bold text-lg" title={match.awayTeam}>{match.awayTeam}</h3>
+                            <div className="text-lg font-bold mt-2 text-[#012682]">{match.awayTeamScore}</div>
+                          </div>
+                        </div>
                       </div>
                       
-                      {/* Teams Section with Scores */}
-                      <div className="flex items-center justify-center space-x-6">
-                        <div className="text-right w-5/12">
-                          <h3 className="font-bold text-xl">{match.homeTeam}</h3>
-                          <div className="text-lg font-bold mt-2 text-[#012682]">{match.homeTeamScore}</div>
-                        </div>
-                        <div className="flex-shrink-0 bg-gray-100 rounded-full px-5 py-3 text-gray-700 font-bold">vs</div>
-                        <div className="w-5/12">
-                          <h3 className="font-bold text-xl">{match.awayTeam}</h3>
-                          <div className="text-lg font-bold mt-2 text-[#012682]">{match.awayTeamScore}</div>
-                        </div>
-                      </div>
-                      
-                      {/* Details Section */}
-                      <div className="grid grid-cols-1 gap-5">
+                      {/* Bottom section with fixed details always close to button */}
+                      <div className="space-y-4">
                         <div className="text-center text-gray-800 flex items-center justify-center gap-3 bg-gray-50 p-4 rounded-lg">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-[#012682] flex-shrink-0">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
@@ -847,20 +851,21 @@ export default function FixturesAndResults() {
                           <span className="font-bold">{match.venue}</span>
                         </div>
                       </div>
-                      
-                      <div className="flex justify-center pt-3">
-                        <a 
-                          href={`https://calcotcc.play-cricket.com/website/results/${match.id}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="inline-flex items-center gap-2 bg-[#012682] text-white px-7 py-4 rounded-full hover:bg-blue-800 transition-all duration-200 text-base font-bold shadow-sm hover:shadow-md w-full justify-center"
-                        >
-                          <span>Full Scorecard</span>
-                          <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5" />
-                          </svg>
-                        </a>
-                      </div>
+                    </div>
+                    
+                    {/* Fixed position button */}
+                    <div className="p-8 pt-4 mt-auto">
+                      <a 
+                        href={`https://calcotcc.play-cricket.com/website/results/${match.id}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-2 bg-[#012682] text-white px-7 py-4 rounded-full hover:bg-blue-800 transition-all duration-200 text-base font-bold shadow-sm hover:shadow-md w-full justify-center"
+                      >
+                        <span>Full Scorecard</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-5 h-5">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3v11.25A2.25 2.25 0 006 16.5h2.25M3.75 3h-1.5m1.5 0h16.5m0 0h1.5m-1.5 0v11.25A2.25 2.25 0 0118 16.5h-2.25m-7.5 0h7.5m-7.5 0l-1 3m8.5-3l1 3m0 0l.5 1.5m-.5-1.5h-9.5m0 0l-.5 1.5" />
+                        </svg>
+                      </a>
                     </div>
                   </div>
                 ))}

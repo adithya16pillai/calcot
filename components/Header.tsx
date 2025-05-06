@@ -30,7 +30,7 @@ export default function Header() {
             </div>
             
             {/* Navigation (bottom row) */}
-            <nav className="flex flex-wrap gap-6 text-base font-semibold uppercase">
+            <nav className="flex flex-wrap gap-6 text-xl font-semibold uppercase">
               <Link 
                 href="/" 
                 className={`hover:text-gray-200 py-1 relative ${
