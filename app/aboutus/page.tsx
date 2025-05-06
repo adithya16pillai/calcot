@@ -20,7 +20,7 @@ export default function AboutUs() {
         <h2 className="text-2xl font-semibold text-[#012682] mb-4">Our History</h2>
         <div className="space-y-4">
           <p>
-            Calcot CC is driven with "Inspiring Communities" at its heart from Day 1. 
+            Calcot CC is driven with &ldquo;Inspiring Communities&rdquo; at its heart from Day 1. 
             Day 1 in 2022 is when 9 people who shared the passion for cricket and were 
             playing for different clubs in Thames Valley Cricket League (TVCL) came together 
             to found a club with trust and transparency all around.
