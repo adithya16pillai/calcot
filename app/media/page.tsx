@@ -34,8 +34,8 @@ export default function MediaPage() {
   }, []);
 
   return (
-    <div className="container mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold mb-6">Media Gallery</h1>
+    <div className="max-w-7xl mx-auto px-6 sm:px-8 md:px-12 py-12">
+      <h1 className="text-3xl font-bold mb-8 text-center">Media Gallery</h1>
       
       {loading ? (
         <div className="flex justify-center items-center h-64">
@@ -44,11 +44,11 @@ export default function MediaPage() {
       ) : images.length === 0 ? (
         <p className="text-center text-gray-500">No images found in media folder.</p>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
           {images.map((image, index) => (
             <div 
               key={index} 
-              className="aspect-square relative overflow-hidden rounded-lg cursor-pointer hover:opacity-90 transition-opacity"
+              className="aspect-square relative overflow-hidden rounded-lg cursor-pointer hover:opacity-90 transition-opacity shadow-md hover:shadow-lg"
               onClick={() => setSelectedImage(image)}
             >
               <Image
@@ -69,7 +69,7 @@ export default function MediaPage() {
         onClose={() => setSelectedImage(null)}
         className="relative z-50"
       >
-        <div className="fixed inset-0 bg-black/70" aria-hidden="true" />
+        <div className="fixed inset-0 bg-black/80" aria-hidden="true" />
         
         <div className="fixed inset-0 flex items-center justify-center p-4">
           <Dialog.Panel className="relative max-w-screen-lg w-full h-full max-h-screen flex items-center justify-center">

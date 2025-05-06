@@ -6,33 +6,33 @@ export default function TeamsPage() {
     {
       id: 'saturday-a',
       name: 'First XI',
-      division: 'Berkshire Cricket League Division 1',
+      division: 'Thames Valley Cricket League - Division 6B 2025',
       imageUrl: '/teams/team-a.jpg',
-      description: 'Our first team competes in the Berkshire Cricket League Division 1, playing competitive cricket every Saturday throughout the season.',
+      description: 'Team Captain: Sunil Varrikkara',
       playCricketUrl: 'https://calcotcc.play-cricket.com/Teams/325656',
     },
     {
       id: 'saturday-b',
       name: 'Second XI',
-      division: 'Berkshire Cricket League Division 3',
+      division: 'Thames Valley Cricket League - Division 9B 2025',
       imageUrl: '/teams/team-b.jpg',
-      description: 'Our second team competes in the Berkshire Cricket League Division 3, providing competitive cricket and development opportunities for players.',
+      description: 'Team Captain: Rahul Singhal',
       playCricketUrl: 'https://calcotcc.play-cricket.com/Teams/325657',
     },
     {
       id: 'midweek',
       name: 'Midweek XI',
-      division: 'Reading Midweek Cricket League',
+      division: 'Berkshire Cricket Competitions - RMCL - Division 1 2025',
       imageUrl: '/teams/midweek.jpg',
-      description: 'Our midweek team plays evening T20 matches, offering a more relaxed environment while still maintaining a competitive spirit.',
+      description: 'Team Captain: Pramuldeep Pai',
       playCricketUrl: 'https://calcotcc.play-cricket.com/Teams/330556',
     },
     {
       id: 'midweek-2nd',
       name: 'Midweek 2nd XI',
-      division: 'Reading Midweek Cricket League Division 2',
+      division: 'Berkshire Cricket Competitions - RMCL - Division 3 2025	',
       imageUrl: '/teams/midweek-2.jpg',
-      description: 'Our second midweek team provides additional opportunities for players to enjoy evening cricket in a friendly and developmental setting.',
+      description: 'Team Captain: Piyush Bedi',
       playCricketUrl: 'https://calcotcc.play-cricket.com/Teams/358546',
     },
     {
@@ -40,22 +40,22 @@ export default function TeamsPage() {
       name: 'Friendly XI',
       division: 'Sunday Friendlies',
       imageUrl: '/teams/friendly-xi.jpg',
-      description: 'Our Friendly XI plays casual Sunday matches against local clubs, providing a relaxed environment perfect for newcomers and experienced players alike.',
+      description: 'Team Captain: Veerendra Kolhar',
       playCricketUrl: 'https://calcotcc.play-cricket.com/Teams/325558',
     },
   ];
 
   return (
-    <div className="space-y-8">
+    <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl space-y-8">
       <h1 className="text-3xl font-bold mb-6">Our Teams</h1>
       
       <p className="text-lg">
-        Calcot Cricket Club fields three competitive teams across different leagues and formats. 
+        Calcot Cricket Club fields five competitive teams across different leagues and formats. 
         Whether you&apos;re looking for serious league cricket or more relaxed evening games, 
         we have opportunities for players of all abilities.
       </p>
       
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-8">
         {teams.map((team) => (
           <Link 
             href={team.playCricketUrl} 
@@ -74,7 +74,7 @@ export default function TeamsPage() {
             </div>
             <div className="p-4">
               <h2 className="text-xl font-semibold">{team.name}</h2>
-              <p className="text-sm text-[#012682] font-medium mt-1">{team.division}</p>
+              <p className="text-sm text-[#012682] font-medium mt-1"><strong>{team.division}</strong></p>
               <p className="mt-3 text-gray-600">{team.description}</p>
               <div className="mt-4 flex">
                 <span className="text-[#012682] font-medium flex items-center">
