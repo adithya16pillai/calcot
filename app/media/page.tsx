@@ -9,7 +9,6 @@ export default function MediaPage() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   useEffect(() => {
-    // Fetch the media files from the API endpoint
     async function fetchMediaFiles() {
       try {
         const response = await fetch('/api/media');
@@ -63,8 +62,6 @@ export default function MediaPage() {
           ))}
         </div>
       )}
-
-      {/* Image Modal for Zoomed View */}
       {selectedImage && (
         <div 
           className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
