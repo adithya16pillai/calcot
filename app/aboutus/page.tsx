@@ -20,17 +20,19 @@ export default function AboutUs() {
         <h2 className="text-2xl font-semibold text-[#012682] mb-4">Our History</h2>
         <div className="space-y-4">
           <p>
-            Calcot Cricket Club was established in 2022 as a community-focused cricket club serving the Calcot area and wider West Berkshire. 
-            Despite being relatively new, we have quickly established ourselves as a welcoming and competitive presence in local cricket.
+            Calcot CC is driven with "Inspiring Communities" at its heart from Day 1. 
+            Day 1 in 2022 is when 9 people who shared the passion for cricket and were 
+            playing for different clubs in Thames Valley Cricket League (TVCL) came together 
+            to found a club with trust and transparency all around.
           </p>
           <p>
-            The club was founded by a group of passionate cricketers who saw the need for a new cricket club that would prioritize 
-            both competitive play and community engagement. Starting with just one team, we&apos;ve rapidly expanded to operate four teams 
-            across different formats and competitions.
+          The guiding values are:
           </p>
           <p>
-            In our short history, we have already achieved promotion in the Berkshire Cricket League and built a thriving community 
-            of players, supporters, and volunteers. Our home ground has become a hub for cricket enthusiasts of all ages and abilities.
+            - To provide a positive and an enjoyable cricketing experience for everyone involved in the sport and society.
+          </p>
+          <p>
+            - Develop leaders and high calibre players from diverse background and contribute back to the community.
           </p>
         </div>
       </section>

@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import { FaXTwitter } from 'react-icons/fa6'; // Import X/Twitter icon
 
 const Footer = () => {
   return (
@@ -13,16 +14,29 @@ const Footer = () => {
               Cockney Hill, Tilehurst<br />
               Reading RG30 4EX
             </p>
+            
+            {/* Twitter/X Link */}
+            <div className="mt-4">
+              <a 
+                href="https://x.com/calcotcc2023" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-block text-white hover:text-gray-300 transition-colors"
+                aria-label="Follow us on X/Twitter"
+              >
+                <FaXTwitter size={24} />
+              </a>
+            </div>
           </div>
           
           <div className="mt-6">
             <h3 className="font-semibold text-lg mb-4">Quick Links</h3>
             <ul className="flex flex-wrap justify-center gap-x-8 gap-y-3">
-              <li><Link href="/about" className="text-gray-200 hover:text-white hover:underline">About Us</Link></li>
-              <li><Link href="/teams" className="text-gray-200 hover:text-white hover:underline">Teams</Link></li>
-              <li><Link href="/fixtures" className="text-gray-200 hover:text-white hover:underline">Fixtures & Results</Link></li>
-              <li><Link href="/media" className="text-gray-200 hover:text-white hover:underline">Media</Link></li>
-              <li><Link href="/contact" className="text-gray-200 hover:text-white hover:underline">Contact Us</Link></li>
+              <li><Link href="/about" className="text-gray-200 hover:text-white hover:underline font-bold">About Us</Link></li>
+              <li><Link href="/teams" className="text-gray-200 hover:text-white hover:underline font-bold">Teams</Link></li>
+              <li><Link href="/fixtures" className="text-gray-200 hover:text-white hover:underline font-bold">Fixtures & Results</Link></li>
+              <li><Link href="/media" className="text-gray-200 hover:text-white hover:underline font-bold">Media</Link></li>
+              <li><Link href="/contact" className="text-gray-200 hover:text-white hover:underline font-bold">Contact Us</Link></li>
             </ul>
           </div>
         </div>

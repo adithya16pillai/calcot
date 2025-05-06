@@ -85,13 +85,7 @@ export default function Home() {
           <h2 className="text-3xl font-semibold mb-5 font-gibson">About Us</h2>
           <p className="mb-4 text-lg font-roboto">
             Calcot Cricket Club is a community club, established in 2022. The Club ethos is reflected in our tagline, &apos;Inspiring Communities&apos;. 
-            Calcot CC is a friendly and social club. We welcome all new members across all abilities to come and enjoy the game of cricket.
-          </p>
-          <p className="mb-4 text-lg">
-            As a socially responsible club, we actively engage with the local Holybrook Parish and West Berkshire Council in community events.
-          </p>
-          <p className="mb-4 text-lg">
-            The club aims to provide its members, the opportunity to play the highest level of cricket, played in upholding the spirit of the game. We play in the Berkshire Cricket League (BCL).
+            Calcot CC is a friendly and social club. We welcome all new members across all abilities to come and enjoy the game of cricket. As a socially responsible club, we actively engage with the local community events.
           </p>
           <p className="text-lg">
             We have 5 adult teams playing, which includes 2 Saturday Teams, 2 Mid-week Teams 2, and Friendly Sunday Team. We play in Division 6B and 9B of the Thames Valley Cricket League (TVCL) and Division 1 and 3 of the Reading Midweek Cricket League (RMCL).

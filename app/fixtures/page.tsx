@@ -644,7 +644,7 @@ export default function FixturesAndResults() {
   };
 
   return (
-    <div className="space-y-12">
+    <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-12">
       {loading && (
         <div className="py-8 text-center">
           <div className="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#012682] mx-auto"></div>

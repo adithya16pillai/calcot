@@ -34,19 +34,19 @@ export default function ContactPage() {
   };
 
   return (
-    <div>
-      <h2 className="text-2xl font-semibold mb-4">Contact Us</h2>
+    <div className="max-w-3xl mx-auto px-6 py-8">
+      <h2 className="text-2xl font-semibold mb-6 text-center">Contact Us</h2>
       {status === 'success' && (
-        <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-4">
+        <div className="bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mb-6">
           Thank you for your message! We&apos;ll get back to you soon.
         </div>
       )}
       {status === 'error' && (
-        <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-4">
+        <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mb-6">
           There was an error sending your message. Please try again later.
         </div>
       )}
-      <form className="space-y-4 max-w-md" onSubmit={handleSubmit}>
+      <form className="space-y-6 max-w-md mx-auto" onSubmit={handleSubmit}>
         <div>
           <label className="block mb-1 font-semibold" htmlFor="name">Name</label>
           <input
@@ -81,7 +81,7 @@ export default function ContactPage() {
         </div>
         <button 
           type="submit" 
-          className="bg-red-600 text-white py-2 px-4 rounded hover:bg-red-700 transition-colors"
+          className="bg-red-600 text-white py-2 px-4 rounded hover:bg-red-700 transition-colors w-full"
           disabled={status === 'loading'}
         >
           {status === 'loading' ? 'Sending...' : 'Submit'}
