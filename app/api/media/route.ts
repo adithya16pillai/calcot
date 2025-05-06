@@ -1,24 +1,32 @@
-import { NextResponse } from 'next/server';
 import fs from 'fs';
 import path from 'path';
+import { NextResponse } from 'next/server';
 
 export async function GET() {
   try {
-    const slidesDirectory = path.join(process.cwd(), 'public', 'media');
+    const mediaDirectory = path.join(process.cwd(), 'public/media');
     
-    if (!fs.existsSync(slidesDirectory)) {
-      return NextResponse.json({ error: 'Slides directory not found' }, { status: 404 });
+    // Check if directory exists
+    if (!fs.existsSync(mediaDirectory)) {
+      return NextResponse.json({ images: [], error: 'Media directory does not exist' });
     }
     
-    const files = fs.readdirSync(slidesDirectory)
-      .filter(file => {
-        const ext = path.extname(file).toLowerCase();
-        return ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg'].includes(ext);
-      });
+    // Read directory contents
+    const fileNames = fs.readdirSync(mediaDirectory);
     
-    return NextResponse.json({ files });
+    // Filter for image files
+    const imageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.svg'];
+    const imageFiles = fileNames.filter(file => {
+      const ext = path.extname(file).toLowerCase();
+      return imageExtensions.includes(ext);
+    });
+    
+    // Create paths relative to the public directory
+    const images = imageFiles.map(file => `/media/${file}`);
+    
+    return NextResponse.json({ images });
   } catch (error) {
-    console.error('Error reading slides directory:', error);
-    return NextResponse.json({ error: 'Failed to read slides directory' }, { status: 500 });
+    console.error('Error reading media directory:', error);
+    return NextResponse.json({ images: [], error: 'Failed to read media directory' });
   }
 }
