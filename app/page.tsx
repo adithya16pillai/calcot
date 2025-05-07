@@ -34,7 +34,7 @@ export default function Home() {
       id: 6736399,
       date: "Saturday 10 May 2025",
       competition: "Thames Valley Cricket League - Division 6B",
-      teams: "Purley on Thames CC - 1st XI vs Reading CC",
+      teams: "Purley on Thames CC - 1st XI vs Calcot CC- 1st XI",
       venue: "Goosecroft",
       time: "13:30"
     },
@@ -96,7 +96,7 @@ export default function Home() {
       <section>
         <h2 className="text-3xl font-semibold mb-6 font-gibson">Upcoming Matches</h2>
         
-        <div className="flex gap-4 overflow-x-auto pb-4 snap-x">
+        <div className="flex gap-4 overflow-x-auto pb-4 snap-x justify-center px-4 md:px-10">
           {upcomingFixtures.map((fixture) => (
             <div 
               key={fixture.id} 

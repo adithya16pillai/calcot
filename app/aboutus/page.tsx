@@ -23,7 +23,12 @@ export default function AboutUs() {
             Calcot CC is driven with &ldquo;Inspiring Communities&rdquo; at its heart from Day 1. 
             Day 1 in 2022 is when 9 people who shared the passion for cricket and were 
             playing for different clubs in Thames Valley Cricket League (TVCL) came together 
-            to found a club with trust and transparency all around.
+            to found a club with trust and transparency all around. 
+          </p>
+          <p className="leading-relaxed">
+            We have 5 adult teams playing, which includes 2 Saturday Teams, 2 Mid-week Teams 2, 
+            and Friendly Sunday Team. We play in Division 6B and 9B of the Thames Valley Cricket 
+            League (TVCL) and Division 1 and 3 of the Reading Midweek Cricket League (RMCL).
           </p>
           <div>
             <h3 className="text-xl font-bold text-[#012682] mb-4">The guiding values are:</h3>

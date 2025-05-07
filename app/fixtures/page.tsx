@@ -80,220 +80,220 @@ export default function FixturesAndResults() {
         time: '12:30'
       },
       {
-        id: '6737349',
-        date: 'Saturday, May 31, 2025',
-        homeTeam: 'Calcot CC - 1st XI',
-        awayTeam: 'Wokingham CC - 3rd XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
+        id: '6957595',
+        date: 'Thursday, May 22, 2025',
+        homeTeam: 'Reading Lions CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek XI',
+        venue: 'NA',
+        competition: 'Keith Mitchell Memorial Cup 2025',
+        time: '18:30'
       },
       {
-        id: '6737350',
-        date: 'Saturday, May 31, 2025',
-        homeTeam: 'Royal Ascot CC - 3rd XI',
-        awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'Locks Ride Recreation Ground',
-        competition: 'Thames Valley Cricket League - Division 8B',
-        time: '12:30'
-      },
-      {
-        id: '6737351',
-        date: 'Saturday, June 7, 2025',
-        homeTeam: 'Eversley CC - 2nd XI',
+        id: '6736407',
+        date: 'Saturday, May 24, 2025',
+        homeTeam: 'Woodcote CC - 1st XI',
         awayTeam: 'Calcot CC - 1st XI',
-        venue: 'Fox Lane',
+        venue: 'Woodcote',
         competition: 'Thames Valley Cricket League - Division 6B',
-        time: '13:00'
-      },
-      {
-        id: '6737352',
-        date: 'Saturday, June 7, 2025',
-        homeTeam: 'Calcot CC - 2nd XI',
-        awayTeam: 'Twyford & Ruscombe CC - 2nd XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 8B',
-        time: '13:00'
-      },
-      {
-        id: '6737353',
-        date: 'Saturday, June 14, 2025',
-        homeTeam: 'Calcot CC - 1st XI',
-        awayTeam: 'White Waltham CC - 1st XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '13:00'
+        time: '12:30'
       },
       {
         id: '6737354',
-        date: 'Saturday, June 14, 2025',
-        homeTeam: 'Binfield CC - 3rd XI',
-        awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'Foxley Fields',
-        competition: 'Thames Valley Cricket League - Division 8B',
-        time: '13:00'
-      },
-      {
-        id: '6737355',
-        date: 'Saturday, June 21, 2025',
-        homeTeam: 'Boyne Hill CC - 2nd XI',
-        awayTeam: 'Calcot CC - 1st XI',
-        venue: 'Boyne Hill Cricket Club',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '13:00'
-      },
-      {
-        id: '6737356',
-        date: 'Saturday, June 21, 2025',
+        date: 'Saturday, May 24, 2025',
         homeTeam: 'Calcot CC - 2nd XI',
-        awayTeam: 'Kidmore End CC - 2nd XI',
+        awayTeam: 'Woodcote CC - 2nd XI',
         venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 8B',
-        time: '13:00'
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30'
       },
       {
-        id: '6737357',
-        date: 'Saturday, June 28, 2025',
+        id: '6954480',
+        date: 'Tuesday, May 27, 2025',
+        homeTeam: 'Earley CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek XI',
+        venue: 'Bulmershe School',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '18:30'
+      },
+      {
+        id: '6957574',
+        date: 'Thursday, May 29, 2025',
+        homeTeam: 'Calcot CC - Midweek 2nd XI',
+        awayTeam: 'Reading Lions CC - Midweek XI',
+        venue: 'NA',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
+        time: '18:30'
+      },
+      {
+        id: '6736416',
+        date: 'Saturday, May 31, 2025',
         homeTeam: 'Calcot CC - 1st XI',
-        awayTeam: 'Cove CC - 2nd XI',
-        venue: 'Calcot Recreation Ground',
+        awayTeam: 'Peppard Stoke Row CC - 2nd XI',
+        venue: 'Kings Academy Prospect',
         competition: 'Thames Valley Cricket League - Division 6B',
-        time: '13:00'
-      },
-      {
-        id: '6737358',
-        date: 'Saturday, June 28, 2025',
-        homeTeam: 'Wargrave CC - 4th XI',
-        awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'Recreation Ground',
-        competition: 'Thames Valley Cricket League - Division 8B',
-        time: '13:00'
+        time: '12:30'
       },
       {
         id: '6737359',
-        date: 'Saturday, July 5, 2025',
-        homeTeam: 'Calcot CC - 1st XI',
-        awayTeam: 'Purley on Thames CC - 1st XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '13:00'
-      },
-      {
-        id: '6737360',
-        date: 'Saturday, July 5, 2025',
-        homeTeam: 'Woodley CC, Berks - 2nd XI',
+        date: 'Saturday, May 31, 2025',
+        homeTeam: 'Warfield CC - Saturday 1st XI',
         awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'Woodford Park',
-        competition: 'Thames Valley Cricket League - Division 8B',
-        time: '13:00'
+        venue: 'The Memorial Ground',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30'
       },
       {
-        id: '6737361',
-        date: 'Saturday, July 12, 2025',
-        homeTeam: 'Kidmore End CC - 1st XI',
+        id: '6954476',
+        date: 'Wednesday, June 4, 2025',
+        homeTeam: 'Calcot CC - Midweek XI',
+        awayTeam: 'Hurst Rangers CC - Midweek',
+        venue: 'NA',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '18:30'
+      },
+      {
+        id: '6957585',
+        date: 'Wednesday, June 4, 2025',
+        homeTeam: 'Warfield CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek 2nd XI',
+        venue: 'NA',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
+        time: '18:30'
+      },
+      {
+        id: '6736421',
+        date: 'Saturday, June 7, 2025',
+        homeTeam: 'Earley CC - 1st XI',
         awayTeam: 'Calcot CC - 1st XI',
-        venue: 'The Gallowstree Common',
+        venue: 'Bulmershe School',
         competition: 'Thames Valley Cricket League - Division 6B',
-        time: '13:00'
-      },
-      {
-        id: '6737362',
-        date: 'Saturday, July 12, 2025',
-        homeTeam: 'Calcot CC - 2nd XI',
-        awayTeam: 'Wokingham CC - 4th XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 8B',
-        time: '13:00'
-      },
-      {
-        id: '6737363',
-        date: 'Saturday, July 19, 2025',
-        homeTeam: 'Calcot CC - 1st XI',
-        awayTeam: 'Farnham Royal CC - 2nd XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '13:00'
+        time: '12:30'
       },
       {
         id: '6737364',
-        date: 'Saturday, July 19, 2025',
-        homeTeam: 'Theale & Tilehurst CC - 3rd XI',
-        awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'Theale Green Recreation Ground',
-        competition: 'Thames Valley Cricket League - Division 8B',
-        time: '13:00'
-      },
-      {
-        id: '6737365',
-        date: 'Saturday, July 26, 2025',
-        homeTeam: 'Wokingham CC - 3rd XI',
-        awayTeam: 'Calcot CC - 1st XI',
-        venue: 'Sadlers End',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '13:00'
-      },
-      {
-        id: '6737366',
-        date: 'Saturday, July 26, 2025',
+        date: 'Saturday, June 7, 2025',
         homeTeam: 'Calcot CC - 2nd XI',
-        awayTeam: 'Royal Ascot CC - 3rd XI',
+        awayTeam: 'Purley on Thames CC - Saturday 3rd XI',
         venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 8B',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30'
+      },
+      {
+        id: '6888156',
+        date: 'Sunday, June 8, 2025',
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'West Drayton and Iver CC - Sunday 1st XI',
+        venue: 'NA',
+        competition: 'Friendly',
         time: '13:00'
       },
       {
-        id: '6737367',
-        date: 'Saturday, August 2, 2025',
-        homeTeam: 'Calcot CC - 1st XI',
-        awayTeam: 'Eversley CC - 2nd XI',
-        venue: 'Calcot Recreation Ground',
+        id: '6954490',  
+        date: 'Tuesday, June 10, 2025',
+        homeTeam: 'Shinfield CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek XI',
+        venue: 'Manor Ground Sports facility',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '18:30'
+      },
+      {
+        id: '6957576',
+        date: 'Thursday, June 12, 2025',
+        homeTeam: 'Calcot CC - Midweek 2nd XI',
+        awayTeam: 'Wood Group Plc - Midweek XI',
+        venue: 'NA',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
+        time: '18:30'
+      },
+      {
+        id: '6736426',
+        date: 'Saturday, June 14, 2025',
+        homeTeam: 'Stratfield Turgis/Hartley Wespall CC - 1st XI',
+        awayTeam: 'Calcot CC - 1st XI',
+        venue: 'The Green',
         competition: 'Thames Valley Cricket League - Division 6B',
-        time: '13:00'
-      },
-      {
-        id: '6737368',
-        date: 'Saturday, August 2, 2025',
-        homeTeam: 'Twyford & Ruscombe CC - 2nd XI',
-        awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'King George V Playing Field',
-        competition: 'Thames Valley Cricket League - Division 8B',
-        time: '13:00'
+        time: '12:30'
       },
       {
         id: '6737369',
-        date: 'Saturday, August 9, 2025',
-        homeTeam: 'White Waltham CC - 1st XI',
-        awayTeam: 'Calcot CC - 1st XI',
-        venue: 'White Waltham Cricket Club',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '13:00'
-      },
-      {
-        id: '6737370',
-        date: 'Saturday, August 9, 2025',
+        date: 'Saturday, June 14, 2025',
         homeTeam: 'Calcot CC - 2nd XI',
-        awayTeam: 'Binfield CC - 3rd XI',
+        awayTeam: 'Peppard Stoke Row CC - 3rd XI',
         venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 8B',
-        time: '13:00'
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30'
       },
       {
-        id: '6737371',
-        date: 'Saturday, August 16, 2025',
+        id: '6954495',
+        date: 'Tuesday, June 17, 2025',
+        homeTeam: 'Theale and Tilehurst CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek XI',
+        venue: 'NA',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '18:30'
+      },
+      {
+        id: '6957581',
+        date: 'Thursday, June 19, 2025',
+        homeTeam: 'Reading Lions CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek 2nd XI',
+        venue: 'NA',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
+        time: '18:30'
+      },
+      {
+        id: '6736430',
+        date: 'Saturday, June 21, 2025',
         homeTeam: 'Calcot CC - 1st XI',
-        awayTeam: 'Boyne Hill CC - 2nd XI',
-        venue: 'Calcot Recreation Ground',
+        awayTeam: 'Reading CC - 3rd XI',
+        venue: 'Kings Academy Prospect',
         competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30'
+      },
+      {
+        id: '6737373',
+        date: 'Saturday, June 21, 2025',
+        homeTeam: 'Crowthorne & Crown Wood CC - 4th XI',
+        awayTeam: 'Calcot CC - 2nd XI',
+        venue: 'Great Hollands Recreation Ground',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30'
+      },
+      {
+        id: '6696419',
+        date: 'Sunday, June 22, 2025',
+        homeTeam: 'Warfield CC - Sunday XI',
+        awayTeam: 'Calcot CC - Friendly XI',
+        venue: 'The Memorial Ground',
+        competition: 'Friendly',
         time: '13:00'
       },
       {
-        id: '6737372',
-        date: 'Saturday, August 16, 2025',
-        homeTeam: 'Kidmore End CC - 2nd XI',
-        awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'The Gallowstree Common',
-        competition: 'Thames Valley Cricket League - Division 8B',
-        time: '13:00'
+        id: '6954475',
+        date: 'Wednesday, June 25, 2025',
+        homeTeam: 'Calcot CC - Midweek XI',
+        awayTeam: 'Earley CC - Midweek XI',
+        venue: 'NA',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '18:30'
+      },
+      {
+        id: '6736435',
+        date: 'Saturday, June 28, 2025',
+        homeTeam: 'Hurley CC - 1st XI',
+        awayTeam: 'Calcot CC - 1st XI',
+        venue: 'Hurley CC',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30'
+      },
+      {
+        id: '6737377',
+        date: 'Saturday, June 28, 2025',
+        homeTeam: 'Calcot CC - 2nd XI',
+        awayTeam: 'Reading CC - 4th XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30'
       },
       {
         id: '6737373',
@@ -664,7 +664,7 @@ export default function FixturesAndResults() {
           {/* Fixtures Section */}
           <div>
             <div className="flex justify-between items-center mb-4">
-              <h2 className="text-2xl font-bold text-[#012682] border-b-2 border-[#012682] pb-2">Fixtures 🗓️</h2>
+              <h2 className="text-2xl font-bold text-[#012682] border-b-2 border-[#012682] pb-2">Fixtures</h2>
               <div className="flex space-x-2">
                 <button 
                   onClick={() => scrollFixtures('left')}
@@ -700,7 +700,7 @@ export default function FixturesAndResults() {
                 {fixtures.map((match) => (
                   <div 
                     key={match.id} 
-                    className="min-w-[480px] w-[600px] flex-shrink-0 rounded-lg border border-gray-200 overflow-hidden shadow-md hover:shadow-lg transition-all snap-start flex flex-col"
+                    className="min-w-[480px] w-[500px] flex-shrink-0 rounded-lg border border-gray-200 overflow-hidden shadow-md hover:shadow-lg transition-all snap-start flex flex-col"
                   >
                     <div className="bg-[#012682] text-white px-6 py-4">
                       <span className="font-bold text-lg">{match.competition}</span>
@@ -730,19 +730,19 @@ export default function FixturesAndResults() {
                           <span className="font-bold text-lg">{match.date}</span>
                         </div>
                         
-                        <div className="text-gray-800 flex items-center gap-3 bg-gray-50 p-4 rounded-lg">
+                        <div className="text-gray-800 flex items-center justify-center gap-3 bg-gray-50 p-4 rounded-lg">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-[#012682] flex-shrink-0">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                           </svg>
-                          <span className="font-bold">{match.venue}</span>
+                          <span className="font-bold text-center">{match.venue}</span>
                         </div>
                         
-                        <div className="text-gray-800 flex items-center gap-3 bg-gray-50 p-4 rounded-lg">
+                        <div className="text-gray-800 flex items-center justify-center gap-3 bg-gray-50 p-4 rounded-lg">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-[#012682] flex-shrink-0">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
                           </svg>
-                          <span className="font-bold">Start Time: {match.time}</span>
+                          <span className="font-bold text-center">Start Time: {match.time}</span>
                         </div>
                       </div>
                     </div>
@@ -767,7 +767,7 @@ export default function FixturesAndResults() {
           {/* Results Section */}
           <div>
             <div className="flex justify-between items-center mb-4">
-              <h2 className="text-2xl font-bold text-[#012682] border-b-2 border-[#012682] pb-2">Results 🏆</h2>
+              <h2 className="text-2xl font-bold text-[#012682] border-b-2 border-[#012682] pb-2">Results</h2>
               <div className="flex space-x-2">
                 <button 
                   onClick={() => scrollResults('left')}
@@ -803,7 +803,7 @@ export default function FixturesAndResults() {
                 {results.map((match) => (
                   <div 
                     key={match.id} 
-                    className="min-w-[480px] w-[600px] flex-shrink-0 rounded-lg border border-gray-200 overflow-hidden shadow-md hover:shadow-lg transition-all snap-start flex flex-col"
+                    className="min-w-[480px] w-[500px] flex-shrink-0 rounded-lg border border-gray-200 overflow-hidden shadow-md hover:shadow-lg transition-all snap-start flex flex-col"
                   >
                     <div className="bg-[#012682] text-white px-6 py-4">
                       <span className="font-bold text-lg">{match.competition}</span>
@@ -840,12 +840,12 @@ export default function FixturesAndResults() {
                           <span className="font-bold text-lg">{match.date}</span>
                         </div>
                         
-                        <div className="text-gray-800 flex items-center gap-3 bg-gray-50 p-4 rounded-lg">
+                        <div className="text-gray-800 flex items-center justify-center gap-3 bg-gray-50 p-4 rounded-lg">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-[#012682] flex-shrink-0">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
                             <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
                           </svg>
-                          <span className="font-bold">{match.venue}</span>
+                          <span className="font-bold text-center">{match.venue}</span>
                         </div>
                       </div>
                     </div>
