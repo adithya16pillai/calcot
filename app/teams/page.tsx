@@ -73,11 +73,11 @@ export default function TeamsPage() {
               />
             </div>
             <div className="p-4">
-              <h2 className="text-xl font-semibold">{team.name}</h2>
-              <p className="text-sm text-[#012682] font-medium mt-1"><strong>{team.division}</strong></p>
-              <p className="mt-3 text-gray-600">{team.description}</p>
+              <h2 className="text-2xl font-semibold">{team.name}</h2>
+              <p className="text-base text-[#012682] font-medium mt-1"><strong>{team.division}</strong></p>
+              <p className="mt-3 text-lg text-gray-600">{team.description}</p>
               <div className="mt-4 flex">
-                <span className="text-[#012682] font-medium flex items-center">
+                <span className="text-[#012682] font-bold flex items-center text-lg">
                   View Team
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" className="ml-2">
                     <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
