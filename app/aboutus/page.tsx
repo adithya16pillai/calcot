@@ -68,14 +68,6 @@ export default function AboutUs() {
                   <div className="space-y-2">
                     <h4 className="text-xl font-bold text-gray-900">Mudit Sharma</h4>
                     <p className="text-lg text-[#012682] font-medium">Chairman</p>
-                    <a 
-                      href="https://calcotcc.play-cricket.com/player_stats/batting/5679415" 
-                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      View Profile
-                    </a>
                   </div>
                 </div>
               </div>
@@ -94,14 +86,6 @@ export default function AboutUs() {
                   <div className="space-y-2">
                     <h4 className="text-xl font-bold text-gray-900">Vinayaka Kamath</h4>
                     <p className="text-lg text-[#012682] font-medium">Secretary</p>
-                    <a 
-                      href="https://calcotcc.play-cricket.com" 
-                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      View Profile
-                    </a>
                   </div>
                 </div>
               </div>
@@ -120,14 +104,6 @@ export default function AboutUs() {
                   <div className="space-y-2">
                     <h4 className="text-xl font-bold text-gray-900">Rahul Aul</h4>
                     <p className="text-lg text-[#012682] font-medium">Treasurer</p>
-                    <a 
-                      href="https://calcotcc.play-cricket.com/player_stats/batting/5527757" 
-                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      View Profile
-                    </a>
                   </div>
                 </div>
               </div>
@@ -151,14 +127,6 @@ export default function AboutUs() {
                   <div className="space-y-2">
                     <h4 className="text-xl font-bold text-gray-900">Sunil Varrikkara</h4>
                     <p className="text-lg text-[#012682] font-medium">First XI Captain</p>
-                    <a 
-                      href="https://calcotcc.play-cricket.com/player_stats/batting/5832164?sub_tab=batting_summary&tab=batting" 
-                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      View Profile
-                    </a>
                   </div>
                 </div>
               </div>
@@ -167,7 +135,7 @@ export default function AboutUs() {
                 <div className="flex flex-col items-center text-center space-y-4">
                   <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
                     <Image 
-                      src="/about/captain2.png" 
+                      src="/about/captain2.jpg" 
                       alt="Second XI Captain" 
                       fill
                       className="object-cover"
@@ -175,42 +143,8 @@ export default function AboutUs() {
                     />
                   </div>
                   <div className="space-y-2">
-                    <h4 className="text-xl font-bold text-gray-900">Rahul Singhal</h4>
+                    <h4 className="text-xl font-bold text-gray-900">Piyush Bedi</h4>
                     <p className="text-lg text-[#012682] font-medium">Second XI Captain</p>
-                    <a 
-                      href="https://calcotcc.play-cricket.com/player_stats/batting/5089066" 
-                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      View Profile
-                    </a>
-                  </div>
-                </div>
-              </div>
-
-              <div className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
-                <div className="flex flex-col items-center text-center space-y-4">
-                  <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
-                    <Image 
-                      src="/about/captain3.png" 
-                      alt="T20 Captain" 
-                      fill
-                      className="object-cover"
-                      priority
-                    />
-                  </div>
-                  <div className="space-y-2">
-                    <h4 className="text-xl font-bold text-gray-900">Pramuldeep Pai</h4>
-                    <p className="text-lg text-[#012682] font-medium">First Midweek XI Captain</p>
-                    <a 
-                      href="https://calcotcc.play-cricket.com/player_stats/batting/4863628" 
-                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      View Profile
-                    </a>
                   </div>
                 </div>
               </div>
@@ -220,6 +154,24 @@ export default function AboutUs() {
                   <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
                     <Image 
                       src="/about/captain4.png" 
+                      alt="T20 Captain" 
+                      fill
+                      className="object-cover"
+                      priority
+                    />
+                  </div>
+                  <div className="space-y-2">
+                    <h4 className="text-xl font-bold text-gray-900">Dani Katuri</h4>
+                    <p className="text-lg text-[#012682] font-medium">First Midweek XI Captain</p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-white rounded-xl p-6 hover:shadow-lg transition-shadow">
+                <div className="flex flex-col items-center text-center space-y-4">
+                  <div className="w-32 h-32 relative rounded-full overflow-hidden bg-gray-100 border-4 border-[#012682]">
+                    <Image 
+                      src="/about/captain3.png" 
                       alt="Sunday XI Captain" 
                       fill
                       className="object-cover"
@@ -227,16 +179,8 @@ export default function AboutUs() {
                     />
                   </div>
                   <div className="space-y-2">
-                    <h4 className="text-xl font-bold text-gray-900">Piyush Bedi</h4>
+                    <h4 className="text-xl font-bold text-gray-900">Pramuldeep Pai</h4>
                     <p className="text-lg text-[#012682] font-medium">Second Midweek XI Captain</p>
-                    <a 
-                      href="hhttps://calcotcc.play-cricket.com/player_stats/batting/5595332" 
-                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      View Profile
-                    </a>
                   </div>
                 </div>
               </div>
@@ -255,14 +199,6 @@ export default function AboutUs() {
                   <div className="space-y-2">
                     <h4 className="text-xl font-bold text-gray-900">Veerendra Kolhar</h4>
                     <p className="text-lg text-[#012682] font-medium">Friendly Team XI Captain</p>
-                    <a 
-                      href="https://calcotcc.play-cricket.com/player_stats/batting/5617199" 
-                      className="inline-block mt-2 px-4 py-2 bg-[#012682] text-white rounded-full text-sm font-medium hover:bg-[#011d5e] transition-colors"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      View Profile
-                    </a>
                   </div>
                 </div>
               </div>
