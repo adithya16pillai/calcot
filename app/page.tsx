@@ -31,27 +31,27 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 1,
-      date: "15 May 2025",
-      competition: "Berkshire Cricket League Div 1",
-      teams: "Calcot CC vs Reading CC",
-      venue: "Calcot Recreation Ground",
+      id: 6736399,
+      date: "Saturday 10 May 2025",
+      competition: "Thames Valley Cricket League - Division 6B",
+      teams: "Purley on Thames CC - 1st XI vs Reading CC",
+      venue: "Goosecroft",
       time: "13:30"
     },
     {
-      id: 2,
-      date: "22 May 2025",
-      competition: "Berkshire Cricket League Div 3",
-      teams: "Newbury CC vs Calcot CC",
-      venue: "Newbury Cricket Ground",
+      id: 6737344,
+      date: "Saturday 10 May 2025",
+      competition: "Thames Valley Cricket League - Division 9B",
+      teams: "Calcot CC - 2nd XI vs Woodley CC, Berks - 2nd XI",
+      venue: "Kings Academy Prospect",
       time: "14:00"
     },
     {
-      id: 3,
-      date: "29 May 2025",
-      competition: "Sunday Friendly",
-      teams: "Calcot CC vs Theale CC",
-      venue: "Calcot Recreation Ground",
+      id: 6957577,
+      date: "Wednesday 14 May 2025",
+      competition: "Berkshire Cricket Competitions (RMCL) - Division 3",
+      teams: "Emmbrook and Bearwood CC - Midweek XI vs Calcot CC - Midweek 2nd XI",
+      venue: "Emmbrook and Bearwood CC",
       time: "13:00"
     }
   ];
@@ -96,67 +96,65 @@ export default function Home() {
       <section>
         <h2 className="text-3xl font-semibold mb-6 font-gibson">Upcoming Matches</h2>
         
-        <div className="flex flex-col gap-5">
+        <div className="flex gap-4 overflow-x-auto pb-4 snap-x">
           {upcomingFixtures.map((fixture) => (
             <div 
               key={fixture.id} 
-              className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all border border-gray-100 relative"
+              className="min-w-[350px] w-[350px] flex-shrink-0 rounded-lg border border-gray-200 overflow-hidden shadow-md hover:shadow-lg transition-all snap-start flex flex-col"
             >
-              <div className="p-6">
-                {/* Header row with league */}
-                <div className="mb-4">
-                  <div className="bg-red-600 text-white py-2 px-4 rounded-md font-bold text-base font-montserrat inline-block">
-                    {fixture.competition}
+              <div className="bg-[#012682] text-white px-6 py-3">
+                <span className="font-bold text-base">{fixture.competition}</span>
+              </div>
+              
+              <div className="p-6 flex flex-col h-[250px] justify-between">
+                {/* Top section with teams */}
+                <div>
+                  {/* Teams Section - Larger font */}
+                  <div className="flex items-center justify-center space-x-4 mb-5">
+                    <div className="text-right w-5/12 flex flex-col justify-center items-end">
+                      <h3 className="font-bold text-md" title={fixture.teams.split("vs")[0].trim()}>
+                        {fixture.teams.split("vs")[0].trim()}
+                      </h3>
+                    </div>
+                    <div className="flex-shrink-0 bg-gray-100 rounded-full px-2 py-1 text-gray-700 font-bold">vs</div>
+                    <div className="w-5/12 flex flex-col justify-center">
+                      <h3 className="font-bold text-md" title={fixture.teams.split("vs")[1].trim()}>
+                        {fixture.teams.split("vs")[1].trim()}
+                      </h3>
+                    </div>
                   </div>
                 </div>
                 
-                {/* Teams - Split into home and away */}
-                <div className="text-center py-5">
-                  {fixture.teams.split("vs").map((team, index) => (
-                    <h3 key={index} className="font-black text-2xl md:text-3xl text-gray-800 uppercase tracking-wide font-gibson my-1">
-                      {team.trim()}
-                      {index === 0 && <span className="font-normal text-gray-500 mx-2">vs</span>}
-                    </h3>
-                  ))}
-                </div>
-                
-                {/* Footer row with venue, date and time */}
-                <div className="flex flex-wrap justify-between items-center mt-4 gap-4">
-                  <div className="flex items-center gap-2">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" className="flex-shrink-0 text-red-600">
-                      <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                {/* Bottom section with fixed details - reduced top margin */}
+                <div className="space-y-3">
+                  <div className="text-center text-gray-800 flex items-center justify-center gap-2 bg-gray-50 p-3 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 text-[#012682] flex-shrink-0">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
                     </svg>
-                    <span className="font-bold text-gray-700 text-lg font-roboto">{fixture.venue}</span>
+                    <span className="font-bold">{fixture.date}</span>
                   </div>
                   
-                  <div className="flex items-center gap-4">
-                    <div className="font-bold text-gray-800 text-lg font-gibson">
-                      {fixture.date}
-                    </div>
-                    {fixture.time && (
-                      <div className="flex items-center gap-2">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" viewBox="0 0 16 16" className="flex-shrink-0 text-red-600">
-                          <path d="M8 3.5a.5.5 0 0 0-1 0V9a.5.5 0 0 0 .252.434l3.5 2a.5.5 0 0 0 .496-.868L8 8.71V3.5z"/>
-                          <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm7-8A7 7 0 1 1 1 8a7 7 0 0 1 14 0z"/>
-                        </svg>
-                        <span className="font-bold text-gray-700 text-lg font-roboto">{fixture.time}</span>
-                      </div>
-                    )}
+                  <div className="text-gray-800 flex items-center justify-center gap-2 bg-gray-50 p-3 rounded-lg">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 text-[#012682] flex-shrink-0">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                    </svg>
+                    <span className="font-bold text-sm text-center">{fixture.venue}</span>
                   </div>
                 </div>
               </div>
               
-              {/* Arrow link to play-cricket */}
-              <Link 
-                href="https://play-cricket.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 flex items-center justify-center bg-gray-100 hover:bg-gray-200 rounded-full transition-colors"
-              >
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#666" viewBox="0 0 16 16">
-                  <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                </svg>
-              </Link>
+              {/* Fixed position button - removed icon */}
+              <div className="px-6 pb-6 pt-2 mt-auto">
+                <a 
+                  href={`https://calcotcc.play-cricket.com/match_details?id=${fixture.id}`}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center bg-[#012682] text-white px-5 py-3 rounded-full hover:bg-blue-800 transition-all duration-200 text-sm font-bold shadow-sm hover:shadow-md w-full"
+                >
+                  <span>Live Scorecard</span>
+                </a>
+              </div>
             </div>
           ))}
         </div>
