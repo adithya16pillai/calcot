@@ -296,292 +296,292 @@ export default function FixturesAndResults() {
         time: '12:30'
       },
       {
-        id: '6737373',
-        date: 'Saturday, August 23, 2025',
-        homeTeam: 'Cove CC - 2nd XI',
-        awayTeam: 'Calcot CC - 1st XI',
-        venue: 'Cove Cricket Club',
+        id: '6954485',
+        date: 'Tuesday, July 1, 2025',
+        homeTeam: 'Hurst Rangers CC - Midweek - RMCL',
+        awayTeam: 'Calcot CC - Midweek XI',
+        venue: 'Hurst Rangers Cricket Club',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '18:30'
+      },
+      {
+        id: '6957573',
+        date: 'Thursday, July 3, 2025',
+        homeTeam: 'Calcot CC - Midweek 2nd XI',
+        awayTeam: 'Emmbrook and Bearwood CC - Midweek XI',
+        venue: 'NA',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
+        time: '18:30'
+      },
+      {
+        id: '6736439',
+        date: 'Saturday, July 5, 2025',
+        homeTeam: 'Calcot CC - 1st XI',
+        awayTeam: 'West Reading CC - 1st XI',
+        venue: 'Kings Academy Prospect',
         competition: 'Thames Valley Cricket League - Division 6B',
         time: '12:30'
       },
       {
-        id: '6737374',
-        date: 'Saturday, August 23, 2025',
-        homeTeam: 'Calcot CC - 2nd XI',
-        awayTeam: 'Wargrave CC - 4th XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 8B',
+        id: '6737383',
+        date: 'Saturday, July 5, 2025',
+        homeTeam: 'Wokingham CC - 6th XI',
+        awayTeam: 'Calcot CC - 2nd XI',
+        venue: 'NA',
+        competition: 'Thames Valley Cricket League - Division 9B',
         time: '12:30'
       },
       {
-        id: '6737375',
-        date: 'Sunday, May 11, 2025',
-        homeTeam: 'Calcot CC - Sunday XI',
-        awayTeam: 'Sonning CC - Sunday XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Friendly Match',
-        time: '14:00'
-      },
-      {
-        id: '6737376',
-        date: 'Sunday, May 18, 2025',
-        homeTeam: 'Bradfield CC - Sunday XI',
-        awayTeam: 'Calcot CC - Sunday XI',
-        venue: 'Bradfield College',
-        competition: 'Friendly Match',
-        time: '14:00'
-      },
-      {
-        id: '6737377',
-        date: 'Sunday, May 25, 2025',
-        homeTeam: 'Calcot CC - Sunday XI',
-        awayTeam: 'Sulhamstead & Ufton CC - Sunday XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Friendly Match',
-        time: '14:00'
-      },
-      {
-        id: '6737378',
-        date: 'Sunday, June 1, 2025',
-        homeTeam: 'Peppard Stoke Row CC - Sunday XI',
-        awayTeam: 'Calcot CC - Sunday XI',
-        venue: 'Peppard Common',
-        competition: 'Friendly Match',
-        time: '14:00'
-      },
-      {
-        id: '6737379',
-        date: 'Sunday, June 8, 2025',
-        homeTeam: 'Calcot CC - Sunday XI',
-        awayTeam: 'Shinfield CC - Sunday XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Berkshire Cricket League - Sunday Division',
-        time: '14:00'
-      },
-      {
-        id: '6737380',
-        date: 'Sunday, June 15, 2025',
-        homeTeam: 'West Reading CC - Sunday XI',
-        awayTeam: 'Calcot CC - Sunday XI',
-        venue: 'Reading University',
-        competition: 'Berkshire Cricket League - Sunday Division',
-        time: '14:00'
-      },
-      {
-        id: '6737381',
-        date: 'Sunday, June 22, 2025',
-        homeTeam: 'Calcot CC - Sunday XI',
-        awayTeam: 'Bradfield CC - Sunday XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Berkshire Cricket League - Sunday Division',
-        time: '14:00'
-      },
-      {
-        id: '6737382',
-        date: 'Sunday, June 29, 2025',
-        homeTeam: 'Farley Hill CC - Sunday XI',
-        awayTeam: 'Calcot CC - Sunday XI',
-        venue: 'Church Lane',
-        competition: 'Berkshire Cricket League - Sunday Division',
-        time: '14:00'
-      },
-      {
-        id: '6737383',
+        id: '6888160',
         date: 'Sunday, July 6, 2025',
-        homeTeam: 'Calcot CC - Sunday XI',
-        awayTeam: 'Sandhurst CC - Sunday XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Berkshire Cricket League - Sunday Division',
-        time: '14:00'
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'West Drayton and Iver CC - Sunday 1st XI',
+        venue: 'NA',
+        competition: 'Friendly',
+        time: '13:00'
       },
       {
-        id: '6737384',
-        date: 'Sunday, July 13, 2025',
-        homeTeam: 'Shinfield CC - Sunday XI',
-        awayTeam: 'Calcot CC - Sunday XI',
-        venue: 'Shinfield Cricket Club',
-        competition: 'Berkshire Cricket League - Sunday Division',
-        time: '14:00'
+        id: '7070255',
+        date: 'Sunday, July 6, 2025',
+        homeTeam: 'Farley Hill CC - Sunday 1st XI',
+        awayTeam: 'Calcot CC - Friendly XI',
+        venue: 'Farley Hill Cricket Ground',
+        competition: 'Friendly',
+        time: '13:00'
       },
       {
-        id: '6737385',
-        date: 'Sunday, July 20, 2025',
-        homeTeam: 'Calcot CC - Sunday XI',
-        awayTeam: 'West Reading CC - Sunday XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Berkshire Cricket League - Sunday Division',
-        time: '14:00'
+        id: '6954479',
+        date: 'Wednesday, July 9, 2025',
+        homeTeam: 'Calcot CC - Midweek XI',
+        awayTeam: 'Tilehurst CC - Midweek XI',
+        venue: 'NA',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '18:30'
       },
       {
-        id: '6737386',
-        date: 'Sunday, July 27, 2025',
-        homeTeam: 'Bradfield CC - Sunday XI',
-        awayTeam: 'Calcot CC - Sunday XI',
-        venue: 'Bradfield College',
-        competition: 'Berkshire Cricket League - Sunday Division',
-        time: '14:00'
+        id: '6957589',
+        date: 'Thursday, July 10, 2025',
+        homeTeam: 'Wood Group Plc - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek 2nd XI',
+        venue: 'NA',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
+        time: '18:30'
       },
       {
-        id: '6737387',
-        date: 'Sunday, August 3, 2025',
-        homeTeam: 'Calcot CC - Sunday XI',
-        awayTeam: 'Farley Hill CC - Sunday XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Berkshire Cricket League - Sunday Division',
-        time: '14:00'
-      },
-      {
-        id: '6737388',
-        date: 'Sunday, August 10, 2025',
-        homeTeam: 'Sandhurst CC - Sunday XI',
-        awayTeam: 'Calcot CC - Sunday XI',
-        venue: 'Memorial Park',
-        competition: 'Berkshire Cricket League - Sunday Division',
-        time: '14:00'
+        id: '6736444',
+        date: 'Saturday, July 12, 2025',
+        homeTeam: 'Calcot CC - 1st XI',
+        awayTeam: 'Purley on Thames CC - Saturday 2nd XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30'
       },
       {
         id: '6737389',
-        date: 'Sunday, August 17, 2025',
-        homeTeam: 'Calcot CC - Sunday XI',
-        awayTeam: 'Reading CC - Sunday XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Friendly Match',
+        date: 'Saturday, July 12, 2025',
+        homeTeam: 'Woodley CC, Berks - 2nd XI',
+        awayTeam: 'Calcot CC - 2nd XI',
+        venue: 'NA',
+        competition: 'Thames Valley Cricket League - Division 9B',
         time: '13:30'
       },
       {
-        id: '6737390',
-        date: 'Sunday, August 24, 2025',
-        homeTeam: 'Mortimer West End CC - Sunday XI',
-        awayTeam: 'Calcot CC - Sunday XI',
-        venue: 'Mortimer Cricket Ground',
-        competition: 'Friendly Match',
-        time: '13:30'
-      },
-      {
-        id: '6737391',
-        date: 'Wednesday, May 14, 2025',
+        id: '6954477',
+        date: 'Wednesday, July 16, 2025',
         homeTeam: 'Calcot CC - Midweek XI',
-        awayTeam: 'Wokingham CC - Midweek XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Berkshire Midweek League',
-        time: '18:00'
+        awayTeam: 'Shinfield CC - Midweek XI',
+        venue: 'NA',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '18:30'
       },
       {
-        id: '6737392',
-        date: 'Wednesday, May 21, 2025',
-        homeTeam: 'Reading CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek XI',
-        venue: 'Sonning Lane',
-        competition: 'Berkshire Midweek League',
-        time: '18:00'
+        id: '6957575',
+        date: 'Thursday, July 17, 2025',
+        homeTeam: 'Calcot CC - Midweek 2nd XI',
+        awayTeam: 'Warfield CC - Midweek XI',
+        venue: 'NA',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
+        time: '18:30'
       },
       {
-        id: '6737393',
-        date: 'Wednesday, May 28, 2025',
-        homeTeam: 'Calcot CC - Midweek XI',
-        awayTeam: 'Theale & Tilehurst CC - Midweek XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Berkshire Midweek League',
-        time: '18:00'
+        id: '6736448',
+        date: 'Saturday, July 19, 2025',
+        homeTeam: 'Checkendon CC - 1st XI',
+        awayTeam: 'Calcot CC - 1st XI',
+        venue: 'Checkendon Cricket Club',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30'
       },
       {
         id: '6737394',
-        date: 'Wednesday, June 4, 2025',
-        homeTeam: 'Sonning CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek XI',
-        venue: 'King George V Playing Field',
-        competition: 'Berkshire Midweek League',
-        time: '18:15'
+        date: 'Saturday, July 19, 2025',
+        homeTeam: 'Calcot CC - 2nd XI',
+        awayTeam: 'Goring on Thames CC - 2nd XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30'
       },
       {
-        id: '6737395',
-        date: 'Wednesday, June 11, 2025',
+        id: '7088410',
+        date: 'Sunday, July 20, 2025',
+        homeTeam: 'Kidmore End CC - 1st XI',
+        awayTeam: 'Calcot CC - Friendly XI',
+        venue: 'Gallowstree Common',
+        competition: 'Friendly',
+        time: '13:00'
+      },
+      {
+        id: '6954478',
+        date: 'Wednesday, July 23, 2025',
         homeTeam: 'Calcot CC - Midweek XI',
-        awayTeam: 'Earley CC - Midweek XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Berkshire Midweek League',
-        time: '18:15'
+        awayTeam: 'Theale and Tilehurst CC - Midweek XI',
+        venue: 'NA',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '18:30'
       },
       {
-        id: '6737396',
-        date: 'Wednesday, June 18, 2025',
-        homeTeam: 'Bradfield CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek XI',
-        venue: 'Bradfield College',
-        competition: 'Berkshire Midweek League',
-        time: '18:15'
-      },
-      {
-        id: '6737397',
-        date: 'Wednesday, June 25, 2025',
-        homeTeam: 'Calcot CC - Midweek XI',
-        awayTeam: 'Purley on Thames CC - Midweek XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Berkshire Midweek League',
-        time: '18:15'
-      },
-      {
-        id: '6737398',
-        date: 'Wednesday, July 2, 2025',
-        homeTeam: 'Wokingham CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek XI',
-        venue: 'Sadlers End',
-        competition: 'Berkshire Midweek League',
-        time: '18:15'
+        id: '6736452',
+        date: 'Saturday, July 26, 2025',
+        homeTeam: 'Calcot CC - 1st XI',
+        awayTeam: 'Woodcote CC - 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30'
       },
       {
         id: '6737399',
-        date: 'Wednesday, July 9, 2025',
-        homeTeam: 'Calcot CC - Midweek XI',
-        awayTeam: 'Reading CC - Midweek XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Berkshire Midweek League',
-        time: '18:15'
+        date: 'Saturday, July 26, 2025',
+        homeTeam: 'Woodcote CC - 2nd XI',
+        awayTeam: 'Calcot CC - Sunday XI',
+        venue: 'NA',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30'
       },
       {
-        id: '6737400',
-        date: 'Wednesday, July 16, 2025',
-        homeTeam: 'Theale & Tilehurst CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek XI',
-        venue: 'Theale Green Recreation Ground',
-        competition: 'Berkshire Midweek League',
-        time: '18:15'
-      },
-      {
-        id: '6737401',
-        date: 'Wednesday, July 23, 2025',
-        homeTeam: 'Calcot CC - Midweek XI',
-        awayTeam: 'Sonning CC - Midweek XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Berkshire Midweek League',
-        time: '18:15'
-      },
-      {
-        id: '6737402',
-        date: 'Wednesday, July 30, 2025',
-        homeTeam: 'Earley CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek XI',
-        venue: 'Bulmershe School',
-        competition: 'Berkshire Midweek League',
-        time: '18:15'
-      },
-      {
-        id: '6737403',
-        date: 'Wednesday, August 6, 2025',
-        homeTeam: 'Calcot CC - Midweek XI',
-        awayTeam: 'Bradfield CC - Midweek XI',
-        venue: 'Calcot Recreation Ground',
-        competition: 'Berkshire Midweek League',
-        time: '18:00'
+        id: '6736461',
+        date: 'Saturday, August 2, 2025',
+        homeTeam: 'Peppard Stoke Row CC - 2nd XI',
+        awayTeam: 'Calcot CC - 1st XI',
+        venue: 'Peppard Common',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30'
       },
       {
         id: '6737404',
-        date: 'Wednesday, August 13, 2025',
-        homeTeam: 'Purley on Thames CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek XI',
-        venue: 'Goosecroft',
-        competition: 'Berkshire Midweek League',
-        time: '18:00'
+        date: 'Saturday, August 2, 2025',
+        homeTeam: 'Calcot CC - 2nd XI',
+        awayTeam: 'Warfield CC - Saturday 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30'
+      },
+      {
+        id: '7108110',
+        date: 'Sunday, August 3, 2025',
+        homeTeam: 'Hampstead Norreys CC - Sunday 2nd XI',
+        awayTeam: 'Calcot CC - Friendly XI',
+        venue: 'The Dean Meadow',
+        competition: 'Friendly',
+        time: '12:30'
+      },
+      {
+        id: '6736466',
+        date: 'Saturday, August 9, 2025',
+        homeTeam: 'Calcot CC - 1st XI',
+        awayTeam: 'Earley CC - 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30'
+      },
+      {
+        id: '6737409',
+        date: 'Saturday, August 9, 2025',
+        homeTeam: 'Purley on Thames CC - Saturday 3rd XI',
+        awayTeam: 'Calcot CC - 2nd XI',
+        venue: 'Yattendon CC',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30'
+      },
+      {
+        id: '6696512',
+        date: 'Sunday, August 10, 2025',
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'Warfield CC - Sunday XI',
+        venue: 'NA',
+        competition: 'Friendly',
+        time: '13:00'
+      },
+      {
+        id: '6736471',
+        date: 'Saturday, August 16, 2025',
+        homeTeam: 'Calcot CC - 1st XI',
+        awayTeam: 'Stratfield Turgis/Hartley Wespall CC - 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30'
+      },
+      {
+        id: '6737414',
+        date: 'Saturday, August 16, 2025',
+        homeTeam: 'Peppard Stoke Row CC - 3rd XI',
+        awayTeam: 'Calcot CC - 2nd XI',
+        venue: 'NA',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30'
+      },
+      {
+        id: '6736475',
+        date: 'Saturday, August 23, 2025',
+        homeTeam: 'Reading CC - 3rd XI',
+        awayTeam: 'Calcot CC - 1st XI',
+        venue: 'Sonning Lane',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30'
+      },
+      {
+        id: '6737418',
+        date: 'Saturday, August 23, 2025',
+        homeTeam: 'Calcot CC - 2nd XI',
+        awayTeam: 'Crowthorne & Crown Wood CC - 4th XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30'
+      },
+      {
+        id: '6736480',
+        date: 'Saturday, August 30, 2025',
+        homeTeam: 'Calcot CC - 1st XI',
+        awayTeam: 'Hurley CC - 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30'
+      },
+      {
+        id: '6737422',
+        date: 'Saturday, August 30, 2025',
+        homeTeam: 'Reading CC - 4th XI',
+        awayTeam: 'Calcot CC - 2nd XI',
+        venue: 'Sonning Lane',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30'
+      },
+      {
+        id: '6736484',
+        date: 'Saturday, September 6, 2025',
+        homeTeam: 'West Reading CC - 1st XI',
+        awayTeam: 'Calcot CC - 1st XI',
+        venue: 'Reading School',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30'
+      },
+      {
+        id: '6737428',
+        date: 'Saturday, September 6, 2025',
+        homeTeam: 'Calcot CC - 2nd XI',
+        awayTeam: 'Wokingham CC - 6th XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30'
       }
     ];
     
