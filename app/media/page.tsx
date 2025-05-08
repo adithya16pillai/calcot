@@ -11,9 +11,6 @@ export default function MediaPage() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    // In production, you'd ideally have a server-side or API route to get media files
-    // This is a frontend-only approach that requires pre-knowledge of images
-    // You could also create an API route that reads from the public/media directory
     fetch('/api/media')
       .then(res => res.json())
       .then(data => {
@@ -22,12 +19,10 @@ export default function MediaPage() {
       })
       .catch(err => {
         console.error('Failed to fetch images:', err);
-        // Fallback with some example images if API doesn't exist yet
         setImages([
           '/media/image1.jpg',
           '/media/image2.jpg',
           '/media/image3.jpg',
-          // Add more image paths as needed
         ]);
         setLoading(false);
       });
@@ -63,7 +58,6 @@ export default function MediaPage() {
         </div>
       )}
 
-      {/* Full-screen image modal */}
       <Dialog 
         open={selectedImage !== null} 
         onClose={() => setSelectedImage(null)}

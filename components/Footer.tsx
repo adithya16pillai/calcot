@@ -1,13 +1,12 @@
 import React from 'react';
 import Link from 'next/link';
-import { FaXTwitter } from 'react-icons/fa6'; // Import X/Twitter icon
+import { FaXTwitter } from 'react-icons/fa6'; 
 
 const Footer = () => {
   return (
     <footer className="bg-[#012682] text-white mt-12 py-8">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-8">
-          {/* Address and Map */}
           <div className="text-center">
             <h3 className="font-semibold text-xl mb-3">CALCOT CRICKET CLUB</h3>
             <p className="text-gray-200">
@@ -16,7 +15,6 @@ const Footer = () => {
               Reading RG30 4EX
             </p>
             
-            {/* Map Embed */}
             <div className="mt-4 relative w-full max-w-md mx-auto h-48 rounded-md overflow-hidden">
               <iframe 
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2486.6064567951685!2d-1.0196459!3d51.4470209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48769bc02f697e1b%3A0xe744284b9b32bb89!2sKing%E2%80%99s%20Academy%20Prospect!5e0!3m2!1sen!2suk!4v1746535479920!5m2!1sen!2suk" 
@@ -33,7 +31,6 @@ const Footer = () => {
             </div>
           </div>
           
-          {/* Navigation Links */}
           <div className="text-center pt-4">
             <div className="grid grid-cols-2 gap-x-8 gap-y-6">
               <div className="text-center">
@@ -61,7 +58,6 @@ const Footer = () => {
             </div>
           </div>
           
-          {/* Social Links */}
           <div className="text-center">
             <h3 className="font-semibold text-xl mb-3">CONNECT WITH US</h3>
             <div className="mt-4">

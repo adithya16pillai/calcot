@@ -602,12 +602,10 @@ export default function FixturesAndResults() {
     ];
     
     try {
-      // Simulate API call success
       setFixtures(mockFixtures);
       setResults(mockResults);
       setLoading(false);
     } catch (err) {
-      // Use setError to satisfy the linter
       setError('An error occurred while fetching matches');
       console.error(err);
       setLoading(false);
@@ -616,7 +614,7 @@ export default function FixturesAndResults() {
 
   const scrollFixtures = (direction: 'left' | 'right') => {
     if (fixturesScrollerRef.current) {
-      const scrollAmount = 330; // Adjust based on card width + gap
+      const scrollAmount = 330; 
       const scrollLeft = direction === 'left' 
         ? fixturesScrollerRef.current.scrollLeft - scrollAmount 
         : fixturesScrollerRef.current.scrollLeft + scrollAmount;
@@ -630,7 +628,7 @@ export default function FixturesAndResults() {
 
   const scrollResults = (direction: 'left' | 'right') => {
     if (resultsScrollerRef.current) {
-      const scrollAmount = 330; // Adjust based on card width + gap
+      const scrollAmount = 330; 
       const scrollLeft = direction === 'left' 
         ? resultsScrollerRef.current.scrollLeft - scrollAmount 
         : resultsScrollerRef.current.scrollLeft + scrollAmount;
@@ -658,10 +656,8 @@ export default function FixturesAndResults() {
         </div>
       )}
       
-      {/* Content */}
       {!loading && !error && (
         <div className="space-y-12">
-          {/* Fixtures Section */}
           <div>
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-2xl font-bold text-[#012682] border-b-2 border-[#012682] pb-2">Fixtures</h2>
@@ -707,9 +703,7 @@ export default function FixturesAndResults() {
                     </div>
                     
                     <div className="p-8 flex flex-col h-[380px] justify-between">
-                      {/* Top section with teams */}
                       <div>
-                        {/* Teams Section - Larger font */}
                         <div className="flex items-center justify-center space-x-4 mb-7">
                           <div className="text-right w-5/12 flex flex-col justify-center items-end">
                             <h3 className="font-bold text-lg" title={match.homeTeam}>{match.homeTeam}</h3>
@@ -721,7 +715,6 @@ export default function FixturesAndResults() {
                         </div>
                       </div>
                       
-                      {/* Bottom section with fixed details always close to button */}
                       <div className="space-y-4">
                         <div className="text-center text-gray-800 flex items-center justify-center gap-3 bg-gray-50 p-4 rounded-lg">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-[#012682] flex-shrink-0">
@@ -747,7 +740,6 @@ export default function FixturesAndResults() {
                       </div>
                     </div>
                     
-                    {/* Fixed position button */}
                     <div className="p-8 pt-4 mt-auto">
                       <a 
                         href={`https://calcotcc.play-cricket.com/match_details?id=${match.id}`}
@@ -764,7 +756,6 @@ export default function FixturesAndResults() {
             )}
           </div>
           
-          {/* Results Section */}
           <div>
             <div className="flex justify-between items-center mb-4">
               <h2 className="text-2xl font-bold text-[#012682] border-b-2 border-[#012682] pb-2">Results</h2>
@@ -810,14 +801,11 @@ export default function FixturesAndResults() {
                     </div>
                     
                     <div className="p-8 flex flex-col h-[400px] justify-between">
-                      {/* Top section with result and teams */}
                       <div>
-                        {/* Result Banner */}
                         <div className="bg-gradient-to-r from-slate-50 to-blue-50 p-3 rounded-lg text-center border border-blue-100 mb-6">
                           <span className="font-bold text-xl text-[#012682]">{match.result}</span>
                         </div>
                         
-                        {/* Teams Section with Scores - Larger font */}
                         <div className="flex items-center justify-center space-x-4 mb-7">
                           <div className="text-right w-5/12 flex flex-col justify-center items-end">
                             <h3 className="font-bold text-lg" title={match.homeTeam}>{match.homeTeam}</h3>
@@ -831,7 +819,6 @@ export default function FixturesAndResults() {
                         </div>
                       </div>
                       
-                      {/* Bottom section with fixed details always close to button */}
                       <div className="space-y-4">
                         <div className="text-center text-gray-800 flex items-center justify-center gap-3 bg-gray-50 p-4 rounded-lg">
                           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-6 h-6 text-[#012682] flex-shrink-0">
@@ -850,7 +837,6 @@ export default function FixturesAndResults() {
                       </div>
                     </div>
                     
-                    {/* Fixed position button */}
                     <div className="p-8 pt-4 mt-auto">
                       <a 
                         href={`https://calcotcc.play-cricket.com/website/results/${match.id}`}
@@ -869,7 +855,6 @@ export default function FixturesAndResults() {
         </div>
       )}
       
-      {/* External Link */}
       <div className="text-center mt-12 pb-4">
         <a 
           href="https://calcotcc.play-cricket.com/Matches"

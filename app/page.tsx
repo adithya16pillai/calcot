@@ -107,9 +107,7 @@ export default function Home() {
               </div>
               
               <div className="p-6 flex flex-col h-[250px] justify-between">
-                {/* Top section with teams */}
                 <div>
-                  {/* Teams Section - Larger font */}
                   <div className="flex items-center justify-center space-x-4 mb-5">
                     <div className="text-right w-5/12 flex flex-col justify-center items-end">
                       <h3 className="font-bold text-md" title={fixture.teams.split("vs")[0].trim()}>
@@ -125,7 +123,6 @@ export default function Home() {
                   </div>
                 </div>
                 
-                {/* Bottom section with fixed details - reduced top margin */}
                 <div className="space-y-3">
                   <div className="text-center text-gray-800 flex items-center justify-center gap-2 bg-gray-50 p-3 rounded-lg">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 text-[#012682] flex-shrink-0">
@@ -144,7 +141,6 @@ export default function Home() {
                 </div>
               </div>
               
-              {/* Fixed position button - removed icon */}
               <div className="px-6 pb-6 pt-2 mt-auto">
                 <a 
                   href={`https://calcotcc.play-cricket.com/match_details?id=${fixture.id}`}

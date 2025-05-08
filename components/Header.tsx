@@ -8,10 +8,8 @@ export default function Header() {
   
   return (
     <header className="bg-[#012682] text-white shadow">
-      {/* Update to match the new max-width */}
       <div className="max-w-7xl w-full mx-auto px-6 py-4">
         <div className="flex items-center gap-6">
-          {/* Logo (left column) */}
           <Link href="/" className="block">
             <Image
               src="/logo.png"
@@ -22,14 +20,11 @@ export default function Header() {
             />
           </Link>
           
-          {/* Right column with club name and navigation */}
           <div className="flex flex-col">
-            {/* Club Name (top row) */}
             <div className="text-3xl font-bold mb-4">
               CALCOT CRICKET CLUB
             </div>
             
-            {/* Navigation (bottom row) */}
             <nav className="flex flex-wrap gap-6 text-xl font-semibold uppercase">
               <Link 
                 href="/" 

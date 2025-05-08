@@ -3,10 +3,8 @@ import nodemailer from 'nodemailer';
 
 export async function POST(request: Request) {
   try {
-    // Get form data from request
     const { name, email, message } = await request.json();
     
-    // Validate form data
     if (!name || !email || !message) {
       return NextResponse.json(
         { error: 'Name, email and message are required' },
@@ -14,10 +12,8 @@ export async function POST(request: Request) {
       );
     }
 
-    // For debugging
     console.log('Received form submission:', { name, email, message });
 
-    // Configure email transport
     const transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
@@ -26,7 +22,6 @@ export async function POST(request: Request) {
       },
     });
 
-    // Email content
     const mailOptions = {
       from: process.env.EMAIL_USER,
       to: 'adithya.pillai16@gmail.com',
@@ -41,7 +36,6 @@ export async function POST(request: Request) {
       replyTo: email,
     };
 
-    // Send the email
     const info = await transporter.sendMail(mailOptions);
     console.log('Message sent:', info.messageId);
     
