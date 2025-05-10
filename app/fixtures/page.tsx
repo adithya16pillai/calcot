@@ -25,24 +25,6 @@ export default function FixturesAndResults() {
   
   useEffect(() => {
     const mockFixtures: Match[] = [
-      { //1
-        id: '6736399',
-        date: 'Saturday, May 10, 2025',
-        homeTeam: 'Purley on Thames CC - 1st XI',
-        awayTeam: 'Calcot CC - 1st XI',
-        venue: 'Goosecroft',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
-      },
-      {
-        id: '6737344',
-        date: 'Saturday, May 10, 2025',
-        homeTeam: 'Calcot CC - 2nd XI',
-        awayTeam: 'Woodley CC, Berks - 2nd XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 9B',
-        time: '12:30'
-      },
       {
         id: '6957577',
         date: 'Wednesday, May 14, 2025',
@@ -586,6 +568,32 @@ export default function FixturesAndResults() {
     ];
     
     const mockResults: Match[] = [
+      {
+        id: '6736399',
+        date: 'Saturday, May 10, 2025',
+        homeTeam: 'Purley on Thames CC - Saturday 2nd XI',
+        awayTeam: 'Calcot CC - 1st XI',
+        venue: 'Goosecroft',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 55 runs',
+        homeTeamScore: '216/10',
+        awayTeamScore: '271/7'
+      },
+      {
+        id: '6737344',
+        date: 'Saturday, May 10, 2025',
+        homeTeam: 'Calcot CC - 2nd XI',
+        awayTeam: 'Woodley CC, Berks - 2nd XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 22 runs',
+        homeTeamScore: '306/8',
+        awayTeamScore: '285/9'
+      },
       {
         id: '7119866',
         date: 'Saturday, May 3, 2025',

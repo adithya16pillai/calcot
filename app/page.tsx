@@ -31,28 +31,28 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6736399,
-      date: "Saturday 10 May 2025",
-      competition: "Thames Valley Cricket League - Division 6B",
-      teams: "Purley on Thames CC - 1st XI vs Calcot CC- 1st XI",
-      venue: "Goosecroft",
-      time: "13:30"
-    },
-    {
-      id: 6737344,
-      date: "Saturday 10 May 2025",
-      competition: "Thames Valley Cricket League - Division 9B",
-      teams: "Calcot CC - 2nd XI vs Woodley CC, Berks - 2nd XI",
-      venue: "Kings Academy Prospect",
-      time: "14:00"
-    },
-    {
       id: 6957577,
       date: "Wednesday 14 May 2025",
       competition: "Berkshire Cricket Competitions (RMCL) - Division 3",
       teams: "Emmbrook and Bearwood CC - Midweek XI vs Calcot CC - Midweek 2nd XI",
       venue: "Emmbrook and Bearwood CC",
       time: "13:00"
+    },
+    {
+      id: 6954500,
+      date: "Thursday May 15 2025",
+      competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
+      teams: "Tilehurst CC - Midweek XI vs Calcot CC - Midweek XI",
+      venue: "NA",
+      time: "18:30"
+    },
+    {
+      id: 6737347,
+      date: "Saturday May 17 2025",
+      competition: "Thames Valley Cricket League - Division 6B",
+      teams: "Calcot CC - 1st XI vs Checkendon CC - 1st XI",
+      venue: "Kings Academy Prospect",
+      time: "12:30"
     }
   ];
 
