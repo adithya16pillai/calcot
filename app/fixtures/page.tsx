@@ -590,7 +590,7 @@ export default function FixturesAndResults() {
         competition: 'Thames Valley Cricket League - Division 9B',
         time: '12:30',
         isCompleted: true,
-        result: 'Calcot CC won by 22 runs',
+        result: 'Calcot CC won by 21 runs',
         homeTeamScore: '306/8',
         awayTeamScore: '285/9'
       },

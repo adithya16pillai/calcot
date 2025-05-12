@@ -35,16 +35,16 @@ export default function Home() {
       date: "Wednesday 14 May 2025",
       competition: "Berkshire Cricket Competitions (RMCL) - Division 3",
       teams: "Emmbrook and Bearwood CC - Midweek XI vs Calcot CC - Midweek 2nd XI",
-      venue: "Emmbrook and Bearwood CC",
-      time: "13:00"
+      venue: "Lowther Road Ground, RG41 1JB",
+      time: "18:00"
     },
     {
       id: 6954500,
       date: "Thursday May 15 2025",
       competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
       teams: "Tilehurst CC - Midweek XI vs Calcot CC - Midweek XI",
-      venue: "NA",
-      time: "18:30"
+      venue: "Reading Cricket Club, Sonnig Lane, RG4 6ST",
+      time: "17:45"
     },
     {
       id: 6737347,
