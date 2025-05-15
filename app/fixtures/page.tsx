@@ -26,15 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6957577',
-        date: 'Wednesday, May 14, 2025',
-        homeTeam: 'Emmbrook and Bearwood CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek 2nd XI',
-        venue: 'Emmbrook and Bearwood CC',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
-        time: '18:30'
-      },
-      {
         id: '6954500',
         date: 'Thursday, May 15, 2025',
         homeTeam: 'Tilehurst CC - Midweek XI',
@@ -568,6 +559,19 @@ export default function FixturesAndResults() {
     ];
     
     const mockResults: Match[] = [
+      {
+        id: '6957577',
+        date: 'Wednesday, May 14, 2025',
+        homeTeam: 'Emmbrook and Bearwood CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek 2nd XI',
+        venue: 'Emmbrook and Bearwood CC',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
+        time: '18:00',
+        isCompleted: true,
+        result: 'Emmbrook and Bearwood CC won by 67 runs',
+        homeTeamScore: '189/9',
+        awayTeamScore: '122/10'
+      },
       {
         id: '6736399',
         date: 'Saturday, May 10, 2025',

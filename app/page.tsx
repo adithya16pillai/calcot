@@ -31,14 +31,6 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6957577,
-      date: "Wednesday 14 May 2025",
-      competition: "Berkshire Cricket Competitions (RMCL) - Division 3",
-      teams: "Emmbrook and Bearwood CC - Midweek XI vs Calcot CC - Midweek 2nd XI",
-      venue: "Lowther Road Ground, RG41 1JB",
-      time: "18:00"
-    },
-    {
       id: 6954500,
       date: "Thursday May 15 2025",
       competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
@@ -52,6 +44,14 @@ export default function Home() {
       competition: "Thames Valley Cricket League - Division 6B",
       teams: "Calcot CC - 1st XI vs Checkendon CC - 1st XI",
       venue: "Kings Academy Prospect",
+      time: "12:30"
+    },
+    {
+      id: 6737348,
+      date: "Saturday May 17 2025",
+      competition: "Thames Valley Cricket League - Division 9B",
+      teams: "Goring on Thames CC - 2nd XI vs Calcot CC - 2nd XI",
+      venue: "Gardiner Recreation Ground",
       time: "12:30"
     }
   ];
