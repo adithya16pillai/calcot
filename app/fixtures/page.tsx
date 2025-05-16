@@ -26,15 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6954500',
-        date: 'Thursday, May 15, 2025',
-        homeTeam: 'Tilehurst CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek XI',
-        venue: 'NA',
-        competition: 'Berkshire Cricket Competitions (RMCL) Division 1',
-        time: '18:30'
-      },
-      {
         id: '6737347',
         date: 'Saturday, May 17, 2025',
         homeTeam: 'Calcot CC - 1st XI',
@@ -51,15 +42,6 @@ export default function FixturesAndResults() {
         venue: 'Gardiner Recreation Ground',
         competition: 'Thames Valley Cricket League - Division 9B',
         time: '12:30'
-      },
-      {
-        id: '6957595',
-        date: 'Thursday, May 22, 2025',
-        homeTeam: 'Reading Lions CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek XI',
-        venue: 'NA',
-        competition: 'Keith Mitchell Memorial Cup 2025',
-        time: '18:30'
       },
       {
         id: '6736407',
@@ -559,6 +541,19 @@ export default function FixturesAndResults() {
     ];
     
     const mockResults: Match[] = [
+      {
+        id: '6954500',
+        date: 'Thursday, May 15, 2025',
+        homeTeam: 'Tilehurst CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek XI',
+        venue: 'Reading CC, Sonnig Lane',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '18:00',
+        isCompleted: true,
+        result: 'Calcot CC won by 19 runs',
+        homeTeamScore: '121/6',
+        awayTeamScore: '140/5'
+      },
       {
         id: '6957577',
         date: 'Wednesday, May 14, 2025',

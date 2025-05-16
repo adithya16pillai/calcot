@@ -31,14 +31,6 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6954500,
-      date: "Thursday May 15 2025",
-      competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
-      teams: "Tilehurst CC - Midweek XI vs Calcot CC - Midweek XI",
-      venue: "Reading Cricket Club, Sonnig Lane, RG4 6ST",
-      time: "17:45"
-    },
-    {
       id: 6737347,
       date: "Saturday May 17 2025",
       competition: "Thames Valley Cricket League - Division 6B",
@@ -53,7 +45,15 @@ export default function Home() {
       teams: "Goring on Thames CC - 2nd XI vs Calcot CC - 2nd XI",
       venue: "Gardiner Recreation Ground",
       time: "12:30"
-    }
+    },
+    {
+      id: 6736407,
+      date: "Saturday May 24 2025",
+      competition: "Thames Valley Cricket League - Division 6B",
+      teams: "Woodcote CC - 1st XI vs Calcot CC - 1st XI",
+      venue: "Woodcote",
+      time: "12:30"
+    },
   ];
 
   return (
