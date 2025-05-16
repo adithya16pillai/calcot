@@ -31,7 +31,7 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6737347,
+      id: 6736403,
       date: "Saturday May 17 2025",
       competition: "Thames Valley Cricket League - Division 6B",
       teams: "Calcot CC - 1st XI vs Checkendon CC - 1st XI",
@@ -39,7 +39,7 @@ export default function Home() {
       time: "12:30"
     },
     {
-      id: 6737348,
+      id: 6737349,
       date: "Saturday May 17 2025",
       competition: "Thames Valley Cricket League - Division 9B",
       teams: "Goring on Thames CC - 2nd XI vs Calcot CC - 2nd XI",
