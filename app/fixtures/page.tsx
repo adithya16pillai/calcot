@@ -26,24 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6736403',
-        date: 'Saturday, May 17, 2025',
-        homeTeam: 'Calcot CC - 1st XI',
-        awayTeam: 'Checkendon CC - 1st XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
-      },
-      {
-        id: '6737349',
-        date: 'Saturday, May 17, 2025',
-        homeTeam: 'Goring on Thames CC - 2nd XI',
-        awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'Gardiner Recreation Ground',
-        competition: 'Thames Valley Cricket League - Division 9B',
-        time: '12:30'
-      },
-      {
         id: '6736407',
         date: 'Saturday, May 24, 2025',
         homeTeam: 'Woodcote CC - 1st XI',
@@ -541,6 +523,32 @@ export default function FixturesAndResults() {
     ];
     
     const mockResults: Match[] = [
+      {
+        id: '6736403',
+        date: 'Saturday, May 17, 2025',
+        homeTeam: 'Calcot CC - 1st XI',
+        awayTeam: 'Checkendon CC - 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Checkendon CC won by 114 runs',
+        homeTeamScore: '216/10',
+        awayTeamScore: '330/5'
+      },
+      {
+        id: '6737349',
+        date: 'Saturday, May 17, 2025',
+        homeTeam: 'Goring on Thames CC - 2nd XI',
+        awayTeam: 'Calcot CC - 2nd XI',
+        venue: 'Gardiner Recreation Ground',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Goring on Thames CC won by 5 wickets',
+        homeTeamScore: '113/5',
+        awayTeamScore: '111/10'
+      },
       {
         id: '6954500',
         date: 'Thursday, May 15, 2025',

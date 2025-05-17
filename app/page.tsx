@@ -1,5 +1,4 @@
 'use client';
-import { SpeedInsights } from "@vercel/speed-insights/next"
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
@@ -32,28 +31,28 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6736403,
-      date: "Saturday May 17 2025",
-      competition: "Thames Valley Cricket League - Division 6B",
-      teams: "Calcot CC - 1st XI vs Checkendon CC - 1st XI",
-      venue: "Kings Academy Prospect",
-      time: "12:30"
-    },
-    {
-      id: 6737349,
-      date: "Saturday May 17 2025",
-      competition: "Thames Valley Cricket League - Division 9B",
-      teams: "Goring on Thames CC - 2nd XI vs Calcot CC - 2nd XI",
-      venue: "Gardiner Recreation Ground",
-      time: "12:30"
-    },
-    {
       id: 6736407,
       date: "Saturday May 24 2025",
       competition: "Thames Valley Cricket League - Division 6B",
       teams: "Woodcote CC - 1st XI vs Calcot CC - 1st XI",
       venue: "Woodcote",
       time: "12:30"
+    },
+    {
+      id: 6737354,
+      date: "Saturday May 24 2025",
+      competition: "Thames Valley Cricket League - Division 9B",
+      teams: "Calcot CC - 2nd XI vs Woodcote CC - 2nd XI",
+      venue: "Kings Academy Prospect",
+      time: "12:30"
+    },
+    {
+      id: 6954480,
+      date: "Tuesday May 27 2025",
+      competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
+      teams: "Earley CC - Midweek XI vs Calcot CC - Midweek XI",
+      venue: "Bulmershe School",
+      time: "18:00"
     },
   ];
 
