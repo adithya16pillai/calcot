@@ -44,6 +44,15 @@ export default function FixturesAndResults() {
         time: '12:30'
       },
       {
+        id: '7135147',
+        date: 'Sunday, May 25, 2025',
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'Theale and Tilehurst CC - Friendly XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Friendly',
+        time: '13:00'
+      },
+      {
         id: '6954480',
         date: 'Tuesday, May 27, 2025',
         homeTeam: 'Earley CC - Midweek XI',

@@ -47,12 +47,12 @@ export default function Home() {
       time: "12:30"
     },
     {
-      id: 6954480,
-      date: "Tuesday May 27 2025",
-      competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
-      teams: "Earley CC - Midweek XI vs Calcot CC - Midweek XI",
-      venue: "Bulmershe School",
-      time: "18:00"
+      id: 7135147,
+      date: "Sunday May 25 2025",
+      competition: "Friendly",
+      teams: "Calcot CC vs Theale and Tilehurst CC",
+      venue: "Kings Academy Prospect",
+      time: "13:00"
     },
   ];
 
