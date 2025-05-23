@@ -45,7 +45,7 @@ const Footer = () => {
                 </Link>
               </div>
               <div className="text-center">
-                <Link href="/results" className="text-gray-200 hover:text-white hover:underline font-bold block py-3 text-lg uppercase tracking-wide">
+                <Link href="/fixtures" className="text-gray-200 hover:text-white hover:underline font-bold block py-3 text-lg uppercase tracking-wide">
                   RESULTS
                 </Link>
                 <Link href="/media" className="text-gray-200 hover:text-white hover:underline font-bold block py-3 text-lg uppercase tracking-wide">

@@ -16,7 +16,7 @@ export default function TeamsPage() {
       name: 'Second XI',
       division: 'Thames Valley Cricket League - Division 9B 2025',
       imageUrl: '/teams/g2.png',
-      description: 'Team Captain: Rahul Singhal',
+      description: 'Team Captain: Piyush Bedi',
       playCricketUrl: 'https://calcotcc.play-cricket.com/Teams/325657',
     },
     {
@@ -24,7 +24,7 @@ export default function TeamsPage() {
       name: 'Midweek XI',
       division: 'Berkshire Cricket Competitions - RMCL - Division 1 2025',
       imageUrl: '/teams/g3.png',
-      description: 'Team Captain: Pramuldeep Pai',
+      description: 'Team Captain: Dani Katuri',
       playCricketUrl: 'https://calcotcc.play-cricket.com/Teams/330556',
     },
     {
@@ -32,7 +32,7 @@ export default function TeamsPage() {
       name: 'Midweek 2nd XI',
       division: 'Berkshire Cricket Competitions - RMCL - Division 3 2025	',
       imageUrl: '/teams/g4.png',
-      description: 'Team Captain: Piyush Bedi',
+      description: 'Team Captain: Pramuldeep Pai',
       playCricketUrl: 'https://calcotcc.play-cricket.com/Teams/358546',
     },
     {
