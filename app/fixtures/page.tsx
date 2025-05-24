@@ -26,24 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6736407',
-        date: 'Saturday, May 24, 2025',
-        homeTeam: 'Woodcote CC - 1st XI',
-        awayTeam: 'Calcot CC - 1st XI',
-        venue: 'Woodcote',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
-      },
-      {
-        id: '6737354',
-        date: 'Saturday, May 24, 2025',
-        homeTeam: 'Calcot CC - 2nd XI',
-        awayTeam: 'Woodcote CC - 2nd XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 9B',
-        time: '12:30'
-      },
-      {
         id: '7135147',
         date: 'Sunday, May 25, 2025',
         homeTeam: 'Calcot CC - Friendly XI',
@@ -532,6 +514,32 @@ export default function FixturesAndResults() {
     ];
     
     const mockResults: Match[] = [
+      {
+        id: '6736407',
+        date: 'Saturday, May 24, 2025',
+        homeTeam: 'Woodcote CC - 1st XI',
+        awayTeam: 'Calcot CC - 1st XI',
+        venue: 'Woodcote',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Woodcote CC won by 1 wicket',
+        homeTeamScore: '-',
+        awayTeamScore: '-'
+      },
+      {
+        id: '6737354',
+        date: 'Saturday, May 24, 2025',
+        homeTeam: 'Calcot CC - 2nd XI',
+        awayTeam: 'Woodcote CC - 2nd XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 7 wickets',
+        homeTeamScore: '170/3',
+        awayTeamScore: '167/9'
+      },
       {
         id: '6736403',
         date: 'Saturday, May 17, 2025',
