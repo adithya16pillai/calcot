@@ -26,24 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '7135147',
-        date: 'Sunday, May 25, 2025',
-        homeTeam: 'Calcot CC - Friendly XI',
-        awayTeam: 'Theale and Tilehurst CC - Friendly XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Friendly',
-        time: '13:00'
-      },
-      {
-        id: '6954480',
-        date: 'Tuesday, May 27, 2025',
-        homeTeam: 'Earley CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek XI',
-        venue: 'Bulmershe School',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
-        time: '18:30'
-      },
-      {
         id: '6957574',
         date: 'Thursday, May 29, 2025',
         homeTeam: 'Calcot CC - Midweek 2nd XI',

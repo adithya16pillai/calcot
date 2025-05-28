@@ -31,28 +31,28 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 7135147,
-      date: "Sunday May 25 2025",
-      competition: "Friendly",
-      teams: "Calcot CC vs Theale and Tilehurst CC",
-      venue: "Kings Academy Prospect",
-      time: "13:00"
-    },
-    {
-      id: 6954480,
-      date: "Tuesday May 27 2025",
-      competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
-      teams: "Earley CC - Midweek XI vs Calcot CC - Midweek XI",
-      venue: "Bulmershe School",
-      time: "18:00"
-    },
-    {
       id: 6957574,
       date: "Thursday May 29 2025",
       competition: "Berkshire Cricket Competitions (RMCL) - Division 3",
       teams: "Calcot CC - Midweek 2nd XI vs Reading Lions CC - Midweek XI",
       venue: "Kings Academy Prospect",
       time: "18:00"
+    },
+    {
+      id: 6736416,
+      date: "Saturday May 31 2025",
+      competition: "Thames Valley Cricket League - Division 6B",
+      teams: "Calcot CC - 1st XI vs Peppard Stoke Row CC - 2nd XI",
+      venue: "Kings Academy Prospect",
+      time: "12:30"
+    },
+    {
+      id: 6737359,
+      date: "Saturday May 31 2025",
+      competition: "Thames Valley Cricket League - Division 9B",
+      teams: "Warfield CC - Saturday 1st XI vs Calcot CC - 2nd XI",
+      venue: "The Memorial Ground",
+      time: "12:30"
     },
   ];
 
