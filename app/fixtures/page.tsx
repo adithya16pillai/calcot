@@ -26,15 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6957574',
-        date: 'Thursday, May 29, 2025',
-        homeTeam: 'Calcot CC - Midweek 2nd XI',
-        awayTeam: 'Reading Lions CC - Midweek XI',
-        venue: 'NA',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
-        time: '18:30'
-      },
-      {
         id: '6736416',
         date: 'Saturday, May 31, 2025',
         homeTeam: 'Calcot CC - 1st XI',
@@ -50,6 +41,15 @@ export default function FixturesAndResults() {
         awayTeam: 'Calcot CC - 2nd XI',
         venue: 'The Memorial Ground',
         competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30'
+      },
+      {
+        id: '7138872',
+        date: 'Sunday, June 1, 2025',
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'Deccan Dynamites CC - 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Friendly',
         time: '12:30'
       },
       {
@@ -497,6 +497,19 @@ export default function FixturesAndResults() {
     
     const mockResults: Match[] = [
       {
+        id: '6957574',
+        date: 'Thursday, May 29, 2025',
+        homeTeam: 'Calcot CC - Midweek 2nd XI',
+        awayTeam: 'Reading Lions CC - Midweek XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
+        time: '18:30',
+        isCompleted: true,
+        result: 'Reading Lions CC won by 29 runs',
+        homeTeamScore: '119/10',
+        awayTeamScore: '148/6'
+      },
+      {
         id: '6736407',
         date: 'Saturday, May 24, 2025',
         homeTeam: 'Woodcote CC - 1st XI',
@@ -506,8 +519,8 @@ export default function FixturesAndResults() {
         time: '12:30',
         isCompleted: true,
         result: 'Woodcote CC won by 1 wicket',
-        homeTeamScore: '-',
-        awayTeamScore: '-'
+        homeTeamScore: '193/9',
+        awayTeamScore: '192/9'
       },
       {
         id: '6737354',
