@@ -26,24 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6736416',
-        date: 'Saturday, May 31, 2025',
-        homeTeam: 'Calcot CC - 1st XI',
-        awayTeam: 'Peppard Stoke Row CC - 2nd XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
-      },
-      {
-        id: '6737359',
-        date: 'Saturday, May 31, 2025',
-        homeTeam: 'Warfield CC - Saturday 1st XI',
-        awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'The Memorial Ground',
-        competition: 'Thames Valley Cricket League - Division 9B',
-        time: '12:30'
-      },
-      {
         id: '7138872',
         date: 'Sunday, June 1, 2025',
         homeTeam: 'Calcot CC - Friendly XI',
@@ -496,6 +478,32 @@ export default function FixturesAndResults() {
     ];
     
     const mockResults: Match[] = [
+      {
+        id: '6736416',
+        date: 'Saturday, May 31, 2025',
+        homeTeam: 'Calcot CC - 1st XI',
+        awayTeam: 'Peppard Stoke Row CC - 2nd XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Peppard Stoke Row CC won by 9 runs',
+        homeTeamScore: '181/10',
+        awayTeamScore: '190/6'
+      },
+      {
+        id: '6737359',
+        date: 'Saturday, May 31, 2025',
+        homeTeam: 'Warfield CC - Saturday 1st XI',
+        awayTeam: 'Calcot CC - 2nd XI',
+        venue: 'The Memorial Ground',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 93 runs',
+        homeTeamScore: '170/7',
+        awayTeamScore: '263/9'
+      },
       {
         id: '6957574',
         date: 'Thursday, May 29, 2025',
