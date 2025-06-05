@@ -26,33 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '7138872',
-        date: 'Sunday, June 1, 2025',
-        homeTeam: 'Calcot CC - Friendly XI',
-        awayTeam: 'Deccan Dynamites CC - 1st XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Friendly',
-        time: '12:30'
-      },
-      {
-        id: '6954476',
-        date: 'Wednesday, June 4, 2025',
-        homeTeam: 'Calcot CC - Midweek XI',
-        awayTeam: 'Hurst Rangers CC - Midweek',
-        venue: 'NA',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
-        time: '18:30'
-      },
-      {
-        id: '6957585',
-        date: 'Wednesday, June 4, 2025',
-        homeTeam: 'Warfield CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek 2nd XI',
-        venue: 'NA',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
-        time: '18:30'
-      },
-      {
         id: '6736421',
         date: 'Saturday, June 7, 2025',
         homeTeam: 'Earley CC - 1st XI',
@@ -478,6 +451,32 @@ export default function FixturesAndResults() {
     ];
     
     const mockResults: Match[] = [
+      {
+        id: '6954476',
+        date: 'Wednesday, June 4, 2025',
+        homeTeam: 'Calcot CC - Midweek XI',
+        awayTeam: 'Hurst Rangers CC - Midweek',
+        venue: 'Kings Academy Prospect',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '18:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 2 wickets',
+        homeTeamScore: '155/8',
+        awayTeamScore: '154/5'
+      },
+      {
+        id: '6957585',
+        date: 'Wednesday, June 4, 2025',
+        homeTeam: 'Warfield CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek 2nd XI',
+        venue: 'Warfield CC',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
+        time: '18:30',
+        isCompleted: true,
+        result: 'Warfield CC won by 7 wickets',
+        homeTeamScore: '117/3',
+        awayTeamScore: '116/4'
+      },
       {
         id: '6736416',
         date: 'Saturday, May 31, 2025',
