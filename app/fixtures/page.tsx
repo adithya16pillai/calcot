@@ -26,33 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6736421',
-        date: 'Saturday, June 7, 2025',
-        homeTeam: 'Earley CC - 1st XI',
-        awayTeam: 'Calcot CC - 1st XI',
-        venue: 'Bulmershe School',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
-      },
-      {
-        id: '6737364',
-        date: 'Saturday, June 7, 2025',
-        homeTeam: 'Calcot CC - 2nd XI',
-        awayTeam: 'Purley on Thames CC - Saturday 3rd XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 9B',
-        time: '12:30'
-      },
-      {
-        id: '6888156',
-        date: 'Sunday, June 8, 2025',
-        homeTeam: 'Calcot CC - Friendly XI',
-        awayTeam: 'West Drayton and Iver CC - Sunday 1st XI',
-        venue: 'NA',
-        competition: 'Friendly',
-        time: '13:00'
-      },
-      {
         id: '6954490',  
         date: 'Tuesday, June 10, 2025',
         homeTeam: 'Shinfield CC - Midweek XI',
@@ -451,6 +424,32 @@ export default function FixturesAndResults() {
     ];
     
     const mockResults: Match[] = [
+      {
+        id: '6736421',
+        date: 'Saturday, June 7, 2025',
+        homeTeam: 'Earley CC - 1st XI',
+        awayTeam: 'Calcot CC - 1st XI',
+        venue: 'Bulmershe School',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Abandoned',
+        homeTeamScore: '0/0',
+        awayTeamScore: '143/10'
+      },
+      {
+        id: '6737364',
+        date: 'Saturday, June 7, 2025',
+        homeTeam: 'Calcot CC - 2nd XI',
+        awayTeam: 'Purley on Thames CC - Saturday 3rd XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 8 wickets',
+        homeTeamScore: '137/2',
+        awayTeamScore: '136/5'
+      },
       {
         id: '6954476',
         date: 'Wednesday, June 4, 2025',

@@ -31,27 +31,27 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6736421,
-      date: "Saturday June 7 2025",
+      id: 6954490,
+      date: "Tuesday, June 10, 2025",
+      competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
+      teams: "Shinfield CC - Midweek XI vs Calcot CC - Midweek XI",
+      venue: "Manor Ground Sports facility",
+      time: "18:00"
+    },
+    {
+      id: 6957576,
+      date: "Thursday, June 12, 2025",
+      competition: "Berkshire Cricket Competitions (RMCL) - Division 3",
+      teams: "Calcot CC - Midweek 2nd XI vs Wood Group Plc - Midweek XI",
+      venue: "Kings Academy Prospect",
+      time: "18:00"
+    },
+    {
+      id: 6736426,
+      date: "Saturday, June 14, 2025",
       competition: "Thames Valley Cricket League - Division 6B",
-      teams: "Earley CC - 1st XI vs Calcot CC - 1st XI",
-      venue: "Bulmershe School",
-      time: "12:30"
-    },
-    {
-      id: 6737364,
-      date: "Saturday June 7 2025",
-      competition: "Thames Valley Cricket League - Division 9B",
-      teams: "Calcot CC - 2nd XI vs Purley on Thames CC - Saturday 3rd XI",
-      venue: "Kings Academy Prospect",
-      time: "12:30"
-    },
-    {
-      id: 6888156,
-      date: "Sunday June 8 2025",
-      competition: "Friendly",
-      teams: "Calcot CC - Friendly XI vs West Drayton and Iver CC - Sunday 1st XI",
-      venue: "Kings Academy Prospect",
+      teams: "Stratfield Turgis/Hartley Wespall CC - 1st XI vs Calcot CC - 1st XI",
+      venue: "The Green",
       time: "12:30"
     },
   ];
