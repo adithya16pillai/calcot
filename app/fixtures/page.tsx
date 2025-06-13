@@ -26,24 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6954490',  
-        date: 'Tuesday, June 10, 2025',
-        homeTeam: 'Shinfield CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek XI',
-        venue: 'Manor Ground Sports facility',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
-        time: '18:30'
-      },
-      {
-        id: '6957576',
-        date: 'Thursday, June 12, 2025',
-        homeTeam: 'Calcot CC - Midweek 2nd XI',
-        awayTeam: 'Wood Group Plc - Midweek XI',
-        venue: 'NA',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
-        time: '18:30'
-      },
-      {
         id: '6736426',
         date: 'Saturday, June 14, 2025',
         homeTeam: 'Stratfield Turgis/Hartley Wespall CC - 1st XI',
@@ -424,6 +406,32 @@ export default function FixturesAndResults() {
     ];
     
     const mockResults: Match[] = [
+      {
+        id: '6957576',
+        date: 'Thursday, June 12, 2025',
+        homeTeam: 'Calcot CC - Midweek 2nd XI',
+        awayTeam: 'Wood Group Plc - Midweek XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
+        time: '18:00',
+        isCompleted: true,
+        result: 'Wood Group Plc won by 6 wickets',
+        homeTeamScore: '118/8',
+        awayTeamScore: '123/4'
+      },
+      {
+        id: '6954490',
+        date: 'Tuesday, June 10, 2025',
+        homeTeam: 'Shinfield CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek XI',
+        venue: 'Manor Ground Sports facility',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '18:00',
+        isCompleted: true,
+        result: 'Shinfield CC won by 52 runs',
+        homeTeamScore: '192/5',
+        awayTeamScore: '140/10'
+      },
       {
         id: '6736421',
         date: 'Saturday, June 7, 2025',
