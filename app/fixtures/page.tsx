@@ -26,24 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6736426',
-        date: 'Saturday, June 14, 2025',
-        homeTeam: 'Stratfield Turgis/Hartley Wespall CC - 1st XI',
-        awayTeam: 'Calcot CC - 1st XI',
-        venue: 'The Green',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
-      },
-      {
-        id: '6737369',
-        date: 'Saturday, June 14, 2025',
-        homeTeam: 'Calcot CC - 2nd XI',
-        awayTeam: 'Peppard Stoke Row CC - 3rd XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 9B',
-        time: '12:30'
-      },
-      {
         id: '6954495',
         date: 'Tuesday, June 17, 2025',
         homeTeam: 'Theale and Tilehurst CC - Midweek XI',
@@ -59,6 +41,15 @@ export default function FixturesAndResults() {
         awayTeam: 'Calcot CC - Midweek 2nd XI',
         venue: 'NA',
         competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
+        time: '18:30'
+      },
+      {
+        id: '7144102',
+        date: 'Thursday, June 19, 2025',
+        homeTeam: 'Shinfield CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek  XI',
+        venue: 'Manor Ground Sports Facility',
+        competition: 'Berkshire Cricket Competitions - Keith Mitchell Memorial Cup 2025',
         time: '18:30'
       },
       {
@@ -406,6 +397,32 @@ export default function FixturesAndResults() {
     ];
     
     const mockResults: Match[] = [
+      {
+        id: '6736426',
+        date: 'Saturday, June 14, 2025',
+        homeTeam: 'Stratfield Turgis/Hartley Wespall CC - 1st XI',
+        awayTeam: 'Calcot CC - 1st XI',
+        venue: 'The Green',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 102 runs',
+        homeTeamScore: '139/10',
+        awayTeamScore: '241/10'
+      },
+      {
+        id: '6957576',
+        date: 'Saturday, June 14, 2025',
+        homeTeam: 'Calcot CC - 2nd XI',
+        awayTeam: 'Peppard Stoke Row CC - 3rd XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 170 runs',
+        homeTeamScore: '332/6',
+        awayTeamScore: '162/10'
+      },
       {
         id: '6957576',
         date: 'Thursday, June 12, 2025',
