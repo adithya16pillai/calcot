@@ -26,33 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6954495',
-        date: 'Tuesday, June 17, 2025',
-        homeTeam: 'Theale and Tilehurst CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek XI',
-        venue: 'NA',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
-        time: '18:30'
-      },
-      {
-        id: '6957581',
-        date: 'Thursday, June 19, 2025',
-        homeTeam: 'Reading Lions CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek 2nd XI',
-        venue: 'NA',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
-        time: '18:30'
-      },
-      {
-        id: '7144102',
-        date: 'Thursday, June 19, 2025',
-        homeTeam: 'Shinfield CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek  XI',
-        venue: 'Manor Ground Sports Facility',
-        competition: 'Berkshire Cricket Competitions - Keith Mitchell Memorial Cup 2025',
-        time: '18:30'
-      },
-      {
         id: '6736430',
         date: 'Saturday, June 21, 2025',
         homeTeam: 'Calcot CC - 1st XI',
@@ -71,11 +44,11 @@ export default function FixturesAndResults() {
         time: '12:30'
       },
       {
-        id: '6696419',
+        id: '7132118',
         date: 'Sunday, June 22, 2025',
-        homeTeam: 'Warfield CC - Sunday XI',
-        awayTeam: 'Calcot CC - Friendly XI',
-        venue: 'The Memorial Ground',
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'KannadigaruUK CC - Sunday 1st XI',
+        venue: 'Kings Academy Prospect',
         competition: 'Friendly',
         time: '13:00'
       },
@@ -397,6 +370,45 @@ export default function FixturesAndResults() {
     ];
     
     const mockResults: Match[] = [
+      {
+        id: '7144102',
+        date: 'Thursday, June 19, 2025',
+        homeTeam: 'Shinfield CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek XI',
+        venue: 'Manor Ground Sports Facility',
+        competition: 'Berkshire Cricket Competitions - Keith Mitchell Memorial Cup 2025',
+        time: '18:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 86 runs',
+        homeTeamScore: '88/10',
+        awayTeamScore: '174/7'
+      },
+      {
+        id: '6957581',
+        date: 'Thursday, June 19, 2025',
+        homeTeam: 'Reading Lions CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek 2nd XI',
+        venue: 'Reading Lions CC',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
+        time: '18:30',
+        isCompleted: true,
+        result: 'Reading Lions CC won by 6 wickets',
+        homeTeamScore: '176/4',
+        awayTeamScore: '141/7'
+      },
+      {
+        id: '6954495',
+        date: 'Tuesday, June 17, 2025',
+        homeTeam: 'Theale and Tilehurst CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek XI',
+        venue: 'Theale and Tilehurst CC',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '18:30',
+        isCompleted: true,
+        result: 'Theale and Tilehurst CC won by 12 runs',
+        homeTeamScore: '138/9',
+        awayTeamScore: '126/9'
+      },
       {
         id: '6736426',
         date: 'Saturday, June 14, 2025',
