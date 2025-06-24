@@ -26,38 +26,11 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6736430',
-        date: 'Saturday, June 21, 2025',
-        homeTeam: 'Calcot CC - 1st XI',
-        awayTeam: 'Reading CC - 3rd XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
-      },
-      {
-        id: '6737373',
-        date: 'Saturday, June 21, 2025',
-        homeTeam: 'Crowthorne & Crown Wood CC - 4th XI',
-        awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'Great Hollands Recreation Ground',
-        competition: 'Thames Valley Cricket League - Division 9B',
-        time: '12:30'
-      },
-      {
-        id: '7132118',
-        date: 'Sunday, June 22, 2025',
-        homeTeam: 'Calcot CC - Friendly XI',
-        awayTeam: 'KannadigaruUK CC - Sunday 1st XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Friendly',
-        time: '13:00'
-      },
-      {
         id: '6954475',
         date: 'Wednesday, June 25, 2025',
         homeTeam: 'Calcot CC - Midweek XI',
         awayTeam: 'Earley CC - Midweek XI',
-        venue: 'NA',
+        venue: 'Kings Academy Prospect',
         competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
         time: '18:30'
       },
@@ -368,8 +341,47 @@ export default function FixturesAndResults() {
         time: '12:30'
       }
     ];
-    
+
     const mockResults: Match[] = [
+      {
+        id: '7132118',
+        date: 'Sunday, June 22, 2025',
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'KannadigaruUK CC - Sunday 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Friendly',
+        time: '12:30',
+        isCompleted: true,
+        result: 'KannadigaruUK CC won by 29 runs',
+        homeTeamScore: '199/10',
+        awayTeamScore: '228/10'
+      },
+      {
+        id: '6737373',
+        date: 'Saturday, June 21, 2025',
+        homeTeam: 'Crowthorne & Crown Wood CC - 4th XI',
+        awayTeam: 'Calcot CC - 2nd XI',
+        venue: 'Great Hollands Recreation Ground',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 214 runs',
+        homeTeamScore: '49/10',
+        awayTeamScore: '263/9'
+      },
+      {
+        id: '6736430',
+        date: 'Saturday, June 21, 2025',
+        homeTeam: 'Calcot CC - 1st XI',
+        awayTeam: 'Reading CC - 3rd XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 132 runs',
+        homeTeamScore: '284/7',
+        awayTeamScore: '152/10'
+      },
       {
         id: '7144102',
         date: 'Thursday, June 19, 2025',
