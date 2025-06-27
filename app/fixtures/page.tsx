@@ -26,15 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6954475',
-        date: 'Wednesday, June 25, 2025',
-        homeTeam: 'Calcot CC - Midweek XI',
-        awayTeam: 'Earley CC - Midweek XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
-        time: '18:30'
-      },
-      {
         id: '6736435',
         date: 'Saturday, June 28, 2025',
         homeTeam: 'Hurley CC - 1st XI',
@@ -50,6 +41,15 @@ export default function FixturesAndResults() {
         awayTeam: 'Reading CC - 4th XI',
         venue: 'Kings Academy Prospect',
         competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30'
+      },
+      {
+        id: '6888159',
+        date: 'Sunday, June 29, 2025',
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'West Drayton and Iver CC - Sunday 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Friendly',
         time: '12:30'
       },
       {
@@ -343,6 +343,19 @@ export default function FixturesAndResults() {
     ];
 
     const mockResults: Match[] = [
+      {
+        id: '6954475',
+        date: 'Wednesday, June 25, 2025',
+        homeTeam: 'Calcot CC - Midweek XI',
+        awayTeam: 'Earley CC - Midweek XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '18:00',
+        isCompleted: true,
+        result: 'Earley CC Conceded',
+        homeTeamScore: 'NIL',
+        awayTeamScore: 'NIL'
+      },
       {
         id: '7132118',
         date: 'Sunday, June 22, 2025',
