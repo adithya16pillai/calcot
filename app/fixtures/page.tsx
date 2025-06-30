@@ -26,39 +26,21 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6736435',
-        date: 'Saturday, June 28, 2025',
-        homeTeam: 'Hurley CC - 1st XI',
-        awayTeam: 'Calcot CC - 1st XI',
-        venue: 'Hurley CC',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
-      },
-      {
-        id: '6737377',
-        date: 'Saturday, June 28, 2025',
-        homeTeam: 'Calcot CC - 2nd XI',
-        awayTeam: 'Reading CC - 4th XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 9B',
-        time: '12:30'
-      },
-      {
-        id: '6888159',
-        date: 'Sunday, June 29, 2025',
-        homeTeam: 'Calcot CC - Friendly XI',
-        awayTeam: 'West Drayton and Iver CC - Sunday 1st XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Friendly',
-        time: '12:30'
-      },
-      {
         id: '6954485',
         date: 'Tuesday, July 1, 2025',
         homeTeam: 'Hurst Rangers CC - Midweek - RMCL',
         awayTeam: 'Calcot CC - Midweek XI',
         venue: 'Hurst Rangers Cricket Club',
         competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '18:30'
+      },
+      {
+        id: '7153564',
+        date: 'Wednesday, July 2, 2025',
+        homeTeam: 'Calcot CC - Midweek XI',
+        awayTeam: 'Earley CC - Midweek XI',
+        venue: 'Bulmershe School',
+        competition: 'Berkshire Cricket Competitions - Keith Mitchell Memorial Cup 2025',
         time: '18:30'
       },
       {
@@ -343,6 +325,45 @@ export default function FixturesAndResults() {
     ];
 
     const mockResults: Match[] = [
+      {
+        id: '6888159',
+        date: 'Sunday, June 29, 2025',
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'West Drayton and Iver CC - Sunday 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Friendly',
+        time: '12:30',
+        isCompleted: true,
+        result: 'West Drayton and Iver CC won by 248 runs',
+        homeTeamScore: '65/10',
+        awayTeamScore: '313/6'
+      },
+      {
+        id: '6737377',
+        date: 'Saturday, June 28, 2025',
+        homeTeam: 'Calcot CC - 2nd XI',
+        awayTeam: 'Reading CC - 4th XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 87 runs',
+        homeTeamScore: '230/10',
+        awayTeamScore: '143/8'
+      },
+      {
+        id: '6736435',
+        date: 'Saturday, June 28, 2025',
+        homeTeam: 'Hurley CC - 1st XI',
+        awayTeam: 'Calcot CC - 1st XI',
+        venue: 'Hurley CC',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 156 runs',
+        homeTeamScore: '139/10',
+        awayTeamScore: '295/7'
+      },
       {
         id: '6954475',
         date: 'Wednesday, June 25, 2025',
