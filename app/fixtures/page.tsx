@@ -26,15 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6954485',
-        date: 'Tuesday, July 1, 2025',
-        homeTeam: 'Hurst Rangers CC - Midweek - RMCL',
-        awayTeam: 'Calcot CC - Midweek XI',
-        venue: 'Hurst Rangers Cricket Club',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
-        time: '18:30'
-      },
-      {
         id: '7153564',
         date: 'Wednesday, July 2, 2025',
         homeTeam: 'Calcot CC - Midweek XI',
@@ -48,7 +39,7 @@ export default function FixturesAndResults() {
         date: 'Thursday, July 3, 2025',
         homeTeam: 'Calcot CC - Midweek 2nd XI',
         awayTeam: 'Emmbrook and Bearwood CC - Midweek XI',
-        venue: 'NA',
+        venue: 'Kings Academy Prospect',
         competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
         time: '18:30'
       },
@@ -326,17 +317,17 @@ export default function FixturesAndResults() {
 
     const mockResults: Match[] = [
       {
-        id: '6888159',
-        date: 'Sunday, June 29, 2025',
-        homeTeam: 'Calcot CC - Friendly XI',
-        awayTeam: 'West Drayton and Iver CC - Sunday 1st XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Friendly',
-        time: '12:30',
+        id: '6954485',
+        date: 'Tuesday, July 1, 2025',
+        homeTeam: 'Hurst Rangers CC - Midweek - RMCL',
+        awayTeam: 'Calcot CC - Midweek XI',
+        venue: 'Hurst Rangers Cricket Club',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '15:30',
         isCompleted: true,
-        result: 'West Drayton and Iver CC won by 248 runs',
-        homeTeamScore: '65/10',
-        awayTeamScore: '313/6'
+        result: 'Hurst Rangers CC won by 8 wickets',
+        homeTeamScore: '108/2',
+        awayTeamScore: '107/10'
       },
       {
         id: '6737377',
