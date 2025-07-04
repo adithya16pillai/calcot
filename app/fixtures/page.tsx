@@ -26,24 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '7153564',
-        date: 'Wednesday, July 2, 2025',
-        homeTeam: 'Calcot CC - Midweek XI',
-        awayTeam: 'Earley CC - Midweek XI',
-        venue: 'Bulmershe School',
-        competition: 'Berkshire Cricket Competitions - Keith Mitchell Memorial Cup 2025',
-        time: '18:30'
-      },
-      {
-        id: '6957573',
-        date: 'Thursday, July 3, 2025',
-        homeTeam: 'Calcot CC - Midweek 2nd XI',
-        awayTeam: 'Emmbrook and Bearwood CC - Midweek XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
-        time: '18:30'
-      },
-      {
         id: '6736439',
         date: 'Saturday, July 5, 2025',
         homeTeam: 'Calcot CC - 1st XI',
@@ -57,16 +39,16 @@ export default function FixturesAndResults() {
         date: 'Saturday, July 5, 2025',
         homeTeam: 'Wokingham CC - 6th XI',
         awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'NA',
+        venue: 'Wokingham CC',
         competition: 'Thames Valley Cricket League - Division 9B',
         time: '12:30'
       },
       {
-        id: '6888160',
+        id: '7070255',
         date: 'Sunday, July 6, 2025',
-        homeTeam: 'Calcot CC - Friendly XI',
-        awayTeam: 'West Drayton and Iver CC - Sunday 1st XI',
-        venue: 'NA',
+        homeTeam: 'Farley Hill CC - Sunday 1st XI',
+        awayTeam: 'Calcot CC - Friendly XI',
+        venue: 'Farley Hill Cricket Ground',
         competition: 'Friendly',
         time: '13:00'
       },
@@ -317,13 +299,39 @@ export default function FixturesAndResults() {
 
     const mockResults: Match[] = [
       {
+        id: '6957573',
+        date: 'Thursday, July 3, 2025',
+        homeTeam: 'Calcot CC - Midweek 2nd XI',
+        awayTeam: 'Emmbrook and Bearwood CC - Midweek XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
+        time: '17:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 24 runs',
+        homeTeamScore: '163/7',
+        awayTeamScore: '139/4'
+      },
+      {
+        id: '7153564',
+        date: 'Wednesday, July 2, 2025',
+        homeTeam: 'Calcot CC - Midweek XI',
+        awayTeam: 'Earley CC - Midweek XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Berkshire Cricket Competitions - Keith Mitchell Memorial Cup 2025',
+        time: '17:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 10 wickets',
+        homeTeamScore: '145/0',
+        awayTeamScore: '144/10'
+      },
+      {
         id: '6954485',
         date: 'Tuesday, July 1, 2025',
         homeTeam: 'Hurst Rangers CC - Midweek - RMCL',
         awayTeam: 'Calcot CC - Midweek XI',
         venue: 'Hurst Rangers Cricket Club',
         competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
-        time: '15:30',
+        time: '17:30',
         isCompleted: true,
         result: 'Hurst Rangers CC won by 8 wickets',
         homeTeamScore: '108/2',
