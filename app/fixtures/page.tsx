@@ -57,8 +57,17 @@ export default function FixturesAndResults() {
         date: 'Saturday, July 12, 2025',
         homeTeam: 'Woodley CC, Berks - 2nd XI',
         awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'NA',
+        venue: 'Woodford Park',
         competition: 'Thames Valley Cricket League - Division 9B',
+        time: '13:30'
+      },
+      {
+        id: '7132120',
+        date: 'Sunday, July 13, 2025',
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'KannadigaruUK CC - Sunday 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Friendly',
         time: '13:30'
       },
       {
