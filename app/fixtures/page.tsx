@@ -30,7 +30,7 @@ export default function FixturesAndResults() {
         date: 'Wednesday, July 9, 2025',
         homeTeam: 'Calcot CC - Midweek XI',
         awayTeam: 'Tilehurst CC - Midweek XI',
-        venue: 'NA',
+        venue: 'Kings Academy Prospect',
         competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
         time: '18:30'
       },
@@ -39,7 +39,7 @@ export default function FixturesAndResults() {
         date: 'Thursday, July 10, 2025',
         homeTeam: 'Wood Group Plc - Midweek XI',
         awayTeam: 'Calcot CC - Midweek 2nd XI',
-        venue: 'NA',
+        venue: 'Farley Hill Cricket Club',
         competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
         time: '18:30'
       },
