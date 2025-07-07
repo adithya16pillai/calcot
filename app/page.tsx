@@ -31,27 +31,27 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6736439,
-      date: "Saturday, July 5, 2025",
-      competition: "Thames Valley Cricket League - Division 6B",
-      teams: "Calcot CC - 1st XI vs West Reading CC - 1st XI",
+      id: 6954479,
+      date: "Wednesday, July 9, 2025",
+      competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
+      teams: "Calcot CC - Midweek XI vs Tilehurst CC - Midweek XI",
       venue: "Kings Academy Prospect",
-      time: "12:30"
+      time: "17:30"
     },
     {
-      id: 6737383,
-      date: "Saturday, July 5, 2025",
-      competition: "Thames Valley Cricket League - Division 9B",
-      teams: "Wokingham CC - 6th XI vs Calcot CC - 2nd XI",
-      venue: "Wokingham CC",
-      time: "12:30"
+      id: 6957589,
+      date: "Thursday, July 10, 2025",
+      competition: "Berkshire Cricket Competitions (RMCL) - Division 3",
+      teams: "Wood Group Plc - Midweek XI vs Calcot CC - Midweek 2nd XI",
+      venue: "Farley Hill Cricket Club",
+      time: "17:30"
     },
     {
-      id: 7070255,
-      date: "Sunday, July 6, 2025",
-      competition: "Friendly",
-      teams: "Farley Hill CC - Sunday 1st XI vs Calcot CC - Friendly XI",
-      venue: "Farley Hill Cricket Ground",
+      id: 6736444,
+      date: "Saturday, July 12, 2025",
+      competition: "Thames Valley Cricket League - Division 6B",
+      teams: "Calcot CC - 1st XI vs Purley on Thames CC - Saturday 2nd XI",
+      venue: "Kings Academy Prospect",
       time: "12:30"
     },
   ];

@@ -26,42 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6736439',
-        date: 'Saturday, July 5, 2025',
-        homeTeam: 'Calcot CC - 1st XI',
-        awayTeam: 'West Reading CC - 1st XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
-      },
-      {
-        id: '6737383',
-        date: 'Saturday, July 5, 2025',
-        homeTeam: 'Wokingham CC - 6th XI',
-        awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'Wokingham CC',
-        competition: 'Thames Valley Cricket League - Division 9B',
-        time: '12:30'
-      },
-      {
-        id: '7070255',
-        date: 'Sunday, July 6, 2025',
-        homeTeam: 'Farley Hill CC - Sunday 1st XI',
-        awayTeam: 'Calcot CC - Friendly XI',
-        venue: 'Farley Hill Cricket Ground',
-        competition: 'Friendly',
-        time: '13:00'
-      },
-      {
-        id: '7070255',
-        date: 'Sunday, July 6, 2025',
-        homeTeam: 'Farley Hill CC - Sunday 1st XI',
-        awayTeam: 'Calcot CC - Friendly XI',
-        venue: 'Farley Hill Cricket Ground',
-        competition: 'Friendly',
-        time: '13:00'
-      },
-      {
         id: '6954479',
         date: 'Wednesday, July 9, 2025',
         homeTeam: 'Calcot CC - Midweek XI',
@@ -298,6 +262,45 @@ export default function FixturesAndResults() {
     ];
 
     const mockResults: Match[] = [
+      {
+        id: '7070255',
+        date: 'Sunday, July 6, 2025',
+        homeTeam: 'Theale and Tilehurst CC Friendly',
+        awayTeam: 'Calcot CC - Friendly XI',
+        venue: 'Theale and Tilehurst CC',
+        competition: 'Friendly',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Theale and Tilehurst CC won by 4 wickets',
+        homeTeamScore: '286/5',
+        awayTeamScore: '284/6'
+      },
+      {
+        id: '6737383',
+        date: 'Saturday, July 5, 2025',
+        homeTeam: 'Wokingham CC - 6th XI',
+        awayTeam: 'Calcot CC - 2nd XI',
+        venue: 'Wokingham CC',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 9 wickets',
+        homeTeamScore: '117/10',
+        awayTeamScore: '121/1'
+      },
+      {
+        id: '6736439',
+        date: 'Saturday, July 5, 2025',
+        homeTeam: 'Calcot CC - 1st XI',
+        awayTeam: 'West Reading CC - 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 8 wickets',
+        homeTeamScore: '91/2',
+        awayTeamScore: '89/10'
+      },
       {
         id: '6957573',
         date: 'Thursday, July 3, 2025',
