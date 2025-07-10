@@ -26,15 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6954479',
-        date: 'Wednesday, July 9, 2025',
-        homeTeam: 'Calcot CC - Midweek XI',
-        awayTeam: 'Tilehurst CC - Midweek XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
-        time: '18:30'
-      },
-      {
         id: '6957589',
         date: 'Thursday, July 10, 2025',
         homeTeam: 'Wood Group Plc - Midweek XI',
