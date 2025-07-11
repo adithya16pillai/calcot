@@ -39,18 +39,18 @@ export default function Home() {
       time: "12:30"
     },
     {
-      id: 6736444,
+      id: 6737389,
       date: "Saturday, July 12, 2025",
-      competition: "Thames Valley Cricket League - Division 6B",
-      teams: "Calcot CC - 1st XI vs Purley on Thames CC - Saturday 2nd XI",
+      competition: "Thames Valley Cricket League - Division 9B",
+      teams: "Woodley CC, Berks - 2nd XI vs Calcot CC - 2nd XI",
       venue: "Kings Academy Prospect",
       time: "12:30"
     },
     {
-      id: 6736444,
-      date: "Saturday, July 12, 2025",
-      competition: "Thames Valley Cricket League - Division 6B",
-      teams: "Calcot CC - 1st XI vs Purley on Thames CC - Saturday 2nd XI",
+      id: 7132120,
+      date: "Sunday, July 13, 2025",
+      competition: "Friendly",
+      teams: "Calcot CC - Friendly XI vs KannadigaruUK CC - Sunday 1st XI",
       venue: "Kings Academy Prospect",
       time: "12:30"
     },

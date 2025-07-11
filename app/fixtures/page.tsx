@@ -41,7 +41,7 @@ export default function FixturesAndResults() {
         awayTeam: 'Calcot CC - 2nd XI',
         venue: 'Woodford Park',
         competition: 'Thames Valley Cricket League - Division 9B',
-        time: '13:30'
+        time: '12:30'
       },
       {
         id: '7132120',
@@ -50,7 +50,7 @@ export default function FixturesAndResults() {
         awayTeam: 'KannadigaruUK CC - Sunday 1st XI',
         venue: 'Kings Academy Prospect',
         competition: 'Friendly',
-        time: '13:30'
+        time: '12:30'
       },
       {
         id: '6954477',
@@ -253,6 +253,19 @@ export default function FixturesAndResults() {
     ];
 
     const mockResults: Match[] = [
+      {
+        id: '6957589',
+        date: 'Thursday, July 10, 2025',
+        homeTeam: 'Wood Group Plc - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek 2nd XI',
+        venue: 'Farley Hill Cricket Club',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
+        time: '17:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 16 runs',
+        homeTeamScore: '166/6',
+        awayTeamScore: '182/3'
+      },
       {
         id: '6954479',
         date: 'Wednesday, July 9, 2025',
