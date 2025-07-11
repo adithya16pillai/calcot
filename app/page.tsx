@@ -31,20 +31,20 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6954479,
-      date: "Wednesday, July 9, 2025",
-      competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
-      teams: "Calcot CC - Midweek XI vs Tilehurst CC - Midweek XI",
+      id: 6736444,
+      date: "Saturday, July 12, 2025",
+      competition: "Thames Valley Cricket League - Division 6B",
+      teams: "Calcot CC - 1st XI vs Purley on Thames CC - Saturday 2nd XI",
       venue: "Kings Academy Prospect",
-      time: "17:30"
+      time: "12:30"
     },
     {
-      id: 6957589,
-      date: "Thursday, July 10, 2025",
-      competition: "Berkshire Cricket Competitions (RMCL) - Division 3",
-      teams: "Wood Group Plc - Midweek XI vs Calcot CC - Midweek 2nd XI",
-      venue: "Farley Hill Cricket Club",
-      time: "17:30"
+      id: 6736444,
+      date: "Saturday, July 12, 2025",
+      competition: "Thames Valley Cricket League - Division 6B",
+      teams: "Calcot CC - 1st XI vs Purley on Thames CC - Saturday 2nd XI",
+      venue: "Kings Academy Prospect",
+      time: "12:30"
     },
     {
       id: 6736444,

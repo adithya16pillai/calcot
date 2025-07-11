@@ -26,15 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6957589',
-        date: 'Thursday, July 10, 2025',
-        homeTeam: 'Wood Group Plc - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek 2nd XI',
-        venue: 'Farley Hill Cricket Club',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
-        time: '18:30'
-      },
-      {
         id: '6736444',
         date: 'Saturday, July 12, 2025',
         homeTeam: 'Calcot CC - 1st XI',
@@ -262,6 +253,19 @@ export default function FixturesAndResults() {
     ];
 
     const mockResults: Match[] = [
+      {
+        id: '6954479',
+        date: 'Wednesday, July 9, 2025',
+        homeTeam: 'Calcot CC - Midweek XI',
+        awayTeam: 'Tilehurst CC - Midweek XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '17:30',
+        isCompleted: true,
+        result: 'Tilehurst CC won by 37 runs',
+        homeTeamScore: '126/10',
+        awayTeamScore: '163/5'
+      },
       {
         id: '7070255',
         date: 'Sunday, July 6, 2025',
