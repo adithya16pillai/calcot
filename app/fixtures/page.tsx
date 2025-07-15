@@ -26,33 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6736444',
-        date: 'Saturday, July 12, 2025',
-        homeTeam: 'Calcot CC - 1st XI',
-        awayTeam: 'Purley on Thames CC - Saturday 2nd XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
-      },
-      {
-        id: '6737389',
-        date: 'Saturday, July 12, 2025',
-        homeTeam: 'Woodley CC, Berks - 2nd XI',
-        awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'Woodford Park',
-        competition: 'Thames Valley Cricket League - Division 9B',
-        time: '12:30'
-      },
-      {
-        id: '7132120',
-        date: 'Sunday, July 13, 2025',
-        homeTeam: 'Calcot CC - Friendly XI',
-        awayTeam: 'KannadigaruUK CC - Sunday 1st XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Friendly',
-        time: '12:30'
-      },
-      {
         id: '6954477',
         date: 'Wednesday, July 16, 2025',
         homeTeam: 'Calcot CC - Midweek XI',
@@ -253,6 +226,32 @@ export default function FixturesAndResults() {
     ];
 
     const mockResults: Match[] = [
+      {
+        id: '6737389',
+        date: 'Saturday, July 12, 2025',
+        homeTeam: 'Woodley CC, Berks - 2nd XI',
+        awayTeam: 'Calcot CC - 2nd XI',
+        venue: 'Woodford Park',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Woodley CC, Berks won by 5 wickets',
+        homeTeamScore: '231/5',
+        awayTeamScore: '228/9'
+      },
+      {
+        id: '6736444',
+        date: 'Saturday, July 12, 2025',
+        homeTeam: 'Calcot CC - 1st XI',
+        awayTeam: 'Purley on Thames CC - Saturday 2nd XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 86 runs',
+        homeTeamScore: '220/10',
+        awayTeamScore: '134/9'
+      },
       {
         id: '6957589',
         date: 'Thursday, July 10, 2025',
