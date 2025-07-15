@@ -26,13 +26,22 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
+        id: '7161529',
+        date: 'Tuesday, July 15, 2025',
+        homeTeam: 'Theale and Tilehurst CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek XI',
+        venue: 'Theale & Tilehurst CC',
+        competition: 'Keith Mitchell Memorial Cup - (Final)',
+        time: '17:30'
+      },
+      {
         id: '6954477',
         date: 'Wednesday, July 16, 2025',
         homeTeam: 'Calcot CC - Midweek XI',
         awayTeam: 'Shinfield CC - Midweek XI',
         venue: 'NA',
         competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
-        time: '18:30'
+        time: '17:30'
       },
       {
         id: '6957575',
@@ -226,6 +235,19 @@ export default function FixturesAndResults() {
     ];
 
     const mockResults: Match[] = [
+      {
+        id: '7132120',
+        date: 'Sunday, July 13, 2025',
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'KannadigaruUK CC - Sunday 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Friendly',
+        time: '12:30',
+        isCompleted: true,
+        result: 'KannadigaruUK CC won by 94 runs',
+        homeTeamScore: '198/10',
+        awayTeamScore: '292/9'
+      },
       {
         id: '6737389',
         date: 'Saturday, July 12, 2025',

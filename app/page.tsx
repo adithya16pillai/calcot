@@ -31,27 +31,27 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6736444,
-      date: "Saturday, July 12, 2025",
+      id: 6954477,
+      date: "Wednesday, July 16, 2025",
+      competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
+      teams: "Calcot CC - Midweek XI vs Shinfield CC - Midweek XI",
+      venue: "Kings Academy Prospect",
+      time: "17:30"
+    },
+    {
+      id: 6957575,
+      date: "Thursday, July 17, 2025",
+      competition: "Berkshire Cricket Competitions (RMCL) - Division 3",  
+      teams: "Calcot CC - Midweek 2nd XI vs Warfield CC - Midweek XI",
+      venue: "Kings Academy Prospect",
+      time: "17:30"
+    },
+    {
+      id: 6736448,
+      date: "Saturday, July 19, 2025",
       competition: "Thames Valley Cricket League - Division 6B",
-      teams: "Calcot CC - 1st XI vs Purley on Thames CC - Saturday 2nd XI",
-      venue: "Kings Academy Prospect",
-      time: "12:30"
-    },
-    {
-      id: 6737389,
-      date: "Saturday, July 12, 2025",
-      competition: "Thames Valley Cricket League - Division 9B",
-      teams: "Woodley CC, Berks - 2nd XI vs Calcot CC - 2nd XI",
-      venue: "Kings Academy Prospect",
-      time: "12:30"
-    },
-    {
-      id: 7132120,
-      date: "Sunday, July 13, 2025",
-      competition: "Friendly",
-      teams: "Calcot CC - Friendly XI vs KannadigaruUK CC - Sunday 1st XI",
-      venue: "Kings Academy Prospect",
+      teams: "Checkendon CC - 1st XI vs Calcot CC - 1st XI",
+      venue: "Checkendon Cricket Club",
       time: "12:30"
     },
   ];
