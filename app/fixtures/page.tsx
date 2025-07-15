@@ -26,15 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '7161529',
-        date: 'Tuesday, July 15, 2025',
-        homeTeam: 'Theale and Tilehurst CC - Midweek XI',
-        awayTeam: 'Calcot CC - Midweek XI',
-        venue: 'Theale & Tilehurst CC',
-        competition: 'Keith Mitchell Memorial Cup - (Final)',
-        time: '17:30'
-      },
-      {
         id: '6954477',
         date: 'Wednesday, July 16, 2025',
         homeTeam: 'Calcot CC - Midweek XI',
@@ -235,6 +226,19 @@ export default function FixturesAndResults() {
     ];
 
     const mockResults: Match[] = [
+      {
+        id: '7161529',
+        date: 'Tuesday, July 15, 2025',
+        homeTeam: 'Theale and Tilehurst CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek XI',
+        venue: 'Theale & Tilehurst CC',
+        competition: 'Keith Mitchell Memorial Cup - Final',
+        time: '17:30',
+        isCompleted: true,
+        result: 'Theale and Tilehurst CC won by 9 wickets',
+        homeTeamScore: '128/1',
+        awayTeamScore: '127/10'
+      },
       {
         id: '7132120',
         date: 'Sunday, July 13, 2025',
