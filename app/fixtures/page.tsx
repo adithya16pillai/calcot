@@ -26,24 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6954477',
-        date: 'Wednesday, July 16, 2025',
-        homeTeam: 'Calcot CC - Midweek XI',
-        awayTeam: 'Shinfield CC - Midweek XI',
-        venue: 'NA',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
-        time: '17:30'
-      },
-      {
-        id: '6957575',
-        date: 'Thursday, July 17, 2025',
-        homeTeam: 'Calcot CC - Midweek 2nd XI',
-        awayTeam: 'Warfield CC - Midweek XI',
-        venue: 'NA',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
-        time: '18:30'
-      },
-      {
         id: '6736448',
         date: 'Saturday, July 19, 2025',
         homeTeam: 'Checkendon CC - 1st XI',
@@ -226,6 +208,19 @@ export default function FixturesAndResults() {
     ];
 
     const mockResults: Match[] = [
+      {
+        id: '6957575',
+        date: 'Thursday, July 17, 2025',
+        homeTeam: 'Calcot CC - Midweek 2nd XI',
+        awayTeam: 'Warfield CC - Midweek XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 3',
+        time: '17:30',
+        isCompleted: true,
+        result: 'Warfield CC Conceded',
+        homeTeamScore: '-',
+        awayTeamScore: '-'
+      },
       {
         id: '7161529',
         date: 'Tuesday, July 15, 2025',

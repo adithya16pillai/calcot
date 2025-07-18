@@ -38,6 +38,22 @@ export default function Home() {
       venue: "Checkendon Cricket Club",
       time: "12:30"
     },
+    {
+      id: 6737394,
+      date: "Saturday, July 19, 2025",
+      competition: "Thames Valley Cricket League - Division 9B",
+      teams: "Calcot CC - 2nd XI vs Goring on Thames CC - 2nd XI",
+      venue: "Kings Academy Prospect",
+      time: "12:30"
+    },
+    {
+      id: 7088410,
+      date: "Sunday, July 20, 2025",
+      competition: "Thames Valley Cricket League - Division 6B",
+      teams: "Kidmore End CC - 1st XI vs Calcot CC - Friendly XI",
+      venue: "Gallowstree Common",
+      time: "13:00"
+    },
   ];
 
   return (
