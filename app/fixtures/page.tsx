@@ -30,7 +30,7 @@ export default function FixturesAndResults() {
         date: 'Wednesday, July 23, 2025',
         homeTeam: 'Calcot CC - Midweek XI',
         awayTeam: 'Theale and Tilehurst CC - Midweek XI',
-        venue: 'NA',
+        venue: 'Kings Academy Prospect',
         competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
         time: '18:30'
       },
@@ -47,8 +47,8 @@ export default function FixturesAndResults() {
         id: '6737399',
         date: 'Saturday, July 26, 2025',
         homeTeam: 'Woodcote CC - 2nd XI',
-        awayTeam: 'Calcot CC - Sunday XI',
-        venue: 'NA',
+        awayTeam: 'Woodcote CC - 2nd XI vs Calcot CC - 2nd XI',
+        venue: 'Woodcote CC',
         competition: 'Thames Valley Cricket League - Division 9B',
         time: '12:30'
       },

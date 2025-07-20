@@ -31,28 +31,28 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6736448,
-      date: "Saturday, July 19, 2025",
-      competition: "Thames Valley Cricket League - Division 6B",
-      teams: "Checkendon CC - 1st XI vs Calcot CC - 1st XI",
-      venue: "Checkendon Cricket Club",
-      time: "12:30"
+      id: 6954478,
+      date: "Wednesday, July 23, 2025",
+      competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
+      teams: "Calcot CC - Midweek XI vs Theale and Tilehurst CC - Midweek XI",
+      venue: "Kings Academy Prospect",
+      time: "17:30"
     },
     {
-      id: 6737394,
-      date: "Saturday, July 19, 2025",
-      competition: "Thames Valley Cricket League - Division 9B",
-      teams: "Calcot CC - 2nd XI vs Goring on Thames CC - 2nd XI",
+      id: 6736452,
+      date: "Saturday, July 26, 2025",
+      competition: "Thames Valley Cricket League - Division 6B",
+      teams: "Calcot CC - 1st XI vs Woodcote CC - 1st XI",
       venue: "Kings Academy Prospect",
       time: "12:30"
     },
     {
-      id: 7088410,
-      date: "Sunday, July 20, 2025",
-      competition: "Thames Valley Cricket League - Division 6B",
-      teams: "Kidmore End CC - 1st XI vs Calcot CC - Friendly XI",
-      venue: "Gallowstree Common",
-      time: "13:00"
+      id: 6737399,
+      date: "Saturday, July 26, 2025",
+      competition: "Thames Valley Cricket League - Division 9B",
+      teams: "Woodcote CC - 2nd XI vs Calcot CC - 2nd XI",
+      venue: "Woodcote CC",
+      time: "12:30"
     },
   ];
 
