@@ -182,6 +182,32 @@ export default function FixturesAndResults() {
 
     const mockResults: Match[] = [
       {
+        id: '6737394',
+        date: 'Saturday, July 19, 2025',
+        homeTeam: 'Calcot CC - 2nd XI',
+        awayTeam: 'Goring on Thames CC - 2nd XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Goring on Thames CC won by 14 runs',
+        homeTeamScore: '207/10',
+        awayTeamScore: '199/5'
+      },
+      {
+        id: '6736448',
+        date: 'Saturday, July 19, 2025',
+        homeTeam: 'Checkendon CC - 1st XI',
+        awayTeam: 'Calcot CC - 1st XI',
+        venue: 'Checkendon Cricket Club',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Match Abandoned',
+        homeTeamScore: '-',
+        awayTeamScore: '-'
+      },
+      {
         id: '6957575',
         date: 'Thursday, July 17, 2025',
         homeTeam: 'Calcot CC - Midweek 2nd XI',
