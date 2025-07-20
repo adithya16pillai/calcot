@@ -125,6 +125,15 @@ export default function FixturesAndResults() {
         time: '12:30'
       },
       {
+        id: '7159427',
+        date: 'Sunday, August 17, 2025',
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'Hampstead Norreys CC - Sunday 2nd XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Friendly',
+        time: '12:30'
+      },
+      {
         id: '6736475',
         date: 'Saturday, August 23, 2025',
         homeTeam: 'Reading CC - 3rd XI',
@@ -176,6 +185,15 @@ export default function FixturesAndResults() {
         awayTeam: 'Wokingham CC - 6th XI',
         venue: 'Kings Academy Prospect',
         competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30'
+      },
+      {
+        id: '6888175',
+        date: 'Sunday, September 7, 2025',
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'West Drayton and Iver CC - Sunday 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Friendly',
         time: '12:30'
       }
     ];
