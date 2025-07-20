@@ -26,33 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6736448',
-        date: 'Saturday, July 19, 2025',
-        homeTeam: 'Checkendon CC - 1st XI',
-        awayTeam: 'Calcot CC - 1st XI',
-        venue: 'Checkendon Cricket Club',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
-      },
-      {
-        id: '6737394',
-        date: 'Saturday, July 19, 2025',
-        homeTeam: 'Calcot CC - 2nd XI',
-        awayTeam: 'Goring on Thames CC - 2nd XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 9B',
-        time: '12:30'
-      },
-      {
-        id: '7088410',
-        date: 'Sunday, July 20, 2025',
-        homeTeam: 'Kidmore End CC - 1st XI',
-        awayTeam: 'Calcot CC - Friendly XI',
-        venue: 'Gallowstree Common',
-        competition: 'Friendly',
-        time: '13:00'
-      },
-      {
         id: '6954478',
         date: 'Wednesday, July 23, 2025',
         homeTeam: 'Calcot CC - Midweek XI',
