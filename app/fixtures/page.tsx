@@ -26,15 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6954478',
-        date: 'Wednesday, July 23, 2025',
-        homeTeam: 'Calcot CC - Midweek XI',
-        awayTeam: 'Theale and Tilehurst CC - Midweek XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
-        time: '18:30'
-      },
-      {
         id: '6736452',
         date: 'Saturday, July 26, 2025',
         homeTeam: 'Calcot CC - 1st XI',
@@ -199,6 +190,19 @@ export default function FixturesAndResults() {
     ];
 
     const mockResults: Match[] = [
+      {
+        id: '6954478',
+        date: 'Wednesday, July 23, 2025',
+        homeTeam: 'Calcot CC - Midweek XI',
+        awayTeam: 'Theale and Tilehurst CC - Midweek XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '17:30',
+        isCompleted: true,
+        result: 'Theale and Tilehurst CC won by 6 wickets',
+        homeTeamScore: '153/8',
+        awayTeamScore: '157/4'
+      },
       {
         id: '6737394',
         date: 'Saturday, July 19, 2025',

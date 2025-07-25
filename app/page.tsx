@@ -31,14 +31,6 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6954478,
-      date: "Wednesday, July 23, 2025",
-      competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
-      teams: "Calcot CC - Midweek XI vs Theale and Tilehurst CC - Midweek XI",
-      venue: "Kings Academy Prospect",
-      time: "17:30"
-    },
-    {
       id: 6736452,
       date: "Saturday, July 26, 2025",
       competition: "Thames Valley Cricket League - Division 6B",
