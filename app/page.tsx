@@ -46,6 +46,14 @@ export default function Home() {
       venue: "Woodcote CC",
       time: "12:30"
     },
+    {
+      id: 6736461,
+      date: "Saturday, August 2, 2025",
+      competition: "Thames Valley Cricket League - Division 6B",
+      teams: "Peppard Stoke Row CC - 2nd XI vs Calcot CC - 1st XI",
+      venue: "Peppard Common",
+      time: "12:30"
+    },
   ];
 
   return (
