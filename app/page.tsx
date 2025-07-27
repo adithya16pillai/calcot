@@ -31,22 +31,6 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6736452,
-      date: "Saturday, July 26, 2025",
-      competition: "Thames Valley Cricket League - Division 6B",
-      teams: "Calcot CC - 1st XI vs Woodcote CC - 1st XI",
-      venue: "Kings Academy Prospect",
-      time: "12:30"
-    },
-    {
-      id: 6737399,
-      date: "Saturday, July 26, 2025",
-      competition: "Thames Valley Cricket League - Division 9B",
-      teams: "Woodcote CC - 2nd XI vs Calcot CC - 2nd XI",
-      venue: "Woodcote CC",
-      time: "12:30"
-    },
-    {
       id: 6736461,
       date: "Saturday, August 2, 2025",
       competition: "Thames Valley Cricket League - Division 6B",
