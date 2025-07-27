@@ -38,6 +38,22 @@ export default function Home() {
       venue: "Peppard Common",
       time: "12:30"
     },
+    {
+      id: 6737404,
+      date: "Saturday, August 2, 2025",
+      competition: "Thames Valley Cricket League - Division 9B",
+      teams: "Calcot CC - 2nd XI vs Warfield CC - Saturday 1st XI",
+      venue: "Kings Academy Prospect",
+      time: "12:30"
+    },
+    {
+      id: 7108110,
+      date: "Sunday, August 3, 2025",
+      competition: "Friendly",
+      teams: "Hampstead Norreys CC - Sunday 2nd XI vs Calcot CC - Friendly XI",
+      venue: "The Dean Meadow",
+      time: "12:30"
+    },
   ];
 
   return (
