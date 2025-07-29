@@ -173,6 +173,20 @@ export default function FixturesAndResults() {
 
     const mockResults: Match[] = [
       {
+        
+        id: '7108110',
+        date: 'Sunday, July 27, 2025',
+        homeTeam: 'Theale and Tilehurst CC Friendly',
+        awayTeam: 'Calcot CC Friendly XI',
+        venue: 'Theale & Tilehurst',
+        competition: 'Friendly',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Theale and Tilehurst CC won by 8 wickets',
+        homeTeamScore: '291/2',
+        awayTeamScore: '290/6'
+      },
+      {
         id: '6737399',
         date: 'Saturday, July 26, 2025',
         homeTeam: 'Woodcote CC - 2nd XI',
