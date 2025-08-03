@@ -35,6 +35,24 @@ export default function FixturesAndResults() {
         time: '12:30'
       },
       {
+        id: '6954480',
+        date: 'Tuesday, August 5, 2025',
+        homeTeam: 'Earley CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek XI',
+        venue: 'Bulmershe School',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '17:30'
+      },
+      {
+        id: '6954477',
+        date: 'Wednesday, August 6, 2025',
+        homeTeam: 'Calcot CC - Midweek XI',
+        awayTeam: 'Shinfield CC - Midweek XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '17:30'
+      },
+      {
         id: '6736466',
         date: 'Saturday, August 9, 2025',
         homeTeam: 'Calcot CC - 1st XI',
