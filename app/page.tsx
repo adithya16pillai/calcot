@@ -39,20 +39,20 @@ export default function Home() {
       time: "12:30"
     },
     {
-      id: 7108110,
-      date: "Sunday, August 3, 2025",
-      competition: "Friendly",
-      teams: "Hampstead Norreys CC - Sunday 2nd XI vs Calcot CC - Friendly XI",
-      venue: "The Dean Meadow",
-      time: "12:30"
+      id: 6954480,
+      date: "Tuesday, August 5, 2025",
+      competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
+      teams: "Earley CC - Midweek XI vs Calcot CC - Midweek XI",
+      venue: "Bulmershe School",
+      time: "17:30"
     },
     {
-      id: 7108110,
-      date: "Sunday, August 3, 2025",
-      competition: "Friendly",
-      teams: "Hampstead Norreys CC - Sunday 2nd XI vs Calcot CC - Friendly XI",
-      venue: "The Dean Meadow",
-      time: "12:30"
+      id: 6954477,
+      date: "Wednesday, August 6, 2025",
+      competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
+      teams: "Calcot CC - Midweek XI vs Shinfield CC - Midweek XI",
+      venue: "Kings Academy Prospect",
+      time: "17:30"
     },
   ];
 
