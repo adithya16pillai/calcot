@@ -26,24 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6736461',
-        date: 'Saturday, August 2, 2025',
-        homeTeam: 'Peppard Stoke Row CC - 2nd XI',
-        awayTeam: 'Calcot CC - 1st XI',
-        venue: 'Peppard Common',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
-      },
-      {
-        id: '6737404',
-        date: 'Saturday, August 2, 2025',
-        homeTeam: 'Calcot CC - 2nd XI',
-        awayTeam: 'Warfield CC - Saturday 1st XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 9B',
-        time: '12:30'
-      },
-      {
         id: '7108110',
         date: 'Sunday, August 3, 2025',
         homeTeam: 'Hampstead Norreys CC - Sunday 2nd XI',
@@ -172,8 +154,33 @@ export default function FixturesAndResults() {
     ];
 
     const mockResults: Match[] = [
+      {        
+        id: '6736461',
+        date: 'Saturday, August 2, 2025',
+        homeTeam: 'Peppard Stoke Row CC - 2nd XI',
+        awayTeam: 'Calcot CC - 1st XI',
+        venue: 'Peppard Common',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 23 runs',
+        homeTeamScore: '233/7',
+        awayTeamScore: '256/10'
+      },
+      {        
+        id: '6737404',
+        date: 'Saturday, August 2, 2025',
+        homeTeam: 'Calcot CC - 2nd XI',
+        awayTeam: 'Warfield CC - Saturday 1st XI',
+        venue: 'Kings Academy Prospectt',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 52 runs',
+        homeTeamScore: '222/8',
+        awayTeamScore: '170/10'
+      },
       {
-        
         id: '7108110',
         date: 'Sunday, July 27, 2025',
         homeTeam: 'Theale and Tilehurst CC Friendly',
