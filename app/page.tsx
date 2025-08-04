@@ -31,14 +31,6 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 7108110,
-      date: "Sunday, August 3, 2025",
-      competition: "Friendly",
-      teams: "Hampstead Norreys CC - Sunday 2nd XI vs Calcot CC - Friendly XI",
-      venue: "The Dean Meadow",
-      time: "12:30"
-    },
-    {
       id: 6954480,
       date: "Tuesday, August 5, 2025",
       competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
