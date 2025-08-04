@@ -26,15 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '7108110',
-        date: 'Sunday, August 3, 2025',
-        homeTeam: 'Hampstead Norreys CC - Sunday 2nd XI',
-        awayTeam: 'Calcot CC - Friendly XI',
-        venue: 'The Dean Meadow',
-        competition: 'Friendly',
-        time: '12:30'
-      },
-      {
         id: '6954480',
         date: 'Tuesday, August 5, 2025',
         homeTeam: 'Earley CC - Midweek XI',
@@ -172,6 +163,19 @@ export default function FixturesAndResults() {
     ];
 
     const mockResults: Match[] = [
+      {        
+        id: '7108110',
+        date: 'Sunday, August 3, 2025',
+        homeTeam: 'Hampstead Norreys CC - Sunday 2nd XI',
+        awayTeam: 'Calcot CC - Friendly XI',
+        venue: 'The Dean Meadow',
+        competition: 'Friendly',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Hampstead Norreys CC won by 64 runs',
+        homeTeamScore: '308/7',
+        awayTeamScore: '244/7'
+      },
       {        
         id: '6736461',
         date: 'Saturday, August 2, 2025',
