@@ -46,6 +46,14 @@ export default function Home() {
       venue: "Kings Academy Prospect",
       time: "17:30"
     },
+    {
+      id: 6736466,
+      date: "Saturday, August 9, 2025",
+      competition: "Thames Valley Cricket League - Division 6B",
+      teams: "Calcot CC - 1st XI vs Earley CC - 1st XI",
+      venue: "Kings Academy Prospect",
+      time: "12:30"
+    },
   ];
 
   return (
