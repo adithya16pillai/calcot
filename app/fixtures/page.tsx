@@ -155,6 +155,19 @@ export default function FixturesAndResults() {
 
     const mockResults: Match[] = [
       {        
+        id: '6954480',
+        date: 'Tuesday, August 5, 2025',
+        homeTeam: 'Earley CC - Midweek XI',
+        awayTeam: 'Calcot CC - Midweek XI',
+        venue: 'Bulmershe School',
+        competition: 'Berkshire Cricket Competitions (RMCL) - Division 1',
+        time: '17:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 88 runs',
+        homeTeamScore: '113/8',
+        awayTeamScore: '201/10'
+      },
+      {        
         id: '7108110',
         date: 'Sunday, August 3, 2025',
         homeTeam: 'Hampstead Norreys CC - Sunday 2nd XI',
