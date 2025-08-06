@@ -46,6 +46,14 @@ export default function Home() {
       venue: "Kings Academy Prospect",
       time: "12:30"
     },
+    {
+      id: 6737409,
+      date: "Saturday, August 9, 2025",
+      competition: "Thames Valley Cricket League - Division 9B",
+      teams: "Purley on Thames CC - Saturday 3rd XI vs Calcot CC - 2nd XI",
+      venue: "Yattendon CC",
+      time: "12:30"
+    },
   ];
 
   return (
