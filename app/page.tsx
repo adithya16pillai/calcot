@@ -31,14 +31,6 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6954480,
-      date: "Tuesday, August 5, 2025",
-      competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
-      teams: "Earley CC - Midweek XI vs Calcot CC - Midweek XI",
-      venue: "Bulmershe School",
-      time: "17:30"
-    },
-    {
       id: 6954477,
       date: "Wednesday, August 6, 2025",
       competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
