@@ -31,14 +31,6 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6954477,
-      date: "Wednesday, August 6, 2025",
-      competition: "Berkshire Cricket Competitions (RMCL) - Division 1",
-      teams: "Calcot CC - Midweek XI vs Shinfield CC - Midweek XI",
-      venue: "Kings Academy Prospect",
-      time: "17:30"
-    },
-    {
       id: 6736466,
       date: "Saturday, August 9, 2025",
       competition: "Thames Valley Cricket League - Division 6B",
