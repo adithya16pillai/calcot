@@ -46,6 +46,14 @@ export default function Home() {
       venue: "Yattendon CC",
       time: "12:30"
     },
+    {
+      id: 6696512,
+      date: "Sunday, August 10, 2025",
+      competition: "Friendly",
+      teams: "Calcot CC - Friendly XI vs Warfield CC - Sunday XI",
+      venue: "Kings Academy Prospect",
+      time: "12:30"
+    },
   ];
 
   return (
