@@ -31,26 +31,26 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6736466,
-      date: "Saturday, August 9, 2025",
+      id: 6736471,
+      date: "Saturday, August 16, 2025",
       competition: "Thames Valley Cricket League - Division 6B",
-      teams: "Calcot CC - 1st XI vs Earley CC - 1st XI",
+      teams: "Calcot CC - 1st XI vs Stratfield Turgis/Hartley Wespall CC - 1st XI",
       venue: "Kings Academy Prospect",
       time: "12:30"
     },
     {
-      id: 6737409,
-      date: "Saturday, August 9, 2025",
+      id: 6737414,
+      date: "Saturday, August 16, 2025",
       competition: "Thames Valley Cricket League - Division 9B",
-      teams: "Purley on Thames CC - Saturday 3rd XI vs Calcot CC - 2nd XI",
-      venue: "Yattendon CC",
+      teams: "Peppard Stoke Row CC - 3rd XI vs Calcot CC - 2nd XI",
+      venue: "NA",
       time: "12:30"
     },
     {
-      id: 6696512,
-      date: "Sunday, August 10, 2025",
+      id: 7159427,
+      date: "Sunday, August 17, 2025",
       competition: "Friendly",
-      teams: "Calcot CC - Friendly XI vs Warfield CC - Sunday XI",
+      teams: "Calcot CC - Friendly XI vs Hampstead Norreys CC - Sunday 2nd XI",
       venue: "Kings Academy Prospect",
       time: "12:30"
     },
