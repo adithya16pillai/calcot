@@ -119,6 +119,45 @@ export default function FixturesAndResults() {
 
     const mockResults: Match[] = [
       {        
+        id: '6696512',
+        date: 'Sunday, August 10, 2025',
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'Warfield CC - Sunday XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Friendly',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 21 runs',
+        homeTeamScore: '281/9',
+        awayTeamScore: '260/6'
+      },
+      {        
+        id: '6737409',
+        date: 'Saturday, August 9, 2025',
+        homeTeam: 'Purley on Thames CC - Saturday 3rd XI',
+        awayTeam: 'Calcot CC - 2nd XI',
+        venue: 'Yattendon CC',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Purley on Thames CC won by 2 wickets',
+        homeTeamScore: '159/8',
+        awayTeamScore: '158/10'
+      },
+      {        
+        id: '6736466',
+        date: 'Saturday, August 9, 2025',
+        homeTeam: 'Calcot CC - 1st XI',
+        awayTeam: 'Earley CC - 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 116 runs',
+        homeTeamScore: '277/7',
+        awayTeamScore: '161/10'
+      },
+      {        
         id: '6954477',
         date: 'Wednesday, August 6, 2025',
         homeTeam: 'Calcot CC - Midweek XI',
