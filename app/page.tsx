@@ -31,11 +31,11 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6736471,
-      date: "Saturday, August 16, 2025",
+      id: 6736475,
+      date: "Saturday, August 23, 2025",
       competition: "Thames Valley Cricket League - Division 6B",
-      teams: "Calcot CC - 1st XI vs Stratfield Turgis/Hartley Wespall CC - 1st XI",
-      venue: "Kings Academy Prospect",
+      teams: "Reading CC - 3rd XI vs Calcot CC - 1st XI",
+      venue: "Sonning Lane",
       time: "12:30"
     },
     {
