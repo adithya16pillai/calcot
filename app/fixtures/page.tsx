@@ -26,33 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6736471',
-        date: 'Saturday, August 16, 2025',
-        homeTeam: 'Calcot CC - 1st XI',
-        awayTeam: 'Stratfield Turgis/Hartley Wespall CC - 1st XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
-      },
-      {
-        id: '6737414',
-        date: 'Saturday, August 16, 2025',
-        homeTeam: 'Peppard Stoke Row CC - 3rd XI',
-        awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'NA',
-        competition: 'Thames Valley Cricket League - Division 9B',
-        time: '12:30'
-      },
-      {
-        id: '7159427',
-        date: 'Sunday, August 17, 2025',
-        homeTeam: 'Calcot CC - Friendly XI',
-        awayTeam: 'Hampstead Norreys CC - Sunday 2nd XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Friendly',
-        time: '12:30'
-      },
-      {
         id: '6736475',
         date: 'Saturday, August 23, 2025',
         homeTeam: 'Reading CC - 3rd XI',
