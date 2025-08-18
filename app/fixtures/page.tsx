@@ -92,6 +92,45 @@ export default function FixturesAndResults() {
 
     const mockResults: Match[] = [
       {        
+        id: '7159427',
+        date: 'Sunday, August 17, 2025',
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'Hampstead Norreys CC - Sunday 2nd XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Friendly',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Hampstead Norreys CC won by 173 wickets',
+        homeTeamScore: '110/10',
+        awayTeamScore: '283/7'
+      },
+      {        
+        id: '6737414',
+        date: 'Saturday, August 16, 2025',
+        homeTeam: 'Peppard Stoke Row CC - 3rd XI',
+        awayTeam: 'Calcot CC - 2nd XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 8 wickets',
+        homeTeamScore: '195/10',
+        awayTeamScore: '199/2'
+      },
+      {        
+        id: '6736471',
+        date: 'Saturday, August 16, 2025',
+        homeTeam: 'Calcot CC - 1st XI',
+        awayTeam: 'Stratfield Turgis/Hartley Wespall CC - 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 112 runs',
+        homeTeamScore: '209/9',
+        awayTeamScore: '97/10'
+      },
+      {        
         id: '6696512',
         date: 'Sunday, August 10, 2025',
         homeTeam: 'Calcot CC - Friendly XI',
