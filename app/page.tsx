@@ -39,18 +39,18 @@ export default function Home() {
       time: "12:30"
     },
     {
-      id: 6737414,
-      date: "Saturday, August 16, 2025",
+      id: 6737418,
+      date: "Saturday, August 23, 2025",
       competition: "Thames Valley Cricket League - Division 9B",
-      teams: "Peppard Stoke Row CC - 3rd XI vs Calcot CC - 2nd XI",
-      venue: "NA",
+      teams: "Calcot CC - 2nd XI vs Crowthorne & Crown Wood CC - 4th XI",
+      venue: "Kings Academy Prospect",
       time: "12:30"
     },
     {
-      id: 7159427,
-      date: "Sunday, August 17, 2025",
-      competition: "Friendly",
-      teams: "Calcot CC - Friendly XI vs Hampstead Norreys CC - Sunday 2nd XI",
+      id: 6736480,
+      date: "Saturday, August 30, 2025",
+      competition: "Thames Valley Cricket League - Division 6B",
+      teams: "Calcot CC - 1st XI vs Hurley CC - 1st XI",
       venue: "Kings Academy Prospect",
       time: "12:30"
     },
