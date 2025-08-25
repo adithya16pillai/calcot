@@ -26,24 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6736475',
-        date: 'Saturday, August 23, 2025',
-        homeTeam: 'Reading CC - 3rd XI',
-        awayTeam: 'Calcot CC - 1st XI',
-        venue: 'Sonning Lane',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
-      },
-      {
-        id: '6737418',
-        date: 'Saturday, August 23, 2025',
-        homeTeam: 'Calcot CC - 2nd XI',
-        awayTeam: 'Crowthorne & Crown Wood CC - 4th XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 9B',
-        time: '12:30'
-      },
-      {
         id: '6736480',
         date: 'Saturday, August 30, 2025',
         homeTeam: 'Calcot CC - 1st XI',
