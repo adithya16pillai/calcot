@@ -74,6 +74,19 @@ export default function FixturesAndResults() {
 
     const mockResults: Match[] = [
       {        
+        id: '6737418',
+        date: 'Saturday, August 23, 2025',
+        homeTeam: 'Calcot CC - 2nd XI',
+        awayTeam: 'Crowthorne & Crown Wood CC - 4th XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 219 runs',
+        homeTeamScore: '268/7',
+        awayTeamScore: '49/10'
+      },
+      {        
         id: '7159427',
         date: 'Sunday, August 17, 2025',
         homeTeam: 'Calcot CC - Friendly XI',
@@ -82,7 +95,7 @@ export default function FixturesAndResults() {
         competition: 'Friendly',
         time: '12:30',
         isCompleted: true,
-        result: 'Hampstead Norreys CC won by 173 wickets',
+        result: 'Hampstead Norreys CC won by 173 runs',
         homeTeamScore: '110/10',
         awayTeamScore: '283/7'
       },
