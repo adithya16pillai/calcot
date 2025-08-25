@@ -74,6 +74,19 @@ export default function FixturesAndResults() {
 
     const mockResults: Match[] = [
       {        
+        id: '6736475',
+        date: 'Saturday, August 23, 2025',
+        homeTeam: 'Reading CC - 3rd XI',
+        awayTeam: 'Calcot CC - 1st XI',
+        venue: 'Sonning Lane',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 100 runs',
+        homeTeamScore: '153/7',
+        awayTeamScore: '253/8'
+      },
+      {        
         id: '6737418',
         date: 'Saturday, August 23, 2025',
         homeTeam: 'Calcot CC - 2nd XI',
