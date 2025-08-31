@@ -26,24 +26,6 @@ export default function FixturesAndResults() {
   useEffect(() => {
     const mockFixtures: Match[] = [
       {
-        id: '6736480',
-        date: 'Saturday, August 30, 2025',
-        homeTeam: 'Calcot CC - 1st XI',
-        awayTeam: 'Hurley CC - 1st XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Thames Valley Cricket League - Division 6B',
-        time: '12:30'
-      },
-      {
-        id: '6737422',
-        date: 'Saturday, August 30, 2025',
-        homeTeam: 'Reading CC - 4th XI',
-        awayTeam: 'Calcot CC - 2nd XI',
-        venue: 'Sonning Lane',
-        competition: 'Thames Valley Cricket League - Division 9B',
-        time: '12:30'
-      },
-      {
         id: '6736484',
         date: 'Saturday, September 6, 2025',
         homeTeam: 'West Reading CC - 1st XI',
@@ -73,6 +55,32 @@ export default function FixturesAndResults() {
     ];
 
     const mockResults: Match[] = [
+      {        
+        id: '6737422',
+        date: 'Saturday, August 30, 2025',
+        homeTeam: 'Reading CC - 4th XI',
+        awayTeam: 'Calcot CC - 2nd XI',
+        venue: 'Sonning Lane',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 7 wickets',
+        homeTeamScore: '87/10',
+        awayTeamScore: '88/3'
+      },
+      {        
+        id: '6736480',
+        date: 'Saturday, August 30, 2025',
+        homeTeam: 'Calcot CC - 1st XI',
+        awayTeam: 'Hurley CC - 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 6B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Match Abandoned',
+        homeTeamScore: '0/0',
+        awayTeamScore: '85/6'
+      },
       {        
         id: '6736475',
         date: 'Saturday, August 23, 2025',
