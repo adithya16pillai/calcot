@@ -31,22 +31,6 @@ export default function Home() {
 
   const upcomingFixtures: Fixture[] = [
     {
-      id: 6736484,
-      date: "Saturday, September 6, 2025",
-      competition: "Thames Valley Cricket League - Division 6B",
-      teams: "West Reading CC - 1st XI vs Calcot CC - 1st XI",
-      venue: "Reading School",
-      time: "12:30"
-    },
-    {
-      id: 6737428,
-      date: "Saturday, September 6, 2025",
-      competition: "Thames Valley Cricket League - Division 6B",
-      teams: "Calcot CC - 2nd XI vs Wokingham CC - 6th XI",
-      venue: "Kings Academy Prospect",
-      time: "12:30"
-    },
-    {
       id: 6888175,
       date: "Sunday, September 7, 2025",
       competition: "Friendly",
