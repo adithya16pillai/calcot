@@ -38,6 +38,19 @@ export default function FixturesAndResults() {
 
     const mockResults: Match[] = [
       {        
+        id: '6737428',
+        date: 'Saturday, September 6, 2025',
+        homeTeam: 'Calcot CC - 2nd XI',
+        awayTeam: 'Wokingham CC - 6th XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Thames Valley Cricket League - Division 9B',
+        time: '12:30',
+        isCompleted: true,
+        result: 'Calcot CC won by 59 runs',
+        homeTeamScore: '117/10',
+        awayTeamScore: '267/6'
+      },
+      {        
         id: '6736484',
         date: 'Saturday, September 6, 2025',
         homeTeam: 'West Reading CC - 1st XI',
