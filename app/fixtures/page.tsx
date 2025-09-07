@@ -38,6 +38,19 @@ export default function FixturesAndResults() {
 
     const mockResults: Match[] = [
       {        
+        id: '6888175',
+        date: 'Sunday, September 7, 2025',
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'West Drayton and Iver CC - Sunday 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Friendly',
+        time: '12:30',
+        isCompleted: true,
+        result: 'West Drayton and Iver CC won by 3 wickets',
+        homeTeamScore: '212/10',
+        awayTeamScore: '215/7'
+      },
+      {        
         id: '6737428',
         date: 'Saturday, September 6, 2025',
         homeTeam: 'Calcot CC - 2nd XI',
@@ -47,8 +60,8 @@ export default function FixturesAndResults() {
         time: '12:30',
         isCompleted: true,
         result: 'Calcot CC won by 59 runs',
-        homeTeamScore: '117/10',
-        awayTeamScore: '267/6'
+        homeTeamScore: '183/10',
+        awayTeamScore: '124/10'
       },
       {        
         id: '6736484',
