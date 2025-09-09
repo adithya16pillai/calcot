@@ -35,33 +35,33 @@ export default function Home() {
       id: 1,
       name: "1st XI",
       league: "Thames Valley Cricket League Division 6B",
-      standing: "3rd Place",
-      record: "W: 12, L: 6, D: 2",
+      standing: "1st Place",
+      record: "W: 12, L: 3, D: 0",
       cricketUrl: "https://calcotcc.play-cricket.com/website/division/126809"
     },
     {
       id: 2,
       name: "2nd XI",
       league: "Thames Valley Cricket League Division 9B",
-      standing: "5th Place",
-      record: "W: 8, L: 10, D: 2",
-      cricketUrl: "https://calcotcc.play-cricket.com/website/division/126810"
+      standing: "1st Place",
+      record: "W: 13, L: 4, D: 0",
+      cricketUrl: "https://calcotcc.play-cricket.com/website/division/126822"
     },
     {
       id: 3,
       name: "Midweek Team 1",
       league: "Reading Midweek Cricket League Division 1",
-      standing: "2nd Place",
-      record: "W: 14, L: 4, D: 1",
-      cricketUrl: "https://calcotcc.play-cricket.com/website/division/126811"
+      standing: "4th Place",
+      record: "W: 4, L: 6, D: 0",
+      cricketUrl: "https://calcotcc.play-cricket.com/website/division/129004"
     },
     {
       id: 4,
       name: "Midweek Team 2",
       league: "Reading Midweek Cricket League Division 3",
-      standing: "1st Place",
-      record: "W: 16, L: 2, D: 2",
-      cricketUrl: "https://calcotcc.play-cricket.com/website/division/126812"
+      standing: "4th Place",
+      record: "W: 3, L: 5, D: 0",
+      cricketUrl: "https://calcotcc.play-cricket.com/website/division/129007"
     }
   ];
 
