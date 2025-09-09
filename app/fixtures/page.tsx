@@ -887,7 +887,6 @@ export default function FixturesAndResults() {
     ];
     
     try {
-      setFixtures(mockFixtures);
       setResults(mockResults);
       setLoading(false);
     } catch (err) {
