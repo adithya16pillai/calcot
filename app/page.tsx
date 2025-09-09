@@ -3,13 +3,13 @@ import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 
-type Fixture = {
+type TeamResult = {
   id: number;
-  date: string;
-  competition: string;
-  teams: string;
-  venue: string;
-  time?: string;
+  name: string;
+  league: string;
+  standing: string;
+  record: string;
+  cricketUrl: string;
 };
 
 export default function Home() {
@@ -21,6 +21,7 @@ export default function Home() {
     '/slides/slide5.jpg',
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [activeTab, setActiveTab] = useState(0);
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -29,15 +30,39 @@ export default function Home() {
     return () => clearInterval(interval);
   }, [images.length]);
 
-  const upcomingFixtures: Fixture[] = [
+  const teamResults: TeamResult[] = [
     {
-      id: 6888175,
-      date: "Sunday, September 7, 2025",
-      competition: "Friendly",
-      teams: "Calcot CC - Friendly XI vs West Drayton and Iver CC - Sunday 1st XI",
-      venue: "Kings Academy Prospect",
-      time: "12:30"
+      id: 1,
+      name: "1st XI",
+      league: "Thames Valley Cricket League Division 6B",
+      standing: "3rd Place",
+      record: "W: 12, L: 6, D: 2",
+      cricketUrl: "https://calcotcc.play-cricket.com/website/division/126809"
     },
+    {
+      id: 2,
+      name: "2nd XI",
+      league: "Thames Valley Cricket League Division 9B",
+      standing: "5th Place",
+      record: "W: 8, L: 10, D: 2",
+      cricketUrl: "https://calcotcc.play-cricket.com/website/division/126810"
+    },
+    {
+      id: 3,
+      name: "Midweek Team 1",
+      league: "Reading Midweek Cricket League Division 1",
+      standing: "2nd Place",
+      record: "W: 14, L: 4, D: 1",
+      cricketUrl: "https://calcotcc.play-cricket.com/website/division/126811"
+    },
+    {
+      id: 4,
+      name: "Midweek Team 2",
+      league: "Reading Midweek Cricket League Division 3",
+      standing: "1st Place",
+      record: "W: 16, L: 2, D: 2",
+      cricketUrl: "https://calcotcc.play-cricket.com/website/division/126812"
+    }
   ];
 
   return (
@@ -78,77 +103,71 @@ export default function Home() {
       </div>
 
       <section>
-        <h2 className="text-3xl font-semibold mb-6 font-gibson">Upcoming Matches</h2>
+        <h2 className="text-3xl font-semibold mb-6 font-gibson">Results for the 2025 Season</h2>
         
-        <div className="flex gap-4 overflow-x-auto pb-4 snap-x justify-center px-4 md:px-10">
-          {upcomingFixtures.map((fixture) => (
-            <div 
-              key={fixture.id} 
-              className="min-w-[350px] w-[350px] flex-shrink-0 rounded-lg border border-gray-200 overflow-hidden shadow-md hover:shadow-lg transition-all snap-start flex flex-col"
+        {/* Tab Navigation */}
+        <div className="flex flex-wrap justify-center mb-6 border-b border-gray-200">
+          {teamResults.map((team, index) => (
+            <button
+              key={team.id}
+              onClick={() => setActiveTab(index)}
+              className={`px-6 py-3 mx-1 mb-2 font-semibold text-sm rounded-t-lg transition-all duration-200 ${
+                activeTab === index
+                  ? 'bg-[#012682] text-white border-b-2 border-[#012682]'
+                  : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
+              }`}
             >
-              <div className="bg-[#012682] text-white px-6 py-3">
-                <span className="font-bold text-base">{fixture.competition}</span>
-              </div>
-              
-              <div className="p-6 flex flex-col h-[250px] justify-between">
-                <div>
-                  <div className="flex items-center justify-center space-x-4 mb-5">
-                    <div className="text-right w-5/12 flex flex-col justify-center items-end">
-                      <h3 className="font-bold text-md" title={fixture.teams.split("vs")[0].trim()}>
-                        {fixture.teams.split("vs")[0].trim()}
-                      </h3>
-                    </div>
-                    <div className="flex-shrink-0 bg-gray-100 rounded-full px-2 py-1 text-gray-700 font-bold">vs</div>
-                    <div className="w-5/12 flex flex-col justify-center">
-                      <h3 className="font-bold text-md" title={fixture.teams.split("vs")[1].trim()}>
-                        {fixture.teams.split("vs")[1].trim()}
-                      </h3>
-                    </div>
+              {team.name}
+            </button>
+          ))}
+        </div>
+
+        {/* Tab Content */}
+        <div className="min-h-[300px] bg-white rounded-lg border border-gray-200 shadow-md p-8">
+          {teamResults.map((team, index) => (
+            <div
+              key={team.id}
+              className={`${activeTab === index ? 'block' : 'hidden'}`}
+            >
+              <div className="text-center space-y-6">
+                <h3 className="text-2xl font-bold text-[#012682] mb-4">
+                  {team.name}
+                </h3>
+                
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <h4 className="font-semibold text-gray-600 mb-2">League</h4>
+                    <p className="text-lg font-bold text-gray-800">{team.league}</p>
+                  </div>
+                  
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <h4 className="font-semibold text-gray-600 mb-2">Final Standing</h4>
+                    <p className="text-lg font-bold text-[#012682]">{team.standing}</p>
+                  </div>
+                  
+                  <div className="bg-gray-50 p-6 rounded-lg">
+                    <h4 className="font-semibold text-gray-600 mb-2">Season Record</h4>
+                    <p className="text-lg font-bold text-gray-800">{team.record}</p>
                   </div>
                 </div>
                 
-                <div className="space-y-3">
-                  <div className="text-center text-gray-800 flex items-center justify-center gap-2 bg-gray-50 p-3 rounded-lg">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 text-[#012682] flex-shrink-0">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M6.75 3v2.25M17.25 3v2.25M3 18.75V7.5a2.25 2.25 0 012.25-2.25h13.5A2.25 2.25 0 0121 7.5v11.25m-18 0A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75m-18 0v-7.5A2.25 2.25 0 015.25 9h13.5A2.25 2.25 0 0121 11.25v7.5" />
+                <div className="mt-8">
+                  <a
+                    href={team.cricketUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center gap-2 bg-[#012682] text-white py-3 px-8 rounded-lg font-bold hover:bg-blue-800 transition-colors shadow-md text-lg"
+                  >
+                    <span>View Full League Table</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
+                      <path fillRule="evenodd" d="M8.636 3.5a.5.5 0 0 0-.5-.5H1.5A1.5 1.5 0 0 0 0 4.5v10A1.5 1.5 0 0 0 1.5 16h10a1.5 1.5 0 0 0 1.5-1.5V7.864a.5.5 0 0 0-1 0V14.5a.5.5 0 0 1-.5.5h-10a.5.5 0 0 1-.5-.5v-10a.5.5 0 0 1 .5-.5h6.636a.5.5 0 0 0 .5-.5z"/>
+                      <path fillRule="evenodd" d="M16 .5a.5.5 0 0 0-.5-.5h-5a.5.5 0 0 0 0 1h3.793L6.146 9.146a.5.5 0 1 0 .708.708L15 1.707V5.5a.5.5 0 0 0 1 0v-5z"/>
                     </svg>
-                    <span className="font-bold">{fixture.date}</span>
-                  </div>
-                  
-                  <div className="text-gray-800 flex items-center justify-center gap-2 bg-gray-50 p-3 rounded-lg">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5 text-[#012682] flex-shrink-0">
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
-                    </svg>
-                    <span className="font-bold text-sm text-center">{fixture.venue}</span>
-                  </div>
+                  </a>
                 </div>
-              </div>
-              
-              <div className="px-6 pb-6 pt-2 mt-auto">
-                <a 
-                  href={`https://calcotcc.play-cricket.com/match_details?id=${fixture.id}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center bg-[#012682] text-white px-5 py-3 rounded-full hover:bg-blue-800 transition-all duration-200 text-sm font-bold shadow-sm hover:shadow-md w-full"
-                >
-                  <span>Live Scorecard</span>
-                </a>
               </div>
             </div>
           ))}
-        </div>
-        
-        <div className="mt-10 flex justify-center">
-          <Link
-            href="/fixtures"
-            className="inline-flex items-center justify-center gap-2 bg-red-600 text-white py-3 px-8 rounded-lg font-bold hover:bg-red-700 transition-colors shadow-md text-lg font-montserrat"
-          >
-            <span>View All Fixtures</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" viewBox="0 0 16 16">
-              <path fillRule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-            </svg>
-          </Link>
         </div>
       </section>
 
