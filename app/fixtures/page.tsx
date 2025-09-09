@@ -24,6 +24,17 @@ export default function FixturesAndResults() {
   const resultsScrollerRef = useRef<HTMLDivElement>(null);
   
   useEffect(() => {
+    const mockFixtures: Match[] = [
+      {
+        id: '6888175',
+        date: 'Sunday, September 7, 2025',
+        homeTeam: 'Calcot CC - Friendly XI',
+        awayTeam: 'West Drayton and Iver CC - Sunday 1st XI',
+        venue: 'Kings Academy Prospect',
+        competition: 'Friendly',
+        time: '12:30'
+      }
+    ];
 
     const mockResults: Match[] = [
       {        
@@ -887,6 +898,7 @@ export default function FixturesAndResults() {
     ];
     
     try {
+      setFixtures(mockFixtures);
       setResults(mockResults);
       setLoading(false);
     } catch (err) {
@@ -969,7 +981,7 @@ export default function FixturesAndResults() {
             
             {fixtures.length === 0 ? (
               <div className="p-8 text-center text-gray-600 border border-gray-200 rounded-lg">
-                <p>No upcoming fixtures scheduled at the moment.</p>
+                <p>The season fixtures are over.</p>
               </div>
             ) : (
               <div 
