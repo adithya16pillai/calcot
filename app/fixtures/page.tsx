@@ -24,17 +24,6 @@ export default function FixturesAndResults() {
   const resultsScrollerRef = useRef<HTMLDivElement>(null);
   
   useEffect(() => {
-    const mockFixtures: Match[] = [
-      {
-        id: '6888175',
-        date: 'Sunday, September 7, 2025',
-        homeTeam: 'Calcot CC - Friendly XI',
-        awayTeam: 'West Drayton and Iver CC - Sunday 1st XI',
-        venue: 'Kings Academy Prospect',
-        competition: 'Friendly',
-        time: '12:30'
-      }
-    ];
 
     const mockResults: Match[] = [
       {        
